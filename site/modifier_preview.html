@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fortune's Spoils | Modifier Catalogue</title>
+<script>
+(() => {
+  let theme = 'system';
+  try { theme = localStorage.getItem('rbl-catalogue-theme') || 'system'; } catch (_) {}
+  if (!['system', 'light', 'dark'].includes(theme)) theme = 'system';
+  document.documentElement.dataset.theme = theme;
+})();
+</script>
+<style>
+:root{color-scheme:light;--ink:#20272b;--muted:#647078;--line:#dce2e4;--accent:#14786e;--paper:#fff;--wash:#f4f6f6;--control:#bdc8cb;--hover:#e5eeeb;--selected:#dbece7;--selected-ink:#105d55;--badge:#eef1f2;--badge-ink:#536169;--physical:#e4eee9;--physical-ink:#316748;--utility:#f5ecf2;--utility-ink:#855472;--hybrid:#fff0d2;--hybrid-ink:#805414;--row-line:#edf0f1;--prose:#526068}
+:root[data-theme="dark"]{color-scheme:dark;--ink:#e5e9e7;--muted:#a2ada8;--line:#3a4140;--accent:#76d3c2;--paper:#1c201f;--wash:#252b29;--control:#5d6964;--hover:#303d37;--selected:#294b40;--selected-ink:#adedd5;--badge:#353d3a;--badge-ink:#c0ccc5;--physical:#2b4334;--physical-ink:#a9d5b3;--utility:#433341;--utility-ink:#dfb1d3;--hybrid:#493d24;--hybrid-ink:#f1d18c;--row-line:#343c38;--prose:#bdc9c2}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--ink:#e5e9e7;--muted:#a2ada8;--line:#3a4140;--accent:#76d3c2;--paper:#1c201f;--wash:#252b29;--control:#5d6964;--hover:#303d37;--selected:#294b40;--selected-ink:#adedd5;--badge:#353d3a;--badge-ink:#c0ccc5;--physical:#2b4334;--physical-ink:#a9d5b3;--utility:#433341;--utility-ink:#dfb1d3;--hybrid:#493d24;--hybrid-ink:#f1d18c;--row-line:#343c38;--prose:#bdc9c2}}
+.header-controls{display:flex;align-items:center;gap:24px;flex-wrap:wrap}.theme-control{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted)}.theme-control select{width:100px}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.5 system-ui,sans-serif;letter-spacing:0}
+button,input,select{font:inherit}button,a,input,select{outline-offset:3px}button{cursor:pointer}a{color:var(--accent)}
+header{border-bottom:1px solid var(--line);padding:18px 28px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+header h1{font-size:21px;margin:0;font-weight:650}header p{margin:2px 0 0;color:var(--muted);font-size:12px}.nav{display:flex;gap:22px}
+.nav button{border:0;background:none;padding:8px 0;border-bottom:2px solid transparent;color:var(--muted)}.nav button[aria-selected=true]{border-color:var(--accent);color:var(--ink)}
+.layout{display:grid;grid-template-columns:220px minmax(0,1fr);min-height:calc(100vh - 94px)}aside{background:var(--wash);border-right:1px solid var(--line);padding:20px 16px}
+aside h2{font-size:11px;text-transform:uppercase;color:var(--muted);margin:21px 10px 6px;letter-spacing:0}aside h2:first-child{margin-top:0}
+aside button{display:block;width:100%;text-align:left;border:0;background:transparent;padding:6px 10px;border-radius:4px;font-size:13px;color:var(--ink)}aside button:hover{background:var(--hover)}aside button[aria-pressed=true]{background:var(--selected);color:var(--selected-ink);font-weight:600}
+main{min-width:0;padding:24px 28px 60px}.heading{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:18px}h2{font-size:20px;margin:0}.count{color:var(--muted);font-size:12px}
+.filters{display:flex;gap:12px;flex-wrap:wrap;align-items:end;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:22px}.filters label{display:grid;gap:4px;font-size:11px;color:var(--muted)}
+.filters .search{flex:1;min-width:180px}input,select{border:1px solid var(--control);border-radius:4px;padding:7px 9px;background:var(--paper);color:var(--ink);height:36px}.reset{background:none;border:1px solid var(--control);border-radius:4px;width:36px;height:36px;font-size:21px;line-height:1}
+.columns{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}.column-title{display:flex;justify-content:space-between;margin:0 0 10px;font-size:15px}.column-title span{font-weight:400;color:var(--muted);font-size:12px}
+details.family{border-top:1px solid var(--line)}details.family:last-child{border-bottom:1px solid var(--line)}summary{cursor:pointer;list-style:none;padding:12px 0;display:grid;grid-template-columns:14px minmax(0,1fr) auto;align-items:start;gap:7px}summary::-webkit-details-marker{display:none}
+summary:before{content:'+';color:var(--muted)}details[open]>summary:before{content:'-'}summary strong{display:block;font-size:13px;font-weight:600}summary small{display:block;color:var(--muted);font-size:11px;overflow-wrap:anywhere}.kind{font-size:10px;font-weight:500;padding:2px 5px;background:var(--badge);color:var(--badge-ink);border-radius:3px}
+.kind.Crafted{background:var(--physical);color:var(--physical-ink)}.kind.Magical{background:var(--utility);color:var(--utility-ink)}.family-body{padding:0 0 14px 21px}table{border-collapse:collapse;width:100%;font-size:12px}th{text-align:left;color:var(--muted);font-size:10px;font-weight:500;background:var(--wash)}td,th{padding:6px 7px;border-bottom:1px solid var(--row-line);overflow-wrap:anywhere}td:first-child{width:38px;color:var(--accent);font-weight:600}td:last-child{white-space:nowrap}
+.note{font-size:11px;color:var(--muted);margin:10px 0 0;overflow-wrap:anywhere}.empty{color:var(--muted);padding:20px 0}.rules{max-width:880px}.rules h3{font-size:15px;margin:28px 0 8px}.rules p,.rules li{color:var(--prose)}.rules code{overflow-wrap:anywhere}.rules table{margin-top:12px}.rules td:first-child{width:auto}.profiles td:last-child{white-space:normal}.hidden{display:none!important}
+.range{display:block;color:var(--physical-ink);font-size:11px;margin-top:3px}.table-wrap{overflow-x:auto}.tier-table{min-width:420px}.tier-table td:last-child{white-space:normal}.tier-table .effect{color:var(--ink);font-weight:600}.tier-table tr.family-start td{border-top:2px solid var(--line)}.tier-table small{display:block;color:var(--muted);font-weight:400}.tier-table td:nth-child(3){white-space:nowrap}.table-tools{display:flex;gap:6px;margin-left:auto}.table-tools button{border:1px solid var(--control);background:var(--paper);border-radius:4px;width:36px;height:36px;font-size:20px}.table-tools button:disabled{opacity:.4;cursor:default}
+@media(min-width:1000px){aside{position:sticky;top:0;align-self:start;max-height:100vh;overflow:auto}}
+@media(max-width:1050px){.columns{grid-template-columns:1fr}}
+@media(max-width:650px){header{padding:16px}header h1{font-size:19px}.layout{grid-template-columns:1fr}aside{border-right:0;border-bottom:1px solid var(--line);padding:12px 16px}aside h2{margin:12px 0 4px}aside button{display:inline-block;width:auto;padding:6px 9px}.group{display:flex;flex-wrap:wrap}main{padding:20px 16px 40px}.filters label:not(.search){flex:1;min-width:105px}.filters select{width:100%}.family-body{padding-left:0}}
+@media print{:root,:root[data-theme]{color-scheme:light;--ink:#20272b;--muted:#647078;--line:#dce2e4;--accent:#14786e;--paper:#fff;--wash:#f4f6f6;--control:#bdc8cb;--hover:#e5eeeb;--selected:#dbece7;--selected-ink:#105d55;--badge:#eef1f2;--badge-ink:#536169;--physical:#e4eee9;--physical-ink:#316748;--utility:#f5ecf2;--utility-ink:#855472;--hybrid:#fff0d2;--hybrid-ink:#805414;--row-line:#edf0f1;--prose:#526068}aside,.filters,.header-controls{display:none}.layout{display:block}main{padding:10px}.columns{display:block}.family{break-inside:avoid}details.family .family-body{display:block!important}}
+</style>
+<style>
+.kind.Hybrid{background:var(--hybrid);color:var(--hybrid-ink)}
+.family-body td:last-child{white-space:normal}
+.family-body td:first-child,.tier-table td:first-child{width:110px;min-width:110px;overflow-wrap:normal}
+.rules th{overflow-wrap:normal}
+.rules pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;border-top:1px solid var(--line);padding:12px 0}
+.rules details summary{display:block;color:var(--accent);font-weight:600}
+.rules details summary:before{margin-right:8px}
+.base-controls{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}.base-controls label{display:grid;gap:4px;font-size:11px;color:var(--muted);flex:1;min-width:180px}.base-controls select{width:100%;min-width:0}.base-summary{border-top:1px solid var(--line);padding:12px 0 18px}.base-summary h3{margin:0;font-size:16px}.base-summary p{margin:5px 0;color:var(--muted);font-size:12px}.unique-section{margin-top:28px;border-top:1px solid var(--line);padding-top:16px}.unique-section h3{font-size:16px}.unique-table{min-width:650px}.unique-table td:first-child{width:24%;color:var(--ink)}.unique-table td:last-child{white-space:normal}.base-controls .pair-control{flex:2}
+</style>
+</head>
+<body>
+<header><div><h1>Fortune's Spoils</h1><p>Modifier Catalogue / Development Build</p></div><div class="header-controls"><nav class="nav" aria-label="Catalogue views"><button id="catalogTab" aria-selected="true">Modifiers</button><button id="rulesTab" aria-selected="false">Rules &amp; Profiles</button></nav><label class="theme-control">Theme<select id="theme" aria-label="Color theme"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></label></div></header>
+<div class="layout"><aside id="equipment" aria-label="Equipment types"></aside><main>
+<section id="catalogView"><div class="heading"><h2 id="title">All Equipment</h2><span class="count" id="count" aria-live="polite"></span></div>
+<div class="base-controls"><label>Source<select id="baseSource"><option value="">All sources</option></select></label><label>Search bases<input id="baseQuery" type="search" placeholder="Name or record ID"></label><label>Base item<select id="baseSelect"><option value="">All Bases</option></select></label><label class="pair-control">Pair with<select id="pairSelect"><option value="">Any affix</option></select></label></div>
+<section id="baseSummary" class="base-summary hidden"></section>
+<div class="filters"><label class="search">Search<input id="query" type="search" placeholder="Effect, affix name or item ID"></label><label>Modifier<select id="kind"><option value="">All types</option><option>Crafted</option><option>Magical</option><option>Hybrid</option></select></label><label>Mode<select id="mode"><option value="">All modes</option><option>Record stat</option><option>Constant Effect</option><option>When Strikes</option></select></label><label>Tier<select id="tier"><option value="">All tiers</option><option value="1">Petty (T1)</option><option value="2">Lesser (T2)</option><option value="3">Common (T3)</option><option value="4">Greater (T4)</option><option value="5">Grand (T5)</option><option value="6">Exquisite (T6)</option></select></label><label>View<select id="display"><option value="families">Families</option><option value="tiers">Tier rows</option></select></label><div class="table-tools"><button id="expand" title="Expand all families" aria-label="Expand all families">+</button><button id="collapse" title="Collapse all families" aria-label="Collapse all families">&minus;</button><button class="reset" id="reset" title="Reset filters" aria-label="Reset filters">&#8634;</button></div></div>
+<div class="columns"><section><h3 class="column-title">Prefixes <span id="prefixCount"></span></h3><div id="prefix"></div></section><section><h3 class="column-title">Suffixes <span id="suffixCount"></span></h3><div id="suffix"></div></section></div>
+<section id="baseUniques" class="unique-section hidden"></section></section>
+<section id="rulesView" class="rules hidden"><h2>Rules &amp; Profiles</h2>
+<h3>Roll Structure</h3><p>Each eligible non-projectile item copy receives its own modification roll. A successful roll checks the unique chance first; otherwise it draws prefix-only, suffix-only or both. Default layout weights are 1 / 1 / 1. Dual affixes have independent tiers.</p>
+<h3>Projectile Stacks</h3><p>Arrows, bolts and thrown weapons roll once per original stack. A successful roll replaces the entire quantity with one fixed quality prefix: Honed (+1 damage, 80%), Keen (+2, 18%) or Piercing (+3, 2%). Zero damage channels stay zero; positive channels are capped at 255. There are no suffixes, dual affixes, enchantments or unique drops. Base value and weight are retained. The same base and grade reuse a record; existing legacy projectile items are unchanged.</p>
+<h3>Once-Per-Save Uniques</h3><p>Duplicate uniques are disabled by default for new saves. A unique roll selects from valid, undiscovered templates for the exact base item. If none remain, it forces a compatible prefix-and-suffix item, even when the normal dual-affix weight is zero. If no compatible pair exists, the original item remains.</p><p>A unique is consumed after successful insertion into corpse loot, whether or not the player picks it up. Discovery survives save/load; selling or destroying the item does not reset it. Console samples do not consume discovery. Existing saved settings take precedence: turn off <b>Allow Duplicate Unique Drops</b> in older saves.</p>
+<h3>Modifier Types</h3><table><thead><tr><th>Type</th><th>Properties</th></tr></thead><tbody><tr><td>Crafted</td><td>One base-item property change, such as damage, armor, weight, value or reach.</td></tr><tr><td>Magical</td><td>One spell effect: constant effect, cast on use or cast on strike.</td></tr><tr><td>Hybrid</td><td>Two or more effects within one affix; benefits, drawbacks or mixed property/spell changes.</td></tr></tbody></table><p>Classification applies per affix, not per item. A prefix and suffix together do not automatically make an item Hybrid. Hybrid takes precedence for multi-effect affixes.</p>
+<h3>Hybrid Trade-Off Affixes</h3><p>Six bargain families each occupy one affix slot and contain two effects. Constant effects pair a wearer benefit with a weakness or reversible attribute drain. On-strike effects pair a target debuff with a target buff: <b>Hobbling Fury</b> drains Speed but fortifies Strength; <b>Blinding Vigor</b> blinds but fortifies Agility. Both target effects last three seconds.</p><p>Benefits and costs scale through six tiers. Bargains are enabled by default, with family weight x0.35 before item and regional biases. Opposing drain/fortify and resistance/weakness effects across paired affixes are rejected, as are mixed enchantment modes. Strike bargains use native charge costs and exclude bows, crossbows and projectiles.</p>
+<p>Every tier has its own affix name. At T6, clean Speechcraft/Enchant grants +6; bargains grant +8 with a 4-point Strength or 3-point Speed drain. Clean frost/shock resistance reaches 15%; bargains reach 20% with 10% elemental weakness. Strike bargains drain target Speed by 8 while granting 4 Strength, or inflict 16% Blind while granting 4 Agility, for three seconds.</p>
+<h3>Regional Flavor</h3><table class="profiles"><thead><tr><th>Profile</th><th>Affix weights</th><th>Location</th></tr></thead><tbody>
+<tr><td>Ash</td><td>Blight resistance x3; fire resistance, fire shield and fire damage x2</td><td>Ashlands, Molag Amur, Red Mountain; five mapped Red Mountain citadels</td></tr>
+<tr><td>Marsh</td><td>Poison/disease resistance, Water Breathing, Swift Swim and poison x2</td><td>Bitter Coast exteriors</td></tr>
+<tr><td>Coast</td><td>Water Breathing, Water Walking and Swift Swim x2</td><td>Azura's Coast and Sheogorad exteriors</td></tr>
+<tr><td>Frost</td><td>Frost resistance x3; frost shield and frost damage x2</td><td>Recognized Solstheim exterior regions</td></tr>
+<tr><td>Dwemer</td><td>Shock resistance, shock damage and lightning shield x2; Detect Enchantment, Enchant and enchantment capacity x3</td><td>23 curated vanilla ruin families and their named interior sections</td></tr>
+</tbody></table><p>Regional flavor is enabled by default. Combined regional weights are capped at x4; drop rates, tier odds and fixed unique recipes stay unchanged. Bargains use their beneficial effect for regional weighting. Unknown interiors remain neutral; this is targeted interior coverage, not a full geographical mapping.</p>
+<details><summary>Mapped Base-Game Interiors</summary><p>Aleft, Arkngthand, Arkngthunch-Sturdumz, Bethamez, Bthanchend, Bthanual, Bthungthumz, Dagoth Ur, Druscashti, Endusal, Galom Daeus, Mudan, Mzahnch, Mzuleft, Nchardahrk, Nchardumz, Nchuleft, Nchuleftingth, Nchurdamz, Odrosal, Rkugamz, Tureynulal and Vemynal.</p><p>Matches use the exact ruin name or that name followed by comma-space and an interior section. Dagoth Ur, Endusal, Odrosal, Tureynulal and Vemynal also receive the Ash profile. Added sections under these names inherit the theme. Renamed records may need explicit mappings.</p></details>
+<h3>Guaranteed Bargain Samples</h3><p>In the OpenMW console, enter <code>luag</code>, then run either command:</p><pre><code>require('openmw.interfaces').RandomisedBasicLoot.giveBargainSamples('iron_helmet', 1)
+require('openmw.interfaces').RandomisedBasicLoot.giveBargainSamples('iron longsword', 6)</code></pre><p>Lua syntax checks and the focused runtime harness pass. OpenMW engine behavior and balance still need in-game testing. Generation remains limited to NPC corpses; containers, merchants and relic-condition changes are outside this build.</p>
+<h3>Modifier Grades</h3><table><thead><tr><th>Grade</th><th>Internal Tier</th></tr></thead><tbody><tr><td>Petty (T1)</td><td>1</td></tr><tr><td>Lesser (T2)</td><td>2</td></tr><tr><td>Common (T3)</td><td>3</td></tr><tr><td>Greater (T4)</td><td>4</td></tr><tr><td>Grand (T5)</td><td>5</td></tr><tr><td>Exquisite (T6)</td><td>6</td></tr></tbody></table>
+<h3>Tier Weights</h3><table><thead><tr><th>Tier</th><th>Petty (T1)</th><th>Lesser (T2)</th><th>Common (T3)</th><th>Greater (T4)</th><th>Grand (T5)</th><th>Exquisite (T6)</th></tr></thead><tbody><tr><td>Default weight</td><td>78</td><td>15</td><td>5</td><td>1.5</td><td>0.4</td><td>0.1</td></tr></tbody></table><p>Enabled tiers and weights are configurable. An unavailable tier falls back to the highest eligible lower tier; every otherwise eligible base can roll T6. Base profiles only bias family selection.</p>
+<h3>Item-Specific Profiles</h3><table class="profiles"><thead><tr><th>Profile</th><th>Bias</th><th>Membership</th></tr></thead><tbody>
+<tr><td>Bloodmoon Bear armor</td><td>Resist Frost x3</td><td>Approved Bear armor set</td></tr><tr><td>Ruby amulet</td><td>Resist Fire x3</td><td><code>extravagant_amulet_02</code></td></tr><tr><td>Sapphire amulet</td><td>Resist Frost x3</td><td><code>extravagant_amulet_01</code></td></tr><tr><td>Dwemer clock amulet</td><td>Resist Shock x2</td><td><code>ab_c_dwemeramuletclock</code></td></tr><tr><td>Bloodmoon Wolf armor</td><td>Sneak / Athletics x2 when eligible</td><td>Approved profile items</td></tr><tr><td>Nordic Bearskin cuirass</td><td>Resist Frost x2</td><td>Approved profile items</td></tr><tr><td>Silver Scepter</td><td>Blunt Weapon x2</td><td>Approved profile items</td></tr></tbody></table>
+<p>Every eligible base can roll every available tier. Functionally redundant tiers are omitted: Water Breathing and Water Walking end at T4. Bias changes family-selection weight, not drop chance or tier odds. No base-specific tier unlocks remain.</p>
+<h3>Composition &amp; Eligibility</h3><ul><li>Physical percentages use the original base stat. Maximum condition changes preserve the item's condition fraction.</li><li>Final weight determines armor class before an armor-skill suffix is selected. The three armor skills are conditional candidates, not simultaneous bonuses.</li><li>Duplicate effect families and mixed native enchantment modes cannot form a dual-affix item.</li><li>Enchant capacity combined with a native enchantment is intentionally allowed even when it becomes a dead modifier.</li><li>Only approved IDs in enabled source packs can roll. Scripted, already enchanted or otherwise protected records remain excluded.</li><li>Advanced utility families and Appraisal have separate configuration gates.</li></ul>
+<h3>Sources</h3><p>This is a browsing preview, not a loot simulator. Equipment filters use documented applicability; loaded records, final weight, enabled settings and pair compatibility decide actual eligibility in-game.</p><p><a href="modifier-catalogue.md">Magic catalogue</a> &middot; <a href="loot-generation-design.md">Loot design</a> &middot; <a href="gap-affix-implementation.md">Utility context</a> &middot; <a href="unique-item-registry.md">Unique registry</a> &middot; <a href="regional-bargain-loot.md">Discovery, bargains and regional rules with wiki sources</a></p><p>Magic tables retain their documented names and values; physical, utility and bargain families are exported from runtime source. Older rollout notes in the source reports are not the current runtime specification.</p>
+</section></main></div>
+<script>
+const themeControl = document.getElementById('theme');
+themeControl.value = document.documentElement.dataset.theme || 'system';
+themeControl.addEventListener('change', () => {
+  document.documentElement.dataset.theme = themeControl.value;
+  try { localStorage.setItem('rbl-catalogue-theme', themeControl.value); } catch (_) {}
+});
+const data=/*CATALOGUE_DATA*/[];
+const baseData=/*BASE_DATA*/[];
+// Opening the authoring template should lead to the populated report.
+if (!data.length && location.pathname.endsWith('/site/modifier_preview.html')) {
+  location.replace(new URL('../build/site/index.html', location.href).href);
+}
+const groups={Browse:['All Equipment'],Armor:['Helmets','Cuirasses','Greaves','Boots','Gauntlets & Bracers','Pauldrons','Shields'],Weapons:['Short Blades','Long Blades','Axes','Blunt Weapons','Staves','Spears','Bows & Crossbows','Projectiles'],Clothing:['Shirts','Pants','Skirts','Robes','Gloves','Shoes','Belts'],Jewelry:['Rings','Amulets']};
+const aliases={'Helmets':['head','helmet'],'Cuirasses':['cuirass'],'Greaves':['greaves'],'Boots':['feet','boots'],'Gauntlets & Bracers':['hands','gauntlet','bracer'],'Pauldrons':['pauldron'],'Shields':['shield'],'Short Blades':['short blade','melee weapon'],'Long Blades':['long blade','melee weapon'],'Axes':['axe','melee weapon'],'Blunt Weapons':['mace','club','hammer','stave','scepter','blunt','melee weapon'],'Spears':['spear','melee weapon'],'Bows & Crossbows':['bow','crossbow','launcher'],'Projectiles':['arrow','bolt','thrown','projectile'],'Shirts':['shirt','body clothing'],'Pants':['pants','body clothing'],'Skirts':['skirt','body clothing'],'Robes':['robe','body clothing'],'Gloves':['hands','glove'],'Shoes':['feet','shoe'],'Belts':['belt'],'Rings':['ring','jewelry'],'Amulets':['amulet','jewelry']};
+let selected='All Equipment';const $=id=>document.getElementById(id);
+aliases.Staves=['stave','staff','blunt weapon','melee weapon'];
+$('mode').add(new Option('When Used', 'When Used'));
+const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+/*BASE_BROWSER*/
+function fits(f){
+  const base=currentBase();if(base)return baseFits(f,base);
+  if(selected==='All Equipment')return true;
+  if(f.slots){
+    const slots={'Helmets':['helmet'],'Cuirasses':['cuirass'],'Greaves':['greaves'],'Boots':['boots'],'Gauntlets & Bracers':['left_gauntlet','right_gauntlet','left_bracer','right_bracer'],'Pauldrons':['left_pauldron','right_pauldron'],'Shields':['shield'],'Short Blades':['short_blade'],'Long Blades':['long_blade_one_hand','long_blade_two_hand'],'Axes':['axe_one_hand','axe_two_hand'],'Blunt Weapons':['blunt_one_hand','blunt_two_hand_close','blunt_two_hand_wide'],'Spears':['spear'],'Bows & Crossbows':['bow','crossbow'],'Projectiles':['arrow','bolt','thrown'],'Shirts':['shirt'],'Pants':['pants'],'Skirts':['skirt'],'Robes':['robe'],'Gloves':['left_glove','right_glove'],'Shoes':['shoes'],'Belts':['belt'],'Rings':['ring'],'Amulets':['amulet']};
+    if(selected==='Staves')return f.slots.includes('blunt_two_hand_wide');
+    return(slots[selected]||[]).some(slot=>f.slots.includes(slot));
+  }
+  const scope=f.scope.toLowerCase(),armor=groups.Armor.includes(selected),weapon=groups.Weapons.includes(selected),clothing=groups.Clothing.includes(selected),jewel=groups.Jewelry.includes(selected);
+  if(selected==='Projectiles'&&scope.includes('except projectiles'))return false;
+  if(scope.includes('all equipment'))return true;
+  if(armor&&(scope==='armor'||scope.startsWith('armor,')||scope.startsWith('armor and')||scope.includes('class armor')))return true;
+  if(!weapon&&scope.includes('wearables'))return true;
+  if((clothing||jewel)&&scope.includes('clothing')&&!scope.includes('body clothing')&&!scope.includes('clothing gloves'))return true;
+  if(weapon&&selected!=='Projectiles'&&(scope.includes('non-projectile weapons')||scope.includes('all weapons')))return true;
+  if(selected==='Projectiles'&&scope.includes('non-projectile'))return false;
+  return(aliases[selected]||[]).some(a=>scope.includes(a));
+}
+function tierCell(cell){const m=cell.match(/^(.*?)\s*\(([^)]+)\)$/);return m?[m[1],m[2]]:[cell,''];}
+const tierNames=['Petty','Lesser','Common','Greater','Grand','Exquisite'];
+function tierLabel(tier){return (tierNames[tier-1]||'Tier')+' (T'+tier+')';}
+function render(){
+  updateBaseOptions();
+  updatePairOptions();
+  renderBase();
+  const query=$('query').value.trim().toLowerCase(),tier=Number($('tier').value),kind=$('kind').value,mode=$('mode').value,flat=$('display').value==='tiers';
+  const tierRows=f=>f.tiers.map((cell,i)=>({cell,tier:i+1,mode:f.tierModes?.[i]||f.mode})).filter(t=>t.cell!=='-'&&(!tier||t.tier===tier)&&(!mode||t.mode===mode)&&pairFits(f,t));
+  const rows=data.filter(f=>fits(f)&&(!kind||f.kind===kind)&&tierRows(f).length&&(!query||[f.family,f.effect,f.scope,f.notes,...f.tiers].join(' ').toLowerCase().includes(query)));
+  $('title').textContent=currentBase()?.name||selected;
+  $('count').textContent=rows.length+' families / '+rows.reduce((n,f)=>n+tierRows(f).length,0)+' tier rows';
+  $('expand').disabled=flat;$('collapse').disabled=flat;
+  for(const side of ['prefix','suffix']){
+    const list=rows.filter(f=>f.side===side);
+    $(side+'Count').textContent=list.length+' families';
+    if(!list.length){$(side).innerHTML='<p class="empty">No matching '+side+' families.</p>';continue}
+    if(flat){
+      $(side).innerHTML='<div class="table-wrap"><table class="tier-table"><thead><tr><th>Tier</th><th>Name</th><th>Value</th><th>Effect / Mode</th></tr></thead><tbody>'+list.map(f=>tierRows(f).map((t,i)=>{
+        const[n,v]=tierCell(t.cell);
+        return '<tr'+(!i?' class="family-start"':'')+'><td>'+escape(tierLabel(t.tier))+'</td><td>'+escape(n)+'</td><td>'+escape(v)+'</td><td class="effect" title="'+escape(f.scope+'; '+f.notes)+'">'+escape(f.effect)+'<small>'+escape(t.mode)+' / '+f.kind+'</small>'+'</td></tr>';
+      }).join('')).join('')+'</tbody></table></div>';
+      continue;
+    }
+    $(side).innerHTML=list.map(f=>{
+      const tiers=tierRows(f),first=tierCell(tiers[0].cell)[1],last=tierCell(tiers[tiers.length-1].cell)[1];
+      const range=first===last?first:first+' to '+last;
+      const modes=[...new Set(tiers.map(t=>t.mode))].join(' / ');
+      return '<details class="family"'+(tier||query?' open':'')+'><summary><span><strong>'+escape(f.effect)+'</strong><small>'+escape(modes)+'</small><span class="range">'+escape(range)+' / '+escape(tierLabel(tiers[0].tier))+(tiers.length>1?' - '+escape(tierLabel(tiers[tiers.length-1].tier)):'')+'</span></span><span class="kind '+f.kind+'">'+f.kind+'</span></summary><div class="family-body"><table><thead><tr><th>Tier</th><th>Name</th><th>Value</th></tr></thead><tbody>'+tiers.map(t=>{const[n,v]=tierCell(t.cell);return '<tr><td>'+escape(tierLabel(t.tier))+'</td><td>'+escape(n)+'</td><td>'+escape(v)+'</td></tr>'}).join('')+'</tbody></table><p class="note"><b>Applies to:</b> '+escape(f.scope)+'</p>'+(f.notes?'<p class="note">'+escape(f.notes)+'</p>':'')+'</div></details>';
+    }).join('');
+  }
+  document.querySelectorAll('aside button').forEach(b=>b.setAttribute('aria-pressed',b.textContent===selected));
+}
+for(const[group,items]of Object.entries(groups)){const heading=document.createElement('h2');heading.textContent=group;$('equipment').append(heading);const wrap=document.createElement('div');wrap.className='group';for(const item of items){const b=document.createElement('button');b.textContent=item;b.onclick=()=>{selected=item;$('baseSelect').value='';$('pairSelect').value='';view(false);render()};wrap.append(b)}$('equipment').append(wrap)}
+function view(rules){$('catalogView').classList.toggle('hidden',rules);$('rulesView').classList.toggle('hidden',!rules);$('catalogTab').setAttribute('aria-selected',!rules);$('rulesTab').setAttribute('aria-selected',rules)}
+$('catalogTab').onclick=()=>view(false);$('rulesTab').onclick=()=>view(true);
+for(const id of ['query','kind','mode','tier','display'])$(id).addEventListener('input',render);
+$('expand').onclick=()=>document.querySelectorAll('details.family').forEach(d=>d.open=true);
+$('collapse').onclick=()=>document.querySelectorAll('details.family').forEach(d=>d.open=false);
+$('reset').onclick=()=>{for(const id of ['query','kind','mode','tier','baseSelect','baseSource','baseQuery','pairSelect'])$(id).value='';$('display').value='families';selected='All Equipment';render()};render();
+</script>
+</body></html>

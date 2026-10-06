@@ -1,0 +1,7 @@
+{
+  "name": "Fortune's Spoils - Randomised Equipment",
+  "slug": "fortunes-spoils",
+  "version": "0.1.0-dev",
+  "status": "development; not release validated",
+  "runtimeIdentity": "RandomisedBasicLoot"
+}

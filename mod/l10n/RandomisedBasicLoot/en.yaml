@@ -1,0 +1,46 @@
+title: Randomised Basic Loot
+general: General
+layouts: Affix Layout Weights
+tiers: Tier Distribution
+sources: Optional Source Packs
+caps: Physical Modifier Caps
+enabled: Enable Loot Generation
+debug: Routine Logging
+allowUniqueDuplicates: Allow Duplicate Unique Drops
+bargainAffixes: Bargain Affixes With Benefits And Drawbacks
+regionalFlavor: Regional Affix Biases
+gapAffixes: Additional Slot-Aware Affixes
+advancedGapAffixes: Advanced Magic Affixes
+appraisal: Gold Value Affixes
+dropChancePercent: Per-Item Modification Chance (%)
+uniqueChancePercent: Unique Chance Within Modified Drops (%)
+maxBaseValue: Maximum Base Item Value
+valueBonus: Gold Surcharge Per Affix Tier
+gapTier: Gap Sample Tier
+prefixWeight: Prefix-Only Weight
+suffixWeight: Suffix-Only Weight
+bothWeight: Prefix And Suffix Weight
+tier1Enabled: Enable Tier 1
+tier2Enabled: Enable Tier 2
+tier3Enabled: Enable Tier 3
+tier4Enabled: Enable Tier 4
+tier5Enabled: Enable Tier 5
+tier6Enabled: Enable Tier 6
+tier1Weight: Tier 1 Weight
+tier2Weight: Tier 2 Weight
+tier3Weight: Tier 3 Weight
+tier4Weight: Tier 4 Weight
+tier5Weight: Tier 5 Weight
+tier6Weight: Tier 6 Weight
+baseEnabled: Morrowind Base Game
+tribunalEnabled: Tribunal
+bloodmoonEnabled: Bloodmoon
+oaabEnabled: OAAB Data
+damageCapPercent: Damage Increase Cap (%)
+baseArmorCapPercent: Base Armor Increase Cap (%)
+healthCapPercent: Durability Increase Cap (%)
+weightCapPercent: Weight Reduction Cap (%)
+speedCapPercent: Weapon Speed Increase Cap (%)
+reachCapPercent: Weapon Reach Increase Cap (%)
+enchantCapacityCapPercent: Enchant Capacity Increase Cap (%)
+expandedAffixes: Expanded Spell-Effect Affixes

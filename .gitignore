@@ -1,0 +1,39 @@
+build/
+dist/
+.test-tools/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+*.zip
+*.log
+Thumbs.db
+.DS_Store
+
+# Private/local workspace material, never release or Pages inputs.
+/local/
+/private/
+/docs/DEVELOPMENT-SNAPSHOT.md
+/docs/reports/*
+# These reports are authoring inputs or curated public catalogues.
+!/docs/reports/modifier-catalogue.md
+!/docs/reports/gap-affix-implementation.md
+!/docs/reports/included-items-report.md
+!/docs/reports/unique-item-registry.md
+
+# Game files, saves, runtime tooling, and editor-local state.
+*.esm
+*.esp
+*.bsa
+*.omwgame
+*.omwaddon
+*.omwsave
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+*.bak
+*.tmp

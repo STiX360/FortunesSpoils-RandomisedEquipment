@@ -1,0 +1,38 @@
+name: Build artifacts (no tests)
+on:
+  workflow_dispatch:
+    inputs:
+      profile:
+        type: choice
+        options: [testing, production]
+        default: testing
+      drop_chance:
+        description: Production replacement chance (0 to 1); required for production
+        type: string
+        default: ''
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build site and mod
+        env:
+          PROFILE: ${{ inputs.profile }}
+          DROP_CHANCE: ${{ inputs.drop_chance }}
+        run: |
+          python tools/build.py site
+          args=(package --profile "$PROFILE")
+          if [ -n "$DROP_CHANCE" ]; then args+=(--drop-chance "$DROP_CHANCE"); fi
+          python tools/build.py "${args[@]}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fortunes-spoils-${{ inputs.profile }}
+          path: |
+            dist/
+            build/site/
+          if-no-files-found: error

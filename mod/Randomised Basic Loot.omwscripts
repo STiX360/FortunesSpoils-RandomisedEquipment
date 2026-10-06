@@ -1,0 +1,3 @@
+GLOBAL: scripts/randomisedbasicloot/global.lua
+PLAYER: scripts/randomisedbasicloot/settings_player.lua
+NPC: scripts/randomisedbasicloot/npc.lua

@@ -1,0 +1,59 @@
+name: Upload existing release to Nexus (manual)
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Published GitHub release tag; existing production archive only
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: nexus-upload
+  cancel-in-progress: false
+jobs:
+  upload:
+    if: vars.NEXUS_PUBLISH_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    environment: nexus-production
+    steps:
+      - name: Download exact release archive and checksum
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ inputs.tag }}
+        run: |
+          VERSION="${TAG#v}"
+          [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+(-[A-Za-z0-9.-]+)?$ ]]
+          ASSET="fortunes-spoils-$VERSION-production.zip"
+          test "$(gh release view "$TAG" --json isDraft --jq .isDraft)" = false
+          gh release download "$TAG" --pattern "$ASSET" --pattern "$ASSET.sha256"
+          sha256sum -c "$ASSET.sha256"
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+          echo "ASSET=$ASSET" >> "$GITHUB_ENV"
+      - name: Confirm archive identity
+        run: |
+          python - <<'PY'
+          import json, os, zipfile
+          with zipfile.ZipFile(os.environ['ASSET']) as archive:
+              manifest = json.loads(archive.read('BUILD-MANIFEST.json'))
+          if manifest['version'] != os.environ['VERSION'] or manifest['profile'] != 'production':
+              raise SystemExit('Release version/profile mismatch')
+          PY
+      - name: Upload unchanged archive
+        id: nexus
+        # v1.0.0-beta.10: pin, not a floating main branch.
+        uses: Nexus-Mods/upload-action@c96019556046053aa26044b44396cd38929daf23
+        with:
+          api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+          file_id: ${{ vars.NEXUSMODS_FILE_ID }}
+          filename: ${{ env.ASSET }}
+          version: ${{ env.VERSION }}
+          display_name: Fortune's Spoils - Randomised Equipment
+          category: main
+          archive_existing_version: 'false'
+          update_mod_version: 'false'
+      - name: Record upload result
+        env:
+          VERSION_ID: ${{ steps.nexus.outputs.version_id }}
+        run: printf 'Nexus uploaded version ID: %s\n' "$VERSION_ID" >> "$GITHUB_STEP_SUMMARY"

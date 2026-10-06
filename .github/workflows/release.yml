@@ -1,0 +1,51 @@
+name: Prepare draft release (manual)
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing version tag, e.g. v0.1.0-dev
+        type: string
+        required: true
+      profile:
+        type: choice
+        options: [testing, production]
+        default: testing
+      drop_chance:
+        description: Required for production; 0 to 1
+        type: string
+        default: ''
+permissions:
+  contents: read
+concurrency:
+  group: release-${{ inputs.tag }}
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    environment: release
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Package selected tag
+        env:
+          TAG: ${{ inputs.tag }}
+          PROFILE: ${{ inputs.profile }}
+          DROP_CHANCE: ${{ inputs.drop_chance }}
+        run: |
+          git show-ref --verify "refs/tags/$TAG"
+          args=(package --profile "$PROFILE" --version "${TAG#v}")
+          if [ -n "$DROP_CHANCE" ]; then args+=(--drop-chance "$DROP_CHANCE"); fi
+          python tools/build.py "${args[@]}"
+      - name: Create draft prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+        run: |
+          gh release create "$TAG" dist/*.zip dist/*.sha256 --verify-tag --draft --prerelease --title "Fortune's Spoils $TAG" --notes "Development package. Not release validated. Review installation notes and build manifest before publishing."
