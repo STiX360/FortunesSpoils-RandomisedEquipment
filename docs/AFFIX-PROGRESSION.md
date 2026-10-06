@@ -80,6 +80,10 @@ class rows so their values and delivery remain accurate under equipment filters.
 No tests were run for this update; these allocations need permitted engine testing.
 # Equipment Pool Redistribution
 
+Ordinary Resist Common Disease, Resist Blight Disease, Resist Paralysis and
+Resist Magicka are restricted to rings, amulets and belts. Their magnitudes,
+suffix placement and unique templates are unchanged.
+
 Gold value is now a suffix (still controlled by `appraisal`). Fire/Frost Resistance,
 Jump, summons, bound equipment, Burden, Blind and Sound are prefixes. Feather,
 Intelligence and Willpower no longer have duplicate suffix families. Weight reduction

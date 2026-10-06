@@ -60,7 +60,7 @@ class AuditTests(unittest.TestCase):
             (scripts / "check.lua").write_text('local id = "common_helm"\n')
             config = root / "openmw.cfg"
             quoted_path = str(data).replace("&", "&&")
-            config.write_text(f'data="{quoted_path}"\ncontent=base.esm\ncontent=patch.esp\n')
+            config.write_text(f'data="{quoted_path}"\ncontent=base.esm\ncontent=patch.esp\n', encoding='utf-8')
             result = audit.scan(config)
             helmets = {h["id"]: h for h in result["helmets"]}
             self.assertEqual(result["missing_plugins"], [])

@@ -77,7 +77,7 @@ def families():
     add('chameleon', 'Chameleon', 'Veiling', MAGE, [2, 4, 6, 8, 10, 12], weight=.5)
     for effect, label, noun in [('resistmagicka', 'Resist Magicka', 'Nullward'),
                                 ('resistparalysis', 'Resist Paralysis', 'Freewill')]:
-        add(effect, label, noun, ['shield', 'amulet'], resist)
+        add(effect, label, noun, ['ring', 'amulet', 'belt'], resist)
     add('resistnormalweapons', 'Resist Normal Weapons', 'Ironward', ['cuirass', 'shield'], [2, 3, 4, 6, 8, 10], weight=.5)
     add('reflect', 'Reflect', 'Mirroring', ['amulet'], resist, weight=.25)
     add('spellabsorption', 'Spell Absorption', 'Spellfeast', ['ring', 'amulet'],

@@ -44,13 +44,19 @@ python tools/build.py package --profile testing
 Open `build/site/index.html` directly in a browser. Website output is static and
 can be deployed to GitHub Pages. ZIPs and SHA-256 sidecars appear in `dist/`.
 
-Production defaults are not approved. Packaging requires an explicit choice:
+The Loot Simulator is at `build/site/simulator.html`, linked from the catalogue.
+It runs the bundled Lua loot rules offline with selectable bases, NPC levels and
+mapped locations. See [Simulator Details](docs/LOOT-SIMULATOR.md).
+
+Production defaults use 33% single affix, 33% dual affix, 33% unchanged and 1%
+global unique chance (eligible non-projectiles with feasible outcomes):
 
 ```powershell
-python tools/build.py package --profile production --drop-chance 0.20
+python tools/build.py package --profile production
 ```
 
-The example rate is illustrative, not a balance recommendation. No build task
+Saved settings override package defaults. Production logging defaults off; this
+profile is not a claim of engine validation. No build task
 runs tests. Export authoring changes explicitly with `python tools/build.py export`;
 this updates generated Lua in `mod/` and generated expanded-affix documentation.
 

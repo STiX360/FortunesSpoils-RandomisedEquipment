@@ -31,7 +31,7 @@ def gap_rule(ident):
         'swiftswim': ['boots', 'shoes', 'greaves', 'pants', *jewelry],
         'telekinesis': [*gloves, *jewelry], 'detectkey': ['helmet', *gloves, *jewelry],
         'detectenchantment': ['helmet', *jewelry], 'sanctuary': [*body, *jewelry],
-        'blight': ['helmet', 'robe', 'amulet'], 'fireshield': ['cuirass', 'shield', 'amulet'],
+        'blight': ['ring', 'amulet', 'belt'], 'fireshield': ['cuirass', 'shield', 'amulet'],
         'frostshield': ['cuirass', 'shield', 'amulet'], 'lightningshield': ['cuirass', 'shield', 'amulet'],
         'maxmagicka': mage, 'enchant': mage, 'alchemy': ['robe', 'amulet'],
         'unarmored': [*body, *gloves, 'shoes', *jewelry], 'block': ['shield'],
@@ -42,7 +42,7 @@ def gap_rule(ident):
     if ident == 'attack':
         return dict(category='weapon', nonProjectile=True)
     rule = dict(slots=slots[ident])
-    if ident in ('slowfall', 'telekinesis', 'sanctuary', 'unarmored', 'alchemy'):
+    if ident in ('slowfall', 'telekinesis', 'sanctuary', 'unarmored', 'alchemy', 'blight'):
         rule['category'] = 'clothing'
     elif ident == 'block':
         rule['category'] = 'armor'
@@ -63,8 +63,8 @@ def bases(root):
     for line in (root / 'docs/reports/included-items-report.md').read_text(encoding='utf-8').splitlines():
         if match := re.match(r'^## (.+) - \d+ Items', line):
             source = match[1]
-        elif match := re.match(r'^### (Armor|Weapons|Clothing) -', line):
-            category = {'Armor': 'armor', 'Weapons': 'weapon', 'Clothing': 'clothing'}[match[1]]
+        elif match := re.match(r'^### (Armor|Weapons?|Clothing) -', line):
+            category = {'Armor': 'armor', 'Weapon': 'weapon', 'Weapons': 'weapon', 'Clothing': 'clothing'}[match[1]]
         elif match := re.match(r'^#### (.+) - \d+ Items', line):
             slot = match[1].lower().replace(' ', '_')
         elif source and line.startswith('|'):

@@ -51,7 +51,7 @@ are bound only after all physical overrides. Weight-induced class transitions ar
 | Detect Key | 10 / 20 / 30 / 40 | Head, clothing gloves, jewelry | Searching, not unlocking |
 | Detect Enchantment | 10 / 20 / 30 / 40 | Head, jewelry | Finding magical objects |
 | Sanctuary | 1 / 2 / 3 / 4 | Body clothing, jewelry | Unarmored evasion; advanced gate |
-| Resist Blight Disease | 3 / 5 / 7 / 9 | Head, robes, amulets | Ashland protection |
+| Resist Blight Disease | 3 / 5 / 7 / 9 / 12 / 15 | Rings, amulets, belts | Ashland protection; ordinary affixes only |
 | Fire Shield | 1 / 2 / 3 / 4 | Cuirasses, shields, amulets | Fire ward; advanced gate |
 | Frost Shield | 1 / 2 / 3 / 4 | Cuirasses, shields, amulets | Frost ward; advanced gate |
 | Lightning Shield | 1 / 2 / 3 / 4 | Cuirasses, shields, amulets | Shock ward; advanced gate |

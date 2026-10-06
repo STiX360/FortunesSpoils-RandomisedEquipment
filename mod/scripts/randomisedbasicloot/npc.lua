@@ -7,6 +7,10 @@ local sent = false
 local elapsed = 0
 local pendingEquipment = nil
 local equipmentWait = 0
+local freshInventory = false
+local function requestSnapshot()
+    core.sendGlobalEvent('RandomisedBasicLoot_InitialInventory', { actor = self.object, fresh = freshInventory })
+end
 
 local function restoreEquipment(dt)
     if not pendingEquipment then return end
@@ -43,6 +47,11 @@ return {
         end,
     },
     engineHandlers = {
+        onInit = function()
+            freshInventory = true
+            requestSnapshot()
+        end,
+        onActive = requestSnapshot,
         onUpdate = function(dt)
             restoreEquipment(dt)
             if sent then return end
@@ -57,11 +66,15 @@ return {
                 core.sendGlobalEvent('RandomisedBasicLoot_Death', self.object)
             end
         end,
-        onSave = function() return { sent = sent, pendingEquipment = pendingEquipment } end,
+        onSave = function() return { sent = sent, pendingEquipment = pendingEquipment, inventoryBaselineVersion = 1,
+            freshInventory = freshInventory } end,
         onLoad = function(data)
             sent = data and data.sent or false
             pendingEquipment = data and data.pendingEquipment or nil
             equipmentWait = 0
+            -- Global saved allowances are authoritative; never recapture loaded inventories.
+            freshInventory = false
+            requestSnapshot()
         end,
     },
 }

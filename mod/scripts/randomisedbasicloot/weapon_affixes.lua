@@ -1,10 +1,12 @@
 local policy = require('scripts.randomisedbasicloot.weapon_affix_policy')
 local M = {}
 
-function M.resolve(modifier, slot, records)
+function M.resolve(modifier, slot, records, baseSpeed)
     if modifier.mode ~= 'CastOnStrike' then return true end
     local profile = policy.profiles[slot]
     if not profile then return true end
+    local speed = type(baseSpeed) == 'number' and baseSpeed > 0 and baseSpeed < math.huge and baseSpeed or 1
+    local damageMultiplier = math.max(policy.damageSpeedMin, math.min(policy.damageSpeedMax, 1 / speed))
     local effects = modifier.effects or { { id = modifier.effect, magnitude = modifier.magnitude,
         skill = modifier.skill, attribute = modifier.attribute,
         duration = modifier.duration or 1, range = modifier.range or 'Touch', area = modifier.area or 0 } }
@@ -21,6 +23,8 @@ function M.resolve(modifier, slot, records)
                 effect.magnitude = math.max(1, math.floor(effect.magnitude * profile.magnitude + .5))
             end
             effect.range, effect.area = profile.range, profile.area
+        elseif policy.damageEffects[effect.id] then
+            effect.magnitude = math.max(1, math.floor(effect.magnitude * damageMultiplier + .5))
         end
     end
     modifier.effects = effects

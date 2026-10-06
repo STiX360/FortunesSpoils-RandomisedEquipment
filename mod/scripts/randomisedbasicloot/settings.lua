@@ -30,6 +30,8 @@ add(general, 'gapTier', defaults.gapTier, 1, 6, true)
 local layouts = group('Layouts', 'layouts')
 for _, side in ipairs({ 'prefix','suffix','both' }) do add(layouts, side .. 'Weight', defaults.affixLayoutWeights[side], 0, 100000) end
 local tiers = group('Tiers', 'tiers')
+add(tiers, 'npcTierScaling', defaults.npcTierScaling)
+add(tiers, 'equalTierLevel', defaults.equalTierLevel, 2, 1000, true)
 for tier = 1, 6 do
     add(tiers, 'tier' .. tier .. 'Enabled', contains(defaults.enabledTiers, tier))
     add(tiers, 'tier' .. tier .. 'Weight', defaults.tierWeights[tier], 0, 100000)
@@ -75,6 +77,8 @@ function M.snapshot()
     config.affixLayoutWeights = {}
     for _, side in ipairs({ 'prefix','suffix','both' }) do config.affixLayoutWeights[side] = read(layouts, side .. 'Weight') end
     config.tierWeights, config.enabledTiers = {}, {}
+    config.npcTierScaling = read(tiers, 'npcTierScaling')
+    config.equalTierLevel = read(tiers, 'equalTierLevel')
     for tier = 1, 6 do
         config.tierWeights[tier] = read(tiers, 'tier' .. tier .. 'Weight')
         if read(tiers, 'tier' .. tier .. 'Enabled') then config.enabledTiers[#config.enabledTiers + 1] = tier end

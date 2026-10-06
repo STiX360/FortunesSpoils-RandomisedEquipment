@@ -1,0 +1,2202 @@
+{
+  "bm bear boots": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Bear_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/2/28/BM-icon-armor-Bear_Boots.png"
+  },
+  "bm bear cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Bear_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/e/ea/BM-icon-armor-Bear_Cuirass.png"
+  },
+  "bm bear greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Bear_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/2/28/BM-icon-armor-Bear_Greaves.png"
+  },
+  "bm bear helmet": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Bear_Helmet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/a/a7/BM-icon-armor-Bear_Helmet.png"
+  },
+  "bm bear left gauntlet": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Bear_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/b/bb/BM-icon-armor-Bear_Gauntlet.png"
+  },
+  "bm bear left pauldron": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Bear_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/b/b8/BM-icon-armor-Bear_Pauldron.png"
+  },
+  "bm bear right gauntlet": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Bear_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/b/bb/BM-icon-armor-Bear_Gauntlet.png"
+  },
+  "bm bear right pauldron": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Bear_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/b/b8/BM-icon-armor-Bear_Pauldron.png"
+  },
+  "bm bear shield": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Bear_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/c/c1/BM-icon-armor-Bear_Shield.png"
+  },
+  "bm huntsman axe": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Huntsman_waraxe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/2/20/BM-Icon-Huntsman_waraxe.png"
+  },
+  "bm huntsman crossbow": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Huntsman_crossbow.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/8/87/BM-Icon-Huntsman_crossbow.png"
+  },
+  "bm huntsman longsword": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Huntsman_longsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/b/b7/BM-Icon-Huntsman_longsword.png"
+  },
+  "bm huntsman spear": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-weapon-Huntsman_Spear.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/1/1b/BM-icon-weapon-Huntsman_Spear.png"
+  },
+  "bm huntsman war axe": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-weapon-Huntsman_War_Axe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/a/a0/BM-icon-weapon-Huntsman_War_Axe.png"
+  },
+  "bm huntsmanbolt": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-weapon-Huntsman_Bolt.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/3/3d/BM-icon-weapon-Huntsman_Bolt.png"
+  },
+  "bm nordic silver axe": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-weapon-Nordic_Silver_War_Axe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/6/61/BM-icon-weapon-Nordic_Silver_War_Axe.png"
+  },
+  "bm nordic silver battleaxe": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-weapon-Nordic_Silver_Battleaxe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/e/e5/BM-icon-weapon-Nordic_Silver_Battleaxe.png"
+  },
+  "bm nordic silver claymore": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-weapon-Nordic_Silver_Claymore.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/7/7b/BM-icon-weapon-Nordic_Silver_Claymore.png"
+  },
+  "bm nordic silver dagger": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-weapon-Nordic_Silver_Dagger.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/0/08/BM-icon-weapon-Nordic_Silver_Dagger.png"
+  },
+  "bm nordic silver longsword": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-weapon-Nordic_Silver_Longsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/d/d3/BM-icon-weapon-Nordic_Silver_Longsword.png"
+  },
+  "bm nordic silver mace": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-weapon-Nordic_Silver_Mace.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/8/8d/BM-icon-weapon-Nordic_Silver_Mace.png"
+  },
+  "bm nordic silver shortsword": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-weapon-Nordic_Silver_Shortsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/6/61/BM-icon-weapon-Nordic_Silver_Shortsword.png"
+  },
+  "bm riekling lance": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-IceM_Spear.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/8/8f/BM-Icon-IceM_Spear.png"
+  },
+  "bm riekling sword": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-IceM_Sword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/a/a1/BM-Icon-IceM_Sword.png"
+  },
+  "bm riekling sword_rusted": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-IceM_Sword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Weapons",
+    "url": "https://images.uesp.net/a/a1/BM-Icon-IceM_Sword.png"
+  },
+  "bm wolf boots": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Wolf_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/2/2f/BM-icon-armor-Wolf_Boots.png"
+  },
+  "bm wolf cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Wolf_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/9/9a/BM-icon-armor-Wolf_Cuirass.png"
+  },
+  "bm wolf greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Wolf_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/a/a9/BM-icon-armor-Wolf_Greaves.png"
+  },
+  "bm wolf helmet": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Wolf_Helmet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/2/21/BM-icon-armor-Wolf_Helmet.png"
+  },
+  "bm wolf left gauntlet": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Wolf_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/1/13/BM-icon-armor-Wolf_Gauntlet.png"
+  },
+  "bm wolf left pauldron": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Wolf_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/c/cb/BM-icon-armor-Wolf_Pauldron.png"
+  },
+  "bm wolf right gauntlet": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Wolf_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/1/13/BM-icon-armor-Wolf_Gauntlet.png"
+  },
+  "bm wolf right pauldron": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Wolf_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/c/cb/BM-icon-armor-Wolf_Pauldron.png"
+  },
+  "bm wolf shield": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Wolf_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/d/d8/BM-icon-armor-Wolf_Shield.png"
+  },
+  "bm_ice minion_shield1": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Riekling_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/2/2f/BM-icon-armor-Riekling_Shield.png"
+  },
+  "bm_nordic01_glovel": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Hand.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/b/ba/BM-Icon-Common_Nordic01_Hand.png"
+  },
+  "bm_nordic01_glover": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Hand.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/b/ba/BM-Icon-Common_Nordic01_Hand.png"
+  },
+  "bm_nordic01_pants": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Pants.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/6/64/BM-Icon-Common_Nordic01_Pants.png"
+  },
+  "bm_nordic01_robe": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Robe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/4/4d/BM-Icon-Common_Nordic01_Robe.png"
+  },
+  "bm_nordic01_shirt": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Shirt.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/e/ef/BM-Icon-Common_Nordic01_Shirt.png"
+  },
+  "bm_nordic01_shoes": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Foot.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/9/9a/BM-Icon-Common_Nordic01_Foot.png"
+  },
+  "bm_nordic02_glovel": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Hand.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/b/ba/BM-Icon-Common_Nordic01_Hand.png"
+  },
+  "bm_nordic02_glover": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Hand.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/b/ba/BM-Icon-Common_Nordic01_Hand.png"
+  },
+  "bm_nordic02_pants": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Pants.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/6/64/BM-Icon-Common_Nordic01_Pants.png"
+  },
+  "bm_nordic02_shirt": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Shirt.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/e/ef/BM-Icon-Common_Nordic01_Shirt.png"
+  },
+  "bm_nordic02_shoes": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Foot.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/9/9a/BM-Icon-Common_Nordic01_Foot.png"
+  },
+  "bm_nordicmail_boots": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Nordic_Mail_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/5/5f/BM-icon-armor-Nordic_Mail_Boots.png"
+  },
+  "bm_nordicmail_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Nordic_Mail_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/a/a5/BM-icon-armor-Nordic_Mail_Cuirass.png"
+  },
+  "bm_nordicmail_gauntletl": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Nordic_Mail_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/0/01/BM-icon-armor-Nordic_Mail_Gauntlet.png"
+  },
+  "bm_nordicmail_gauntletr": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Nordic_Mail_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/0/01/BM-icon-armor-Nordic_Mail_Gauntlet.png"
+  },
+  "bm_nordicmail_greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Nordic_Mail_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/2/2f/BM-icon-armor-Nordic_Mail_Greaves.png"
+  },
+  "bm_nordicmail_helmet": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Nordic_Mail_Helmet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/f/f2/BM-icon-armor-Nordic_Mail_Helmet.png"
+  },
+  "bm_nordicmail_pauldronl": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Nordic_Mail_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/d/db/BM-icon-armor-Nordic_Mail_Pauldron.png"
+  },
+  "bm_nordicmail_pauldronr": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Nordic_Mail_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/d/db/BM-icon-armor-Nordic_Mail_Pauldron.png"
+  },
+  "bm_nordicmail_shield": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Nordic_Mail_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",
+    "url": "https://images.uesp.net/4/40/BM-icon-armor-Nordic_Mail_Shield.png"
+  },
+  "bm_wool01_glovel": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Wool01_Hand.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/0/01/BM-Icon-Common_Wool01_Hand.png"
+  },
+  "bm_wool01_glover": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Wool01_Hand.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/0/01/BM-Icon-Common_Wool01_Hand.png"
+  },
+  "bm_wool01_pants": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Pants.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/6/64/BM-Icon-Common_Nordic01_Pants.png"
+  },
+  "bm_wool01_robe": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Robe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/4/4d/BM-Icon-Common_Nordic01_Robe.png"
+  },
+  "bm_wool01_shirt": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Shirt.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/e/ef/BM-Icon-Common_Nordic01_Shirt.png"
+  },
+  "bm_wool01_shoes": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Foot.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/9/9a/BM-Icon-Common_Nordic01_Foot.png"
+  },
+  "bm_wool02_glovel": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Wool01_Hand.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/0/01/BM-Icon-Common_Wool01_Hand.png"
+  },
+  "bm_wool02_glover": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Wool01_Hand.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/0/01/BM-Icon-Common_Wool01_Hand.png"
+  },
+  "bm_wool02_pants": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Pants.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/6/64/BM-Icon-Common_Nordic01_Pants.png"
+  },
+  "bm_wool02_shirt": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Shirt.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/e/ef/BM-Icon-Common_Nordic01_Shirt.png"
+  },
+  "bm_wool02_shoes": {
+    "filePage": "https://en.uesp.net/wiki/File:BM-Icon-Common_Nordic01_Foot.png",
+    "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Clothing",
+    "url": "https://images.uesp.net/9/9a/BM-Icon-Common_Nordic01_Foot.png"
+  },
+  "bonemold arrow": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Bonemold_Arrow.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/a/a7/MW-icon-weapon-Bonemold_Arrow.png"
+  },
+  "bonemold bolt": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Bonemold_Bolt.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/3/30/MW-icon-weapon-Bonemold_Bolt.png"
+  },
+  "bonemold long bow": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Bonemold_Long_Bow.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/d/de/MW-icon-weapon-Bonemold_Long_Bow.png"
+  },
+  "bonemold_boots": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Bonemold_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/c/cd/MW-icon-armor-Bonemold_Boots.png"
+  },
+  "bonemold_bracer_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Bonemold_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/6e/MW-icon-armor-Bonemold_Bracer.png"
+  },
+  "bonemold_bracer_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Bonemold_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/6e/MW-icon-armor-Bonemold_Bracer.png"
+  },
+  "bonemold_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Bonemold_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/9/96/MW-icon-armor-Bonemold_Cuirass.png"
+  },
+  "bonemold_greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Bonemold_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/a/a4/MW-icon-armor-Bonemold_Greaves.png"
+  },
+  "bonemold_helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Bonemold_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/a/ac/MW-icon-armor-Bonemold_Helm.png"
+  },
+  "bonemold_pauldron_l": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Bonemold_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/0/09/MW-icon-armor-Bonemold_Pauldron.png"
+  },
+  "bonemold_pauldron_r": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Bonemold_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/0/09/MW-icon-armor-Bonemold_Pauldron.png"
+  },
+  "bonemold_shield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Bonemold_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/3/36/MW-icon-armor-Bonemold_Shield.png"
+  },
+  "bonemold_towershield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Bonemold_Tower_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/d/df/MW-icon-armor-Bonemold_Tower_Shield.png"
+  },
+  "centurion_projectile_dart": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-weapon-Dwarven_Dart.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Weapons",
+    "url": "https://images.uesp.net/f/f9/TR-icon-weapon-Dwarven_Dart.png"
+  },
+  "chitin arrow": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Chitin_Arrow.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/5/5d/MW-icon-weapon-Chitin_Arrow.png"
+  },
+  "chitin boots": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Chitin_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/2/20/MW-icon-armor-Chitin_Boots.png"
+  },
+  "chitin club": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Chitin_Club.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/1/1c/MW-icon-weapon-Chitin_Club.png"
+  },
+  "chitin cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Chitin_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/f/f8/MW-icon-armor-Chitin_Cuirass.png"
+  },
+  "chitin dagger": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Chitin_Dagger.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/5/56/MW-icon-weapon-Chitin_Dagger.png"
+  },
+  "chitin greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Chitin_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/0/02/MW-icon-armor-Chitin_Greaves.png"
+  },
+  "chitin helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Chitin_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/f/f3/MW-icon-armor-Chitin_Helm.png"
+  },
+  "chitin pauldron - left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Chitin_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/5/5b/MW-icon-armor-Chitin_Pauldron.png"
+  },
+  "chitin pauldron - right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Chitin_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/5/5b/MW-icon-armor-Chitin_Pauldron.png"
+  },
+  "chitin short bow": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Chitin_Short_Bow.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/0/03/MW-icon-weapon-Chitin_Short_Bow.png"
+  },
+  "chitin shortsword": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Chitin_Shortsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/6/69/MW-icon-weapon-Chitin_Shortsword.png"
+  },
+  "chitin spear": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Chitin_Spear.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/4/4c/MW-icon-weapon-Chitin_Spear.png"
+  },
+  "chitin throwing star": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Chitin_Throwing_Star.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/9/95/MW-icon-weapon-Chitin_Throwing_Star.png"
+  },
+  "chitin war axe": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Chitin_War_Axe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/1/1b/MW-icon-weapon-Chitin_War_Axe.png"
+  },
+  "chitin_shield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Chitin_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/9/9d/MW-icon-armor-Chitin_Shield.png"
+  },
+  "chitin_towershield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Chitin_Tower_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/e/e9/MW-icon-armor-Chitin_Tower_Shield.png"
+  },
+  "cloth bracer left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Cloth_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/b/b6/MW-icon-armor-Cloth_Bracer.png"
+  },
+  "cloth bracer right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Cloth_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/b/b6/MW-icon-armor-Cloth_Bracer.png"
+  },
+  "common_amulet_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Common_Amulet_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/4/40/MW-icon-jewelry-Common_Amulet_01.png"
+  },
+  "common_amulet_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Common_Amulet_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/4/40/MW-icon-jewelry-Common_Amulet_01.png"
+  },
+  "common_amulet_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Common_Amulet_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/4/40/MW-icon-jewelry-Common_Amulet_01.png"
+  },
+  "common_amulet_04": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Common_Amulet_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/4/40/MW-icon-jewelry-Common_Amulet_01.png"
+  },
+  "common_amulet_05": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Common_Amulet_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/4/40/MW-icon-jewelry-Common_Amulet_01.png"
+  },
+  "common_belt_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Belt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/1/1c/MW-icon-clothing-Common_Belt_01.png"
+  },
+  "common_belt_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Belt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/1/1c/MW-icon-clothing-Common_Belt_01.png"
+  },
+  "common_belt_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Belt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/1/1c/MW-icon-clothing-Common_Belt_01.png"
+  },
+  "common_belt_04": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Belt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/1/1c/MW-icon-clothing-Common_Belt_01.png"
+  },
+  "common_belt_05": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Belt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/1/1c/MW-icon-clothing-Common_Belt_01.png"
+  },
+  "common_glove_left_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Glove.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/63/MW-icon-clothing-Common_Glove.png"
+  },
+  "common_glove_right_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Glove.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/63/MW-icon-clothing-Common_Glove.png"
+  },
+  "common_pants_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c1/MW-icon-clothing-Common_Pants_01.png"
+  },
+  "common_pants_01_a": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c1/MW-icon-clothing-Common_Pants_01.png"
+  },
+  "common_pants_01_e": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c1/MW-icon-clothing-Common_Pants_01.png"
+  },
+  "common_pants_01_u": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c1/MW-icon-clothing-Common_Pants_01.png"
+  },
+  "common_pants_01_z": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c1/MW-icon-clothing-Common_Pants_01.png"
+  },
+  "common_pants_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c1/MW-icon-clothing-Common_Pants_01.png"
+  },
+  "common_pants_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c1/MW-icon-clothing-Common_Pants_01.png"
+  },
+  "common_pants_03_b": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c1/MW-icon-clothing-Common_Pants_01.png"
+  },
+  "common_pants_03_c": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c1/MW-icon-clothing-Common_Pants_01.png"
+  },
+  "common_pants_04": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c1/MW-icon-clothing-Common_Pants_01.png"
+  },
+  "common_pants_04_b": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c1/MW-icon-clothing-Common_Pants_01.png"
+  },
+  "common_pants_05": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c1/MW-icon-clothing-Common_Pants_01.png"
+  },
+  "common_pants_06": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Clothing",
+    "url": "https://images.uesp.net/7/72/TR-icon-clothing-Common_Pants_01.png"
+  },
+  "common_pants_07": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-clothing-Common_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Clothing",
+    "url": "https://images.uesp.net/7/72/TR-icon-clothing-Common_Pants_01.png"
+  },
+  "common_ring_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Common_Ring_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/74/MW-icon-jewelry-Common_Ring_01.png"
+  },
+  "common_ring_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Common_Ring_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/74/MW-icon-jewelry-Common_Ring_01.png"
+  },
+  "common_ring_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Common_Ring_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/74/MW-icon-jewelry-Common_Ring_01.png"
+  },
+  "common_ring_04": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Common_Ring_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/74/MW-icon-jewelry-Common_Ring_01.png"
+  },
+  "common_ring_05": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Common_Ring_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/74/MW-icon-jewelry-Common_Ring_01.png"
+  },
+  "common_robe_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/66/MW-icon-clothing-Common_Robe_01.png"
+  },
+  "common_robe_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/66/MW-icon-clothing-Common_Robe_01.png"
+  },
+  "common_robe_02_h": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/66/MW-icon-clothing-Common_Robe_01.png"
+  },
+  "common_robe_02_r": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/66/MW-icon-clothing-Common_Robe_01.png"
+  },
+  "common_robe_02_t": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/66/MW-icon-clothing-Common_Robe_01.png"
+  },
+  "common_robe_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/66/MW-icon-clothing-Common_Robe_01.png"
+  },
+  "common_robe_03_a": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/66/MW-icon-clothing-Common_Robe_01.png"
+  },
+  "common_robe_03_b": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/66/MW-icon-clothing-Common_Robe_01.png"
+  },
+  "common_robe_04": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/66/MW-icon-clothing-Common_Robe_01.png"
+  },
+  "common_robe_05": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/66/MW-icon-clothing-Common_Robe_01.png"
+  },
+  "common_robe_05_a": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/66/MW-icon-clothing-Common_Robe_01.png"
+  },
+  "common_robe_05_b": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/66/MW-icon-clothing-Common_Robe_01.png"
+  },
+  "common_robe_05_c": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/66/MW-icon-clothing-Common_Robe_01.png"
+  },
+  "common_shirt_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_01_a": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_01_e": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_01_u": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_01_z": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_02_h": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_02_r": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_02_t": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_03_b": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_03_c": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_04": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_04_a": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_04_b": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_04_c": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_05": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/a2/MW-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_06": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Clothing",
+    "url": "https://images.uesp.net/7/78/TR-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shirt_07": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-clothing-Common_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Clothing",
+    "url": "https://images.uesp.net/7/78/TR-icon-clothing-Common_Shirt_01.png"
+  },
+  "common_shoes_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shoes_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f9/MW-icon-clothing-Common_Shoes_01.png"
+  },
+  "common_shoes_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shoes_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f9/MW-icon-clothing-Common_Shoes_01.png"
+  },
+  "common_shoes_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shoes_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f9/MW-icon-clothing-Common_Shoes_01.png"
+  },
+  "common_shoes_04": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shoes_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f9/MW-icon-clothing-Common_Shoes_01.png"
+  },
+  "common_shoes_05": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Shoes_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f9/MW-icon-clothing-Common_Shoes_01.png"
+  },
+  "common_shoes_06": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-clothing-Common_Shoes_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Clothing",
+    "url": "https://images.uesp.net/3/34/TR-icon-clothing-Common_Shoes_01.png"
+  },
+  "common_shoes_07": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-clothing-Common_Shoes_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Clothing",
+    "url": "https://images.uesp.net/3/34/TR-icon-clothing-Common_Shoes_01.png"
+  },
+  "common_skirt_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/4/43/MW-icon-clothing-Common_Skirt_01.png"
+  },
+  "common_skirt_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/4/43/MW-icon-clothing-Common_Skirt_01.png"
+  },
+  "common_skirt_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/4/43/MW-icon-clothing-Common_Skirt_01.png"
+  },
+  "common_skirt_04": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/4/43/MW-icon-clothing-Common_Skirt_01.png"
+  },
+  "common_skirt_04_c": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/4/43/MW-icon-clothing-Common_Skirt_01.png"
+  },
+  "common_skirt_05": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Common_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/4/43/MW-icon-clothing-Common_Skirt_01.png"
+  },
+  "common_skirt_06": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-clothing-Common_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Clothing",
+    "url": "https://images.uesp.net/b/b5/TR-icon-clothing-Common_Skirt_01.png"
+  },
+  "common_skirt_07": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-clothing-Common_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Clothing",
+    "url": "https://images.uesp.net/b/b5/TR-icon-clothing-Common_Skirt_01.png"
+  },
+  "corkbulb bolt": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Corkbulb_Bolt.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/4/42/MW-icon-weapon-Corkbulb_Bolt.png"
+  },
+  "darkbrotherhood boots": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-armor-Dark_Brotherhood_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Dark_Brotherhood_Armor",
+    "url": "https://images.uesp.net/b/b2/TR-icon-armor-Dark_Brotherhood_Boots.png"
+  },
+  "darkbrotherhood cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-armor-Dark_Brotherhood_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Dark_Brotherhood_Armor",
+    "url": "https://images.uesp.net/e/ea/TR-icon-armor-Dark_Brotherhood_Cuirass.png"
+  },
+  "darkbrotherhood gauntlet_l": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-armor-Dark_Brotherhood_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Dark_Brotherhood_Armor",
+    "url": "https://images.uesp.net/3/34/TR-icon-armor-Dark_Brotherhood_Gauntlet.png"
+  },
+  "darkbrotherhood gauntlet_r": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-armor-Dark_Brotherhood_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Dark_Brotherhood_Armor",
+    "url": "https://images.uesp.net/3/34/TR-icon-armor-Dark_Brotherhood_Gauntlet.png"
+  },
+  "darkbrotherhood greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-armor-Dark_Brotherhood_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Dark_Brotherhood_Armor",
+    "url": "https://images.uesp.net/a/ab/TR-icon-armor-Dark_Brotherhood_Greaves.png"
+  },
+  "darkbrotherhood helm": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-armor-Dark_Brotherhood_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Dark_Brotherhood_Armor",
+    "url": "https://images.uesp.net/9/9e/TR-icon-armor-Dark_Brotherhood_Helm.png"
+  },
+  "darkbrotherhood pauldron_l": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-armor-Dark_Brotherhood_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Dark_Brotherhood_Armor",
+    "url": "https://images.uesp.net/6/68/TR-icon-armor-Dark_Brotherhood_Pauldron.png"
+  },
+  "darkbrotherhood pauldron_r": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-armor-Dark_Brotherhood_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Dark_Brotherhood_Armor",
+    "url": "https://images.uesp.net/6/68/TR-icon-armor-Dark_Brotherhood_Pauldron.png"
+  },
+  "dreugh club": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Dreugh_Club.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/2/2b/MW-icon-weapon-Dreugh_Club.png"
+  },
+  "dreugh staff": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Dreugh_Staff.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/c/cb/MW-icon-weapon-Dreugh_Staff.png"
+  },
+  "dreugh_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Dreugh_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/5/5f/MW-icon-armor-Dreugh_Cuirass.png"
+  },
+  "dreugh_helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Dreugh_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/9/91/MW-icon-armor-Dreugh_Helm.png"
+  },
+  "dreugh_shield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Dreugh_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/0/07/MW-icon-armor-Dreugh_Shield.png"
+  },
+  "dwarven battle axe": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Dwarven_Battle_Axe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/c/cd/MW-icon-weapon-Dwarven_Battle_Axe.png"
+  },
+  "dwarven claymore": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Dwarven_Claymore.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/b/b7/MW-icon-weapon-Dwarven_Claymore.png"
+  },
+  "dwarven crossbow": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Dwarven_Crossbow.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/3/30/MW-icon-weapon-Dwarven_Crossbow.png"
+  },
+  "dwarven halberd": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Dwarven_Halberd.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/9/90/MW-icon-weapon-Dwarven_Halberd.png"
+  },
+  "dwarven mace": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Dwarven_Mace.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/7/79/MW-icon-weapon-Dwarven_Mace.png"
+  },
+  "dwarven shortsword": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Dwarven_Shortsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/3/32/MW-icon-weapon-Dwarven_Shortsword.png"
+  },
+  "dwarven spear": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Dwarven_Spear.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/f/f9/MW-icon-weapon-Dwarven_Spear.png"
+  },
+  "dwarven war axe": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Dwarven_War_Axe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/2/2a/MW-icon-weapon-Dwarven_War_Axe.png"
+  },
+  "dwarven warhammer": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Dwarven_Warhammer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/b/be/MW-icon-weapon-Dwarven_Warhammer.png"
+  },
+  "dwemer_boots": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Dwemer_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/0/07/MW-icon-armor-Dwemer_Boots.png"
+  },
+  "dwemer_bracer_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Dwemer_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/a/a5/MW-icon-armor-Dwemer_Bracer.png"
+  },
+  "dwemer_bracer_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Dwemer_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/a/a5/MW-icon-armor-Dwemer_Bracer.png"
+  },
+  "dwemer_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Dwemer_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/a/a5/MW-icon-armor-Dwemer_Cuirass.png"
+  },
+  "dwemer_greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Dwemer_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/64/MW-icon-armor-Dwemer_Greaves.png"
+  },
+  "dwemer_helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Dwemer_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/d/d4/MW-icon-armor-Dwemer_Helm.png"
+  },
+  "dwemer_pauldron_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Dwemer_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/6d/MW-icon-armor-Dwemer_Pauldron.png"
+  },
+  "dwemer_pauldron_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Dwemer_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/6d/MW-icon-armor-Dwemer_Pauldron.png"
+  },
+  "dwemer_shield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Dwemer_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/7/73/MW-icon-armor-Dwemer_Shield.png"
+  },
+  "ebony scimitar": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-weapon-Ebony_Scimitar.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Weapons",
+    "url": "https://images.uesp.net/3/3c/TR-icon-weapon-Ebony_Scimitar.png"
+  },
+  "expensive_amulet_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Expensive_Amulet_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/d/d3/MW-icon-jewelry-Expensive_Amulet_01.png"
+  },
+  "expensive_amulet_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Expensive_Amulet_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/d/d3/MW-icon-jewelry-Expensive_Amulet_01.png"
+  },
+  "expensive_amulet_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Expensive_Amulet_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/d/d3/MW-icon-jewelry-Expensive_Amulet_01.png"
+  },
+  "expensive_belt_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Belt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/e/e9/MW-icon-clothing-Expensive_Belt_01.png"
+  },
+  "expensive_belt_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Belt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/e/e9/MW-icon-clothing-Expensive_Belt_01.png"
+  },
+  "expensive_belt_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Belt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/e/e9/MW-icon-clothing-Expensive_Belt_01.png"
+  },
+  "expensive_glove_left_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Glove.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/0/01/MW-icon-clothing-Expensive_Glove.png"
+  },
+  "expensive_glove_right_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Glove.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/0/01/MW-icon-clothing-Expensive_Glove.png"
+  },
+  "expensive_pants_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f7/MW-icon-clothing-Expensive_Pants_01.png"
+  },
+  "expensive_pants_01_a": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f7/MW-icon-clothing-Expensive_Pants_01.png"
+  },
+  "expensive_pants_01_e": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f7/MW-icon-clothing-Expensive_Pants_01.png"
+  },
+  "expensive_pants_01_u": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f7/MW-icon-clothing-Expensive_Pants_01.png"
+  },
+  "expensive_pants_01_z": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f7/MW-icon-clothing-Expensive_Pants_01.png"
+  },
+  "expensive_pants_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f7/MW-icon-clothing-Expensive_Pants_01.png"
+  },
+  "expensive_pants_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f7/MW-icon-clothing-Expensive_Pants_01.png"
+  },
+  "expensive_pants_mournhold": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-clothing-Mournhold_Pants.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Clothing",
+    "url": "https://images.uesp.net/4/42/TR-icon-clothing-Mournhold_Pants.png"
+  },
+  "expensive_ring_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Expensive_Ring_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/9/99/MW-icon-jewelry-Expensive_Ring_01.png"
+  },
+  "expensive_ring_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Expensive_Ring_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/9/99/MW-icon-jewelry-Expensive_Ring_01.png"
+  },
+  "expensive_ring_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Expensive_Ring_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/9/99/MW-icon-jewelry-Expensive_Ring_01.png"
+  },
+  "expensive_robe_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/74/MW-icon-clothing-Expensive_Robe_01.png"
+  },
+  "expensive_robe_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/74/MW-icon-clothing-Expensive_Robe_01.png"
+  },
+  "expensive_robe_02_a": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/74/MW-icon-clothing-Expensive_Robe_01.png"
+  },
+  "expensive_robe_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/74/MW-icon-clothing-Expensive_Robe_01.png"
+  },
+  "expensive_shirt_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/71/MW-icon-clothing-Expensive_Shirt_01.png"
+  },
+  "expensive_shirt_01_a": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/71/MW-icon-clothing-Expensive_Shirt_01.png"
+  },
+  "expensive_shirt_01_e": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/71/MW-icon-clothing-Expensive_Shirt_01.png"
+  },
+  "expensive_shirt_01_u": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/71/MW-icon-clothing-Expensive_Shirt_01.png"
+  },
+  "expensive_shirt_01_z": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/71/MW-icon-clothing-Expensive_Shirt_01.png"
+  },
+  "expensive_shirt_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/71/MW-icon-clothing-Expensive_Shirt_01.png"
+  },
+  "expensive_shirt_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/71/MW-icon-clothing-Expensive_Shirt_01.png"
+  },
+  "expensive_shirt_mournhold": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-clothing-Mournhold_Shirt.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Clothing",
+    "url": "https://images.uesp.net/a/ad/TR-icon-clothing-Mournhold_Shirt.png"
+  },
+  "expensive_shoes_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Shoes_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/e/ee/MW-icon-clothing-Expensive_Shoes_01.png"
+  },
+  "expensive_shoes_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Shoes_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/e/ee/MW-icon-clothing-Expensive_Shoes_01.png"
+  },
+  "expensive_shoes_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Shoes_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/e/ee/MW-icon-clothing-Expensive_Shoes_01.png"
+  },
+  "expensive_shoes_mournhold": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-clothing-Mournhold_Shoes.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Clothing",
+    "url": "https://images.uesp.net/f/f0/TR-icon-clothing-Mournhold_Shoes.png"
+  },
+  "expensive_skirt_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/9/94/MW-icon-clothing-Expensive_Skirt_01.png"
+  },
+  "expensive_skirt_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/9/94/MW-icon-clothing-Expensive_Skirt_01.png"
+  },
+  "expensive_skirt_03": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Expensive_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/9/94/MW-icon-clothing-Expensive_Skirt_01.png"
+  },
+  "expensive_skirt_mournhold": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-clothing-Mournhold_Skirt.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Clothing",
+    "url": "https://images.uesp.net/2/2c/TR-icon-clothing-Mournhold_Skirt.png"
+  },
+  "exquisite_amulet_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Exquisite_Amulet_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/62/MW-icon-jewelry-Exquisite_Amulet_01.png"
+  },
+  "exquisite_belt_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Exquisite_Belt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/7/7a/MW-icon-clothing-Exquisite_Belt_01.png"
+  },
+  "exquisite_pants_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Exquisite_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/b/b3/MW-icon-clothing-Exquisite_Pants_01.png"
+  },
+  "exquisite_ring_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Exquisite_Ring_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/5/5c/MW-icon-jewelry-Exquisite_Ring_01.png"
+  },
+  "exquisite_ring_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Exquisite_Ring_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/5/5c/MW-icon-jewelry-Exquisite_Ring_01.png"
+  },
+  "exquisite_robe_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Exquisite_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/9/9f/MW-icon-clothing-Exquisite_Robe_01.png"
+  },
+  "exquisite_shirt_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Exquisite_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/b/b0/MW-icon-clothing-Exquisite_Shirt_01.png"
+  },
+  "exquisite_shoes_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Exquisite_Shoes_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/d/d8/MW-icon-clothing-Exquisite_Shoes_01.png"
+  },
+  "exquisite_skirt_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Exquisite_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/6/6b/MW-icon-clothing-Exquisite_Skirt_01.png"
+  },
+  "extravagant_amulet_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Extravagant_Amulet_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/ce/MW-icon-jewelry-Extravagant_Amulet_01.png"
+  },
+  "extravagant_amulet_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Extravagant_Amulet_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/ce/MW-icon-jewelry-Extravagant_Amulet_01.png"
+  },
+  "extravagant_belt_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Belt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/3/34/MW-icon-clothing-Extravagant_Belt_01.png"
+  },
+  "extravagant_belt_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Belt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/3/34/MW-icon-clothing-Extravagant_Belt_01.png"
+  },
+  "extravagant_glove_left_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Glove.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/2/2f/MW-icon-clothing-Extravagant_Glove.png"
+  },
+  "extravagant_glove_right_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Glove.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/2/2f/MW-icon-clothing-Extravagant_Glove.png"
+  },
+  "extravagant_pants_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f3/MW-icon-clothing-Extravagant_Pants_01.png"
+  },
+  "extravagant_pants_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Pants_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/f/f3/MW-icon-clothing-Extravagant_Pants_01.png"
+  },
+  "extravagant_ring_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Extravagant_Ring_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c0/MW-icon-jewelry-Extravagant_Ring_01.png"
+  },
+  "extravagant_ring_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-jewelry-Extravagant_Ring_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/c/c0/MW-icon-jewelry-Extravagant_Ring_01.png"
+  },
+  "extravagant_robe_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/2/28/MW-icon-clothing-Extravagant_Robe_01.png"
+  },
+  "extravagant_robe_01_a": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/2/28/MW-icon-clothing-Extravagant_Robe_01.png"
+  },
+  "extravagant_robe_01_b": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/2/28/MW-icon-clothing-Extravagant_Robe_01.png"
+  },
+  "extravagant_robe_01_c": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/2/28/MW-icon-clothing-Extravagant_Robe_01.png"
+  },
+  "extravagant_robe_01_h": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/2/28/MW-icon-clothing-Extravagant_Robe_01.png"
+  },
+  "extravagant_robe_01_r": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/2/28/MW-icon-clothing-Extravagant_Robe_01.png"
+  },
+  "extravagant_robe_01_t": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/2/28/MW-icon-clothing-Extravagant_Robe_01.png"
+  },
+  "extravagant_robe_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Robe_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/2/28/MW-icon-clothing-Extravagant_Robe_01.png"
+  },
+  "extravagant_shirt_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/1/1f/MW-icon-clothing-Extravagant_Shirt_01.png"
+  },
+  "extravagant_shirt_01_h": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/1/1f/MW-icon-clothing-Extravagant_Shirt_01.png"
+  },
+  "extravagant_shirt_01_r": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/1/1f/MW-icon-clothing-Extravagant_Shirt_01.png"
+  },
+  "extravagant_shirt_01_t": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/1/1f/MW-icon-clothing-Extravagant_Shirt_01.png"
+  },
+  "extravagant_shirt_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Shirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/1/1f/MW-icon-clothing-Extravagant_Shirt_01.png"
+  },
+  "extravagant_shoes_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Shoes_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/ab/MW-icon-clothing-Extravagant_Shoes_01.png"
+  },
+  "extravagant_shoes_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Shoes_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/a/ab/MW-icon-clothing-Extravagant_Shoes_01.png"
+  },
+  "extravagant_skirt_01": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/9/9a/MW-icon-clothing-Extravagant_Skirt_01.png"
+  },
+  "extravagant_skirt_02": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-clothing-Extravagant_Skirt_01.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Clothing",
+    "url": "https://images.uesp.net/9/9a/MW-icon-clothing-Extravagant_Skirt_01.png"
+  },
+  "fine spring dart": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Dart.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Weapons",
+    "url": "https://images.uesp.net/f/f8/MW-icon-weapon-Steel_Dart.png"
+  },
+  "fur_bearskin_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Bearskin_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/5/50/MW-icon-armor-Nordic_Bearskin_Cuirass.png"
+  },
+  "fur_boots": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Fur_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/5/50/MW-icon-armor-Nordic_Fur_Boots.png"
+  },
+  "fur_bracer_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Fur_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/1/15/MW-icon-armor-Nordic_Fur_Bracer.png"
+  },
+  "fur_bracer_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Fur_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/1/15/MW-icon-armor-Nordic_Fur_Bracer.png"
+  },
+  "fur_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Fur_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/f/f8/MW-icon-armor-Nordic_Fur_Cuirass.png"
+  },
+  "fur_gauntlet_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Fur_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/e/e7/MW-icon-armor-Nordic_Fur_Gauntlet.png"
+  },
+  "fur_gauntlet_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Fur_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/e/e7/MW-icon-armor-Nordic_Fur_Gauntlet.png"
+  },
+  "fur_greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Fur_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/3/32/MW-icon-armor-Nordic_Fur_Greaves.png"
+  },
+  "fur_helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Fur_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/c/c3/MW-icon-armor-Nordic_Fur_Helm.png"
+  },
+  "fur_pauldron_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Fur_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/a/a1/MW-icon-armor-Nordic_Fur_Pauldron.png"
+  },
+  "fur_pauldron_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Fur_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/a/a1/MW-icon-armor-Nordic_Fur_Pauldron.png"
+  },
+  "glass_boots": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Glass_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/4/4b/MW-icon-armor-Glass_Boots.png"
+  },
+  "glass_bracer_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Glass_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/5/5a/MW-icon-armor-Glass_Bracer.png"
+  },
+  "glass_bracer_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Glass_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/5/5a/MW-icon-armor-Glass_Bracer.png"
+  },
+  "glass_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Glass_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/2/21/MW-icon-armor-Glass_Cuirass.png"
+  },
+  "glass_greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Glass_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/3/30/MW-icon-armor-Glass_Greaves.png"
+  },
+  "glass_helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Glass_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/a/a7/MW-icon-armor-Glass_Helm.png"
+  },
+  "glass_pauldron_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Glass_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/68/MW-icon-armor-Glass_Pauldron.png"
+  },
+  "glass_pauldron_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Glass_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/68/MW-icon-armor-Glass_Pauldron.png"
+  },
+  "glass_shield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Glass_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/d/d0/MW-icon-armor-Glass_Shield.png"
+  },
+  "glass_towershield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Glass_Tower_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/0/02/MW-icon-armor-Glass_Tower_Shield.png"
+  },
+  "goblin_club": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-weapon-Goblin_Club.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Weapons",
+    "url": "https://images.uesp.net/8/8c/TR-icon-weapon-Goblin_Club.png"
+  },
+  "goblin_sword": {
+    "filePage": "https://en.uesp.net/wiki/File:TR-icon-weapon-Goblin_Sword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Weapons",
+    "url": "https://images.uesp.net/5/56/TR-icon-weapon-Goblin_Sword.png"
+  },
+  "imperial boots": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Steel_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/9/9d/MW-icon-armor-Imperial_Steel_Boots.png"
+  },
+  "imperial broadsword": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Imperial_Broadsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/c/c3/MW-icon-weapon-Imperial_Broadsword.png"
+  },
+  "imperial cuirass_armor": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Steel_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/5/54/MW-icon-armor-Imperial_Steel_Cuirass.png"
+  },
+  "imperial helmet armor": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Steel_Helmet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/7/7b/MW-icon-armor-Imperial_Steel_Helmet.png"
+  },
+  "imperial left gauntlet": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Steel_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/3/3f/MW-icon-armor-Imperial_Steel_Gauntlet.png"
+  },
+  "imperial left pauldron": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Steel_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/e/e9/MW-icon-armor-Imperial_Steel_Pauldron.png"
+  },
+  "imperial right gauntlet": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Steel_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/3/3f/MW-icon-armor-Imperial_Steel_Gauntlet.png"
+  },
+  "imperial right pauldron": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Steel_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/e/e9/MW-icon-armor-Imperial_Steel_Pauldron.png"
+  },
+  "imperial shield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/e/e4/MW-icon-armor-Imperial_Shield.png"
+  },
+  "imperial shortsword": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Imperial_Shortsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/4/49/MW-icon-weapon-Imperial_Shortsword.png"
+  },
+  "imperial_chain_coif_helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Chain_Coif.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/4/47/MW-icon-armor-Imperial_Chain_Coif.png"
+  },
+  "imperial_chain_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Chain_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/a/a9/MW-icon-armor-Imperial_Chain_Cuirass.png"
+  },
+  "imperial_chain_greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Chain_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/5/54/MW-icon-armor-Imperial_Chain_Greaves.png"
+  },
+  "imperial_chain_pauldron_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Chain_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/9/9f/MW-icon-armor-Imperial_Chain_Pauldron.png"
+  },
+  "imperial_chain_pauldron_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Chain_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/9/9f/MW-icon-armor-Imperial_Chain_Pauldron.png"
+  },
+  "imperial_greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Steel_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/c/cc/MW-icon-armor-Imperial_Steel_Greaves.png"
+  },
+  "imperial_studded_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Studded_Leather_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/5/58/MW-icon-armor-Imperial_Studded_Leather_Cuirass.png"
+  },
+  "iron arrow": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Arrow.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/a/a8/MW-icon-weapon-Iron_Arrow.png"
+  },
+  "iron battle axe": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Battle_Axe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/e/e9/MW-icon-weapon-Iron_Battle_Axe.png"
+  },
+  "iron bolt": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Bolt.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/2/23/MW-icon-weapon-Iron_Bolt.png"
+  },
+  "iron boots": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Iron_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/2/23/MW-icon-armor-Iron_Boots.png"
+  },
+  "iron broadsword": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Broadsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/e/e7/MW-icon-weapon-Iron_Broadsword.png"
+  },
+  "iron claymore": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Claymore.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/0/07/MW-icon-weapon-Iron_Claymore.png"
+  },
+  "iron club": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Club.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/1/1a/MW-icon-weapon-Iron_Club.png"
+  },
+  "iron dagger": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Dagger.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/d/da/MW-icon-weapon-Iron_Dagger.png"
+  },
+  "iron halberd": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Halberd.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/a/ae/MW-icon-weapon-Iron_Halberd.png"
+  },
+  "iron long spear": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Spear.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/2/2a/MW-icon-weapon-Iron_Spear.png"
+  },
+  "iron longsword": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Longsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/2/27/MW-icon-weapon-Iron_Longsword.png"
+  },
+  "iron mace": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Mace.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/5/5a/MW-icon-weapon-Iron_Mace.png"
+  },
+  "iron saber": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Saber.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/5/5a/MW-icon-weapon-Iron_Saber.png"
+  },
+  "iron shortsword": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Shortsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/7/70/MW-icon-weapon-Iron_Shortsword.png"
+  },
+  "iron spear": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Spear.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/2/2a/MW-icon-weapon-Iron_Spear.png"
+  },
+  "iron tanto": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Tanto.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/c/cf/MW-icon-weapon-Iron_Tanto.png"
+  },
+  "iron throwing knife": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Throwing_Knife.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/4/42/MW-icon-weapon-Iron_Throwing_Knife.png"
+  },
+  "iron wakizashi": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Wakizashi.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/1/15/MW-icon-weapon-Iron_Wakizashi.png"
+  },
+  "iron war axe": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_War_Axe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/5/5e/MW-icon-weapon-Iron_War_Axe.png"
+  },
+  "iron warhammer": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Iron_Warhammer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/e/e9/MW-icon-weapon-Iron_Warhammer.png"
+  },
+  "iron_bracer_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Iron_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/2/2c/MW-icon-armor-Iron_Bracer.png"
+  },
+  "iron_bracer_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Iron_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/2/2c/MW-icon-armor-Iron_Bracer.png"
+  },
+  "iron_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Iron_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/6e/MW-icon-armor-Iron_Cuirass.png"
+  },
+  "iron_gauntlet_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Iron_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/d/de/MW-icon-armor-Iron_Gauntlet.png"
+  },
+  "iron_greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Iron_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/b/b8/MW-icon-armor-Iron_Greaves.png"
+  },
+  "iron_helmet": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Iron_Helmet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/4/4d/MW-icon-armor-Iron_Helmet.png"
+  },
+  "iron_pauldron_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Iron_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/b/b9/MW-icon-armor-Iron_Pauldron.png"
+  },
+  "iron_pauldron_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Iron_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/b/b9/MW-icon-armor-Iron_Pauldron.png"
+  },
+  "iron_shield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Iron_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/2/22/MW-icon-armor-Iron_Shield.png"
+  },
+  "iron_towershield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Iron_Tower_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/9/97/MW-icon-armor-Iron_Tower_Shield.png"
+  },
+  "left leather bracer": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Leather_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/2/2e/MW-icon-armor-Leather_Bracer.png"
+  },
+  "long bow": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Long_Bow.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/6/6d/MW-icon-weapon-Long_Bow.png"
+  },
+  "netch_leather_boiled_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Boiled_Netch_Leather_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/d/d3/MW-icon-armor-Boiled_Netch_Leather_Cuirass.png"
+  },
+  "netch_leather_boiled_helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Boiled_Netch_Leather_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/f/f0/MW-icon-armor-Boiled_Netch_Leather_Helm.png"
+  },
+  "netch_leather_boots": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Netch_Leather_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/a/aa/MW-icon-armor-Netch_Leather_Boots.png"
+  },
+  "netch_leather_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Netch_Leather_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/3/3b/MW-icon-armor-Netch_Leather_Cuirass.png"
+  },
+  "netch_leather_gauntlet_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Netch_Leather_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/66/MW-icon-armor-Netch_Leather_Gauntlet.png"
+  },
+  "netch_leather_gauntlet_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Netch_Leather_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/66/MW-icon-armor-Netch_Leather_Gauntlet.png"
+  },
+  "netch_leather_greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Netch_Leather_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/7/74/MW-icon-armor-Netch_Leather_Greaves.png"
+  },
+  "netch_leather_helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Netch_Leather_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/2/20/MW-icon-armor-Netch_Leather_Helm.png"
+  },
+  "netch_leather_pauldron_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Netch_Leather_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/a/af/MW-icon-armor-Netch_Leather_Pauldron.png"
+  },
+  "netch_leather_pauldron_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Netch_Leather_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/a/af/MW-icon-armor-Netch_Leather_Pauldron.png"
+  },
+  "netch_leather_shield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Netch_Leather_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/2/28/MW-icon-armor-Netch_Leather_Shield.png"
+  },
+  "netch_leather_towershield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Netch_Leather_Tower_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/0/06/MW-icon-armor-Netch_Leather_Tower_Shield.png"
+  },
+  "nordic battle axe": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Nordic_Battle_Axe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/8/8e/MW-icon-weapon-Nordic_Battle_Axe.png"
+  },
+  "nordic broadsword": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Nordic_Broadsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/a/a9/MW-icon-weapon-Nordic_Broadsword.png"
+  },
+  "nordic claymore": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Nordic_Claymore.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/b/b4/MW-icon-weapon-Nordic_Claymore.png"
+  },
+  "nordic_iron_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Iron_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/b/b6/MW-icon-armor-Nordic_Iron_Cuirass.png"
+  },
+  "nordic_iron_helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Iron_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/60/MW-icon-armor-Nordic_Iron_Helm.png"
+  },
+  "nordic_leather_shield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Leather_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/1/1a/MW-icon-armor-Nordic_Leather_Shield.png"
+  },
+  "nordic_ringmail_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Ringmail_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/7/7d/MW-icon-armor-Nordic_Ringmail_Cuirass.png"
+  },
+  "orcish battle axe": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Orcish_Battle_Axe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/e/eb/MW-icon-weapon-Orcish_Battle_Axe.png"
+  },
+  "orcish bolt": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Orcish_Bolt.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/6/6d/MW-icon-weapon-Orcish_Bolt.png"
+  },
+  "orcish_boots": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Orcish_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/c/c8/MW-icon-armor-Orcish_Boots.png"
+  },
+  "orcish_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Orcish_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/63/MW-icon-armor-Orcish_Cuirass.png"
+  },
+  "orcish_greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Orcish_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/7/74/MW-icon-armor-Orcish_Greaves.png"
+  },
+  "orcish_helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Orcish_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/d/d6/MW-icon-armor-Orcish_Helm.png"
+  },
+  "orcish_pauldron_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Orcish_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/8/8f/MW-icon-armor-Orcish_Pauldron.png"
+  },
+  "orcish_pauldron_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Orcish_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/8/8f/MW-icon-armor-Orcish_Pauldron.png"
+  },
+  "orcish_towershield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Orcish_Tower_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/0/06/MW-icon-armor-Orcish_Tower_Shield.png"
+  },
+  "right leather bracer": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Leather_Bracer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/2/2e/MW-icon-armor-Leather_Bracer.png"
+  },
+  "short bow": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Short_Bow.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/0/0f/MW-icon-weapon-Short_Bow.png"
+  },
+  "silver arrow": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Silver_Arrow.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/7/75/MW-icon-weapon-Silver_Arrow.png"
+  },
+  "silver bolt": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Silver_Bolt.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/3/3d/MW-icon-weapon-Silver_Bolt.png"
+  },
+  "silver claymore": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Silver_Claymore.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/9/9d/MW-icon-weapon-Silver_Claymore.png"
+  },
+  "silver dagger": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Silver_Dagger.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/d/d1/MW-icon-weapon-Silver_Dagger.png"
+  },
+  "silver dart": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Silver_Dart.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/b/bc/MW-icon-weapon-Silver_Dart.png"
+  },
+  "silver longsword": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Silver_Longsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/4/4c/MW-icon-weapon-Silver_Longsword.png"
+  },
+  "silver shortsword": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Silver_Shortsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/6/6f/MW-icon-weapon-Silver_Shortsword.png"
+  },
+  "silver spear": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Silver_Spear.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/d/d6/MW-icon-weapon-Silver_Spear.png"
+  },
+  "silver staff": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Silver_Staff.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/a/a1/MW-icon-weapon-Silver_Staff.png"
+  },
+  "silver throwing star": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Silver_Throwing_Star.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/6/6a/MW-icon-weapon-Silver_Throwing_Star.png"
+  },
+  "silver war axe": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Silver_War_Axe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/4/43/MW-icon-weapon-Silver_War_Axe.png"
+  },
+  "silver_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Silver_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/b/b8/MW-icon-armor-Imperial_Silver_Cuirass.png"
+  },
+  "silver_helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Imperial_Silver_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/60/MW-icon-armor-Imperial_Silver_Helm.png"
+  },
+  "spiked club": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Spiked_Club.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/a/a2/MW-icon-weapon-Spiked_Club.png"
+  },
+  "spring dart": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Dart.png",
+    "sourcePage": "https://en.uesp.net/wiki/Tribunal:Base_Weapons",
+    "url": "https://images.uesp.net/f/f8/MW-icon-weapon-Steel_Dart.png"
+  },
+  "steel arrow": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Arrow.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/1/18/MW-icon-weapon-Steel_Arrow.png"
+  },
+  "steel axe": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_War_Axe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/e/e2/MW-icon-weapon-Steel_War_Axe.png"
+  },
+  "steel battle axe": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Battle_Axe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/3/3f/MW-icon-weapon-Steel_Battle_Axe.png"
+  },
+  "steel bolt": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Bolt.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/3/3f/MW-icon-weapon-Steel_Bolt.png"
+  },
+  "steel broadsword": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Imperial_Broadsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/c/c3/MW-icon-weapon-Imperial_Broadsword.png"
+  },
+  "steel claymore": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Claymore.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/6/69/MW-icon-weapon-Steel_Claymore.png"
+  },
+  "steel club": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Club.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/e/e0/MW-icon-weapon-Steel_Club.png"
+  },
+  "steel crossbow": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Crossbow.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/c/c8/MW-icon-weapon-Steel_Crossbow.png"
+  },
+  "steel dagger": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Dagger.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/0/03/MW-icon-weapon-Steel_Dagger.png"
+  },
+  "steel dai-katana": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Dai-katana.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/1/1c/MW-icon-weapon-Steel_Dai-katana.png"
+  },
+  "steel dart": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Dart.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/f/f8/MW-icon-weapon-Steel_Dart.png"
+  },
+  "steel halberd": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Halberd.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/1/17/MW-icon-weapon-Steel_Halberd.png"
+  },
+  "steel katana": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Katana.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/2/22/MW-icon-weapon-Steel_Katana.png"
+  },
+  "steel longbow": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Longbow.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/1/1b/MW-icon-weapon-Steel_Longbow.png"
+  },
+  "steel longsword": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Longsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/8/8e/MW-icon-weapon-Steel_Longsword.png"
+  },
+  "steel mace": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Mace.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/9/95/MW-icon-weapon-Steel_Mace.png"
+  },
+  "steel saber": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Saber.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/b/b8/MW-icon-weapon-Steel_Saber.png"
+  },
+  "steel shortsword": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Shortsword.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/a/a4/MW-icon-weapon-Steel_Shortsword.png"
+  },
+  "steel spear": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Spear.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/9/99/MW-icon-weapon-Steel_Spear.png"
+  },
+  "steel staff": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Staff.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/7/77/MW-icon-weapon-Steel_Staff.png"
+  },
+  "steel tanto": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Tanto.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/1/1b/MW-icon-weapon-Steel_Tanto.png"
+  },
+  "steel wakizashi": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Wakizashi.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/7/76/MW-icon-weapon-Steel_Wakizashi.png"
+  },
+  "steel war axe": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_War_Axe.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/e/e2/MW-icon-weapon-Steel_War_Axe.png"
+  },
+  "steel warhammer": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Steel_Warhammer.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/a/ae/MW-icon-weapon-Steel_Warhammer.png"
+  },
+  "steel_boots": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Steel_Boots.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/7/7e/MW-icon-armor-Steel_Boots.png"
+  },
+  "steel_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Steel_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/e/e3/MW-icon-armor-Steel_Cuirass.png"
+  },
+  "steel_gauntlet_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Steel_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/1/12/MW-icon-armor-Steel_Gauntlet.png"
+  },
+  "steel_gauntlet_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Steel_Gauntlet.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/1/12/MW-icon-armor-Steel_Gauntlet.png"
+  },
+  "steel_greaves": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Steel_Greaves.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/6b/MW-icon-armor-Steel_Greaves.png"
+  },
+  "steel_helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Steel_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/8/8d/MW-icon-armor-Steel_Helm.png"
+  },
+  "steel_pauldron_left": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Steel_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/8/8f/MW-icon-armor-Steel_Pauldron.png"
+  },
+  "steel_pauldron_right": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Steel_Pauldron.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/8/8f/MW-icon-armor-Steel_Pauldron.png"
+  },
+  "steel_shield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Steel_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/2/22/MW-icon-armor-Steel_Shield.png"
+  },
+  "steel_towershield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Steel_Tower_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/b/b6/MW-icon-armor-Steel_Tower_Shield.png"
+  },
+  "trollbone_cuirass": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Trollbone_Cuirass.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/f/f2/MW-icon-armor-Nordic_Trollbone_Cuirass.png"
+  },
+  "trollbone_helm": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Trollbone_Helm.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/6/63/MW-icon-armor-Nordic_Trollbone_Helm.png"
+  },
+  "trollbone_shield": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-armor-Nordic_Trollbone_Shield.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Armor",
+    "url": "https://images.uesp.net/4/4d/MW-icon-armor-Nordic_Trollbone_Shield.png"
+  },
+  "wooden staff": {
+    "filePage": "https://en.uesp.net/wiki/File:MW-icon-weapon-Wooden_Staff.png",
+    "sourcePage": "https://en.uesp.net/wiki/Morrowind:Base_Weapons",
+    "url": "https://images.uesp.net/6/68/MW-icon-weapon-Wooden_Staff.png"
+  }
+}

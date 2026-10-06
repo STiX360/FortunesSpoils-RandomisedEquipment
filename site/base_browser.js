@@ -12,14 +12,47 @@ const baseGroups={
 };
 const projectileSlots=['arrow','bolt','thrown'];
 function currentBase(){return baseData.find(b=>b.id===$('baseSelect').value);}
+let baseOptionIndex=-1;
+function closeBaseOptions(){
+  $('baseOptions').classList.add('hidden');
+  $('baseQuery').setAttribute('aria-expanded','false');
+  $('baseQuery').removeAttribute('aria-activedescendant');
+  baseOptionIndex=-1;
+}
+function openBaseOptions(){
+  $('baseOptions').classList.remove('hidden');
+  $('baseQuery').setAttribute('aria-expanded','true');
+}
+function chooseBase(id){
+  $('baseSelect').value=id;
+  const base=currentBase();
+  $('baseQuery').value=base?base.name+' / '+base.id:'';
+  $('pairSelect').value='';
+  closeBaseOptions();
+  render();
+}
 function updateBaseOptions(){
-  const previous=$('baseSelect').value,query=$('baseQuery').value.trim().toLowerCase(),source=$('baseSource').value;
+  const previous=$('baseSelect').value,query=previous?'':$('baseQuery').value.trim().toLowerCase(),source=$('baseSource').value;
   const list=baseData.filter(b=>(selected==='All Equipment'||baseGroups[b.slot]===selected||
     selected==='Blunt Weapons'&&b.slot==='blunt_two_hand_wide')&&(!source||b.source===source)&&
     (!query||(b.name+' '+b.id).toLowerCase().includes(query))).sort((a,b)=>a.name.localeCompare(b.name)||a.id.localeCompare(b.id));
-  $('baseSelect').replaceChildren(new Option('All Bases ('+list.length+')',''));
-  for(const b of list)$('baseSelect').add(new Option(b.name+' / '+b.id,b.id));
   $('baseSelect').value=list.some(b=>b.id===previous)?previous:'';
+  if(previous&&!$('baseSelect').value)$('baseQuery').value='';
+  $('baseQuery').placeholder='All Bases ('+list.length+')';
+  $('baseOptions').replaceChildren();
+  baseOptionIndex=-1;
+  $('baseQuery').removeAttribute('aria-activedescendant');
+  for(const [index,entry] of [{id:'',name:'All Bases ('+list.length+')'},...list].entries()){
+    const option=document.createElement('div');
+    option.id='base-option-'+index;option.className='base-option';
+    option.setAttribute('role','option');
+    option.setAttribute('aria-selected',String(entry.id===$('baseSelect').value));
+    option.textContent=entry.name+(entry.id?' / '+entry.id:'');
+    option.addEventListener('mousedown',event=>event.preventDefault());
+    option.addEventListener('click',()=>chooseBase(entry.id));
+    $('baseOptions').append(option);
+  }
+  if(!list.length){const empty=document.createElement('p');empty.className='empty';empty.textContent='No matching bases.';$('baseOptions').append(empty);}
 }
 function baseFits(f,b){
   const projectile=projectileSlots.includes(b.slot),weapon=b.category==='weapon';
@@ -136,7 +169,36 @@ function renderBase(){
         escape((u.drawbacks||[]).join('; '))+'</td></tr>').join('')+'</tbody></table></div>':'<p class="empty">No registered unique variants.</p>');
 }
 for(const source of [...new Set(baseData.map(b=>b.source))])$('baseSource').add(new Option(source,source));
-for(const id of ['baseSource','baseQuery','baseSelect','pairSelect'])$(id).addEventListener('input',()=>{
+for(const id of ['baseSource','pairSelect'])$(id).addEventListener('input',()=>{
   if(id!=='pairSelect')$('pairSelect').value='';
   render();
 });
+$('baseQuery').addEventListener('input',()=>{
+  $('baseSelect').value='';$('pairSelect').value='';render();openBaseOptions();
+});
+$('baseQuery').addEventListener('focus',()=>{$('baseQuery').select();openBaseOptions();});
+$('baseToggle').addEventListener('mousedown',event=>event.preventDefault());
+$('baseToggle').addEventListener('click',()=>{
+  if(!$('baseOptions').classList.contains('hidden'))closeBaseOptions();
+  else{$('baseQuery').focus();openBaseOptions();}
+});
+$('baseQuery').addEventListener('keydown',event=>{
+  const options=[...$('baseOptions').querySelectorAll('[role="option"]')];
+  if(['ArrowDown','ArrowUp','Home','End'].includes(event.key)){
+    if(['Home','End'].includes(event.key)&&$('baseOptions').classList.contains('hidden'))return;
+    event.preventDefault();openBaseOptions();
+    baseOptionIndex=event.key==='Home'?0:event.key==='End'?options.length-1:
+      event.key==='ArrowDown'?Math.min(baseOptionIndex+1,options.length-1):
+      baseOptionIndex<0?options.length-1:Math.max(0,baseOptionIndex-1);
+    options.forEach((option,index)=>option.classList.toggle('active',index===baseOptionIndex));
+    if(options[baseOptionIndex]){
+      $('baseQuery').setAttribute('aria-activedescendant',options[baseOptionIndex].id);
+      options[baseOptionIndex].scrollIntoView({block:'nearest'});
+    }
+  }else if(event.key==='Enter'&&!$('baseOptions').classList.contains('hidden')&&baseOptionIndex>=0){
+    event.preventDefault();options[baseOptionIndex]?.click();
+  }else if(event.key==='Escape'){event.preventDefault();closeBaseOptions();}
+  else if(event.key==='Tab')closeBaseOptions();
+});
+document.addEventListener('click',event=>{if(!event.target.closest('.base-picker'))closeBaseOptions();});
+$('baseQuery').addEventListener('blur',closeBaseOptions);

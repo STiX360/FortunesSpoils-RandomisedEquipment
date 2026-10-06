@@ -42,7 +42,7 @@ M.families = {
       applies = function(c, s) return c == 'clothing' and (body[s] or jewelry[s]) end },
     { id = 'blight', effect = 'resistblightdisease', magnitudes = { 3, 5, 7, 9, 12, 15 },
       names = { 'of Blight Warding', 'of Blight Shelter', 'of Blight Defiance', 'of the Ashland Physician', 'of Ashland Renewal', 'of the Blightless' },
-      applies = function(c, s) return wearable(c) and (s == 'helmet' or s == 'robe' or s == 'amulet') end },
+      applies = function(c, s) return c == 'clothing' and (jewelry[s] or s == 'belt') end },
     { id = 'fireshield', effect = 'fireshield', advanced = true, magnitudes = { 1, 2, 3, 4, 5, 6 },
       names = { 'of Warm Warding', 'of Ember Warding', 'of Flame Warding', 'of the Burning Bulwark', 'of the Infernal Bulwark', 'of the Solar Bastion' },
       applies = function(c, s) return wearable(c) and (s == 'cuirass' or s == 'shield' or s == 'amulet') end },

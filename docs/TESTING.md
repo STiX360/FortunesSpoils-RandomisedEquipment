@@ -2,6 +2,12 @@
 
 Development snapshot. Prior harness results do not validate this reorganised
 package; no tests have been run during repository preparation.
+Start a new game with this build enabled: corpse rolls require a trusted initial
+NPC inventory allowance. An existing save receiving the mod for the first time
+has no corpse rolls; previously visited NPCs in an upgraded mod save without a
+snapshot also remain unchanged. See [Inventory Allowances](INVENTORY-ALLOWANCES.md)
+and [Current In-Game Validation](CURRENT-INGAME-CHECKLIST.md).
+
 Use a separate Mod Organizer profile and a disposable save. Do not install it
 over the copy used by your separate POTI playthrough.
 
@@ -24,7 +30,7 @@ cannot be selected. This package does not edit the installed masters or profiles
 
 - Exact static pools for Morrowind, Tribunal, Bloodmoon, and OAAB Data.
 - Independent chance and modifier/unique roll for every eligible non-projectile item copy on a corpse.
-- Projectile stacks roll once and replace the whole quantity with one of three fixed quality grades; no projectile unique drops.
+- Projectile stacks roll once and replace the initially allowed quantity with one of three fixed quality grades; later added excess stays ordinary. No projectile unique drops.
 - Prefix, suffix, or both, configurable with equal `1/1/1` weights by default.
 - Independent six-tier distributions, tier-specific names, and upper-tier gates.
 - Physical damage, armor, condition, weight, speed, reach, capacity; optional value.
@@ -40,10 +46,10 @@ cannot be selected. This package does not edit the installed masters or profiles
 - Distinct names at all six bargain tiers; stronger benefits with growing costs.
 - Exterior regional biases and curated vanilla Dwemer interior-family biases.
 
-The test preset has 100% modified-drop chance per eligible item, 5% unique chance within successful
-modified drops, all six tiers enabled, advanced gap families enabled, and a high
-value cap. T5/T6 remain restricted to documented item profiles. Unsupported tiers
-fall downward rather than promoting an ordinary base to a special tier.
+The test preset has 100% ordinary modification chance per eligible item and a 1%
+global unique chance, all six tiers enabled, advanced gap families enabled, and a
+high value cap. All otherwise eligible bases may roll T6. Unsupported family tiers
+fall downward to an available lower tier.
 
 Scripted, source-enchanted, restocking, missing, or subtype-mismatched bases are
 skipped even if listed. This conservative script policy means some guards still
@@ -160,9 +166,11 @@ Edit that file in this test mod only when changing the development defaults.
   should default to `false`. This controls death notifications, replacement
   messages, skipped-item diagnostics, and sample-spawn messages. Generation errors,
   equipment restore errors, and transfer timeouts remain visible regardless.
-- `dropChance`: per eligible equipment copy; per original projectile stack (test: `1.0`).
-- `uniqueChance`: unique branch chance (default: `0.05`; force `1` for corpse testing).
+- `dropChance`: ordinary modification chance after the unique check (launch: `2/3`; testing package: `1.0`). Projectiles use this chance directly per allowed stack.
+- `uniqueChance`: independent global chance per eligible equipment copy (default: `0.01`; force `1` for corpse testing). Projectiles are exempt.
 - `affixLayoutWeights`: `prefix`, `suffix`, `both`; zero disables that branch.
+- `npcTierScaling`: defaults true; ordinary corpse tier weights flatten with NPC level, not player level.
+- `equalTierLevel`: defaults 25; level 1 retains starting weights, level 25+ reaches equality. See [NPC Tier Progression](NPC-TIER-PROGRESSION.md).
 - `tierWeights`: weights for T1 through T6; `enabledTiers` controls available tiers.
 - `sourcePacks`: optional `base`, `tribunal`, `bloodmoon`, `oaab` ID packs.
 - `allowUniqueDuplicates`: defaults false; successful insertions consume unique IDs per save.

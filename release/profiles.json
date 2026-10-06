@@ -1,4 +1,4 @@
 {
   "testing": {"debug": true, "dropChance": 1.0},
-  "production": {"debug": false, "dropChance": null}
+  "production": {"debug": false, "dropChance": 0.6666666666666666}
 }

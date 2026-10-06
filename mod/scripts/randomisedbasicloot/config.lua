@@ -1,7 +1,7 @@
 return {
     enabled = true,
-    debug = true, -- Routine logs: true for testing; production builds should default to false.
-    dropChance = 1.0, -- Per equipment copy; projectiles roll once per original stack.
+    debug = false, -- Testing packages explicitly enable routine logs.
+    dropChance = 0.6666666666666666, -- Ordinary modification chance after the global unique check.
     maxBaseValue = 1000000,
     valueBonus = 15,
     seed = 1662,
@@ -9,12 +9,14 @@ return {
     expandedAffixes = true,
     gapTier = 1,
     advancedGapAffixes = true,
-    uniqueChance = 0.05,
+    uniqueChance = 0.01, -- Global per-item chance; projectiles are exempt.
     allowUniqueDuplicates = false,
     bargainAffixes = true,
     regionalFlavor = true,
-    affixLayoutWeights = { prefix = 1, suffix = 1, both = 1 },
+    affixLayoutWeights = { prefix = 1, suffix = 1, both = 2 },
     tierWeights = { 78, 15, 5, 1.5, 0.4, 0.1 },
+    npcTierScaling = true,
+    equalTierLevel = 25,
     enabledTiers = { 1, 2, 3, 4, 5, 6 },
     appraisal = false,
     compositionCaps = { damage = 0.6, baseArmor = 0.6, health = 0.8,

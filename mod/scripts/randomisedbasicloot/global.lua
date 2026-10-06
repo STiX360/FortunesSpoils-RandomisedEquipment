@@ -7,6 +7,7 @@ local config = settings.snapshot()
 local rules = require('scripts.randomisedbasicloot.item_rules')
 local loot = require('scripts.randomisedbasicloot.loot')
 local projectileLoot = require('scripts.randomisedbasicloot.projectile_loot')
+local tierProgression = require('scripts.randomisedbasicloot.tier_progression')
 local gaps = require('scripts.randomisedbasicloot.gap_affixes')
 local regional = require('scripts.randomisedbasicloot.regional_flavor')
 local bargains = require('scripts.randomisedbasicloot.bargain_affixes')
@@ -34,7 +35,8 @@ for _, pack in ipairs({ 'base', 'tribunal', 'bloodmoon', 'oaab' }) do
     end
     for id, entries in pairs(require('scripts.randomisedbasicloot.' .. pack .. '_uniques')) do uniques[id] = entries end
 end
-local state = { random = config.seed, enchantments = {}, helmets = {}, processed = {}, generated = {}, discoveries = {}, outcomes = {}, metadata = {} }
+local state = { random = config.seed, enchantments = {}, helmets = {}, processed = {}, generated = {}, discoveries = {}, outcomes = {}, metadata = {},
+    inventoryAllowances = {}, baselineMode = 'new-game-required' }
 local function log(message) if config.debug then print('Randomised Basic Loot: ' .. message) end end
 local function random()
     state.random = (state.random * 48271) % 2147483647
@@ -56,6 +58,38 @@ local function exclusionReason(base, info)
     return nil
 end
 local function eligible(base, info) return exclusionReason(base, info) == nil end
+local function captureInventory(request)
+    local actor = request.actor
+    if not actor or not actor:isValid() or not types.NPC.objectIsInstance(actor)
+        or types.Player.objectIsInstance(actor) or state.processed[actor.id]
+        or state.inventoryAllowances[actor.id] then return end
+    -- Never infer original inventory from a corpse or a legacy script's current inventory.
+    local allowance = {}
+    state.inventoryAllowances[actor.id] = allowance
+    if not request.fresh or state.baselineMode == 'new-game-required' or types.Actor.isDead(actor) then
+        log('no trusted initial inventory for ' .. tostring(actor.id) .. '; generation allowance is zero')
+        return
+    end
+    config = settings.snapshot()
+    local ok, err = pcall(function()
+        local inventory = types.Actor.inventory(actor)
+        inventory:resolve()
+        for category, itemType in pairs(itemTypes) do
+            for _, item in ipairs(inventory:getAll(itemType)) do
+                local base = itemType.record(item)
+                local info = base and pool[base.id]
+                if eligible(base, info) and info.category == category and not types.Item.isRestocking(item)
+                    and item.count > 0 then
+                    allowance[base.id] = (allowance[base.id] or 0) + item.count
+                end
+            end
+        end
+    end)
+    if not ok then
+        state.inventoryAllowances[actor.id] = {}
+        print('Randomised Basic Loot inventory snapshot error for ' .. tostring(actor.id) .. ': ' .. tostring(err))
+    end
+end
 local function source(baseId)
     config = settings.snapshot()
     assert(type(baseId) == 'string', 'Supply an exact base record ID.')
@@ -138,15 +172,15 @@ local function uniqueOptions(base, includeDiscovered)
     end
     return options
 end
-local function generate(base, info, layout, tier, profiles)
+local function generate(base, info, layout, tier, profiles, uniqueRoll, rollConfig)
     if projectileLoot.applies(info) then return projectileLoot.roll(base, random, layout, tier) end
-    if layout == 'unique' or (not layout and random() < config.uniqueChance) then
+    if layout == 'unique' or uniqueRoll or (uniqueRoll == nil and not layout and random() < config.uniqueChance) then
         local outcome = loot.draw(uniqueOptions(base, layout == 'unique'), random)
         if outcome then return outcome end
         assert(layout ~= 'unique', 'No unique templates available for this exact base.')
         layout = 'both'
     end
-    return loot.roll(base, info, config, random, layout, tier, profiles)
+    return loot.roll(base, info, rollConfig or config, random, layout, tier, profiles)
 end
 local function replace(item, base, info, outcome, actor, count)
     count = count or 1
@@ -179,6 +213,19 @@ local function onDeath(actor, reason)
     if not config.enabled or not actor or not actor:isValid() or not types.NPC.objectIsInstance(actor)
         or types.Player.objectIsInstance(actor) or not types.Actor.isDead(actor) or state.processed[actor.id] then return end
     state.processed[actor.id] = true
+    local allowance = state.inventoryAllowances[actor.id]
+    if not allowance then
+        log('no pre-interaction snapshot for ' .. tostring(actor.id) .. '; left inventory unchanged')
+        return
+    end
+    local remaining = {}
+    local okLevel, npcLevel = pcall(function() return types.Actor.stats.level(actor).current end)
+    if not okLevel then npcLevel = nil end
+    local rollConfig = {}
+    for key, value in pairs(config) do rollConfig[key] = value end
+    rollConfig.tierWeights = tierProgression.weights(config, npcLevel)
+    log('tier weights for NPC ' .. tostring(actor.id) .. ' at level ' .. tostring(npcLevel or 'unknown'))
+    for id, count in pairs(allowance) do remaining[id] = count end
     local inventory = types.Actor.inventory(actor)
     inventory:resolve()
     local equipment = types.Actor.getEquipment(actor)
@@ -206,14 +253,20 @@ local function onDeath(actor, reason)
         end
     end
     if #candidates == 0 then log('no safe static-pool item on corpse via ' .. (reason or 'death')); return end
+    table.sort(candidates, function(a, b)
+        return #a.equippedSlots > 0 and #b.equippedSlots == 0
+    end)
     local equipmentChanges = {}
     for _, candidate in ipairs(candidates) do
+        candidate.count = math.min(candidate.count, remaining[candidate.base.id] or 0)
+        remaining[candidate.base.id] = (remaining[candidate.base.id] or 0) - candidate.count
         -- Projectiles roll once per original stack; other equipment rolls per copy.
         local batch = projectileLoot.applies(candidate.info)
-        for copy = 1, (batch and 1 or candidate.count) do
-            if random() < config.dropChance then
+        for copy = 1, (batch and candidate.count > 0 and 1 or candidate.count) do
+            local uniqueRoll = not batch and random() < config.uniqueChance
+            if uniqueRoll or random() < config.dropChance then
                 local ok, err = pcall(function()
-                    local outcome = generate(candidate.base, candidate.info, nil, nil, regional.profiles(actor.cell))
+                    local outcome = generate(candidate.base, candidate.info, nil, nil, regional.profiles(actor.cell), uniqueRoll, rollConfig)
                     if outcome then
                         local replacement = replace(candidate.item, candidate.base, candidate.info, outcome, actor,
                             batch and candidate.count or 1)
@@ -298,12 +351,17 @@ return {
     interfaceName = 'RandomisedBasicLoot',
     interface = { giveSamples = giveTestKit, giveTestKit = giveTestKit, giveRoll = giveRoll,
         giveUniqueSamples = giveUniqueSamples, giveGapSamples = giveGapSamples, giveBargainSamples = giveBargainSamples },
-    eventHandlers = { RandomisedBasicLoot_Death = onDeath },
+    eventHandlers = { RandomisedBasicLoot_Death = onDeath, RandomisedBasicLoot_InitialInventory = captureInventory },
     engineHandlers = {
+        onNewGame = function() state.baselineMode = 'tracked' end,
         onActivate = function(object) onDeath(object, 'activation') end,
         onSave = function() return state end,
         onLoad = function(saved)
-            if saved then for key, value in pairs(saved) do state[key] = value end end
+            if saved then
+                for key, value in pairs(saved) do state[key] = value end
+                state.baselineMode = saved.baselineMode or 'migrating'
+                state.inventoryAllowances = saved.inventoryAllowances or {}
+            end
         end,
     },
 }

@@ -3,7 +3,7 @@ import json
 import pathlib
 import re
 from expanded_affix_data import families as expanded_families, tier_text
-from weapon_affix_rules import MELEE_SLOTS, resolve_effects, variants, BINARY_EFFECTS
+from weapon_affix_rules import MELEE_SLOTS, resolve_effects, variants, BINARY_EFFECTS, DAMAGE_EFFECTS
 from catalogue_bases import bases, scope_rule, gap_rule
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -64,6 +64,11 @@ def weapon_variants(family):
                       notes='Baseline note: ' + family['notes'] + ' Values above are resolved for ' + profile['label'] +
                       ('; staff delivery is on use, on target with a fixed 3-foot area' if profile.get('range') == 'Target' else '; delivery remains on strike, on touch') +
                       '. Unique templates are unchanged. Staff candidates require native on-target support.')
+        if not profile.get('magnitude') and any(effect['id'] in DAMAGE_EFFECTS for effect in sample):
+            result['notes'] += (' Damage values shown use base speed 1.0. Actual direct damage magnitudes use '
+                                'clamp(1 / original base speed, 0.75, 1.50), rounded half upward. '
+                                'Generated speed modifiers never affect this multiplier. '
+                                'The base browser does not currently contain weapon speed metadata.')
         yield result
 
 

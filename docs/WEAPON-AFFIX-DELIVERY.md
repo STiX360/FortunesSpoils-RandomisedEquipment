@@ -44,8 +44,25 @@ pair with a CE enchantment, but it can pair with another activated target affix
 or a physical modifier. Costs and charge budgets use the final payload, including
 the stronger magnitude, scaled duration, target cost multiplier and small area.
 
-Non-staff direct strike-damage allocations are unchanged; their proposed class
-multipliers have not been approved. Switching weapon skills is permitted.
+## Base-Speed Damage Scaling
+
+Ordinary non-staff on-strike Fire Damage, Frost Damage, Shock Damage, Poison,
+Damage Health, Damage Magicka and Damage Fatigue use:
+
+`multiplier = clamp(1 / original base weapon speed, 0.75, 1.50)`
+
+Magnitudes are rounded half upward, with a minimum of one. Duration is unchanged.
+Missing, non-finite or non-positive speed falls back to 1.0. This uses the loaded
+base record, including other mods' base-record overrides, but never the speed of
+our generated item. Handling/speed affixes therefore do not alter the multiplier.
+Physical percentage damage, absorption/drains, disintegration, control effects,
+staff activated spells and unique templates are unchanged by this damage policy.
+
+T6 Fire Damage starts at 15 for one second: a base speed of 1.5 yields 11;
+1.0 yields 15; 0.75 yields 20. These are per-item-speed results, not class constants.
+Native costs and charge budgets use the final scaled effects. The catalogue shows
+speed-1.0 baseline values and documents the formula; its base metadata does not
+currently include weapon speeds. Switching weapon skills is permitted.
 
 Authoring policy: `tools/weapon_affix_rules.py`; exported native policy:
 `weapon_affix_policy.lua`; runtime resolution: `weapon_affixes.lua`.

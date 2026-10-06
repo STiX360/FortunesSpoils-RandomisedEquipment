@@ -2,6 +2,8 @@ title: Randomised Basic Loot
 general: General
 layouts: Affix Layout Weights
 tiers: Tier Distribution
+npcTierScaling: Scale Affix Tiers By NPC Level
+equalTierLevel: NPC Level For Equal Tier Weights
 sources: Optional Source Packs
 caps: Physical Modifier Caps
 enabled: Enable Loot Generation
@@ -12,8 +14,8 @@ regionalFlavor: Regional Affix Biases
 gapAffixes: Additional Slot-Aware Affixes
 advancedGapAffixes: Advanced Magic Affixes
 appraisal: Gold Value Affixes
-dropChancePercent: Per-Item Modification Chance (%)
-uniqueChancePercent: Unique Chance Within Modified Drops (%)
+dropChancePercent: Ordinary Modification Chance After Unique Check (%)
+uniqueChancePercent: Global Per-Item Unique Chance (%)
 maxBaseValue: Maximum Base Item Value
 valueBonus: Gold Surcharge Per Affix Tier
 gapTier: Gap Sample Tier

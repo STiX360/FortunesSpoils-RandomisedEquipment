@@ -99,11 +99,15 @@ def main():
         run_tool('export_runtime_design.py')
     elif args.task == 'site':
         run_tool('build_modifier_preview.py')
+        run_tool('build_loot_simulator.py')
         out = ROOT / 'build/site'
         page = out / 'index.html'
         stamp = html.escape(f"Modifier Catalogue / {version} / {meta['status']}")
         page.write_text(page.read_text(encoding='utf-8').replace(
             'Modifier Catalogue / Development Build', stamp), encoding='utf-8')
+        simulator = out / 'simulator.html'
+        simulator.write_text(simulator.read_text(encoding='utf-8').replace(
+            'Loot Simulator / Development Build', html.escape(f"Loot Simulator / {version} / {meta['status']}")), encoding='utf-8')
         (out / '.nojekyll').touch()
         (out / 'build-info.json').write_text(json.dumps(dict(version=version, commit=commit_id(),
                                                             status=meta['status']), indent=2) + '\n',

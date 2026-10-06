@@ -1,14 +1,16 @@
 # Projectile Quality And Pool Redistribution
 
 Applies to new generation only. Existing generated records and the unique
-registry are retained. No engine or automated tests have been run for this update.
+registry are retained. Mocked regression checks pass; engine validation is pending.
 
 ## Fixed Projectile Grades
 
 Arrows, bolts and thrown weapons use a dedicated pool, outside normal tier,
 layout, unique, appraisal and regional settings. The configured generation
 chance still applies, once per original inventory stack, not per projectile.
-A successful roll replaces the whole quantity with one grade.
+A successful roll replaces the quantity covered by the frozen initial inventory
+allowance with one grade. Later sold/planted excess remains ordinary, even when
+merged into the same stack. See [Inventory Allowances](INVENTORY-ALLOWANCES.md).
 
 | Grade | Prefix | Damage bonus | Conditional chance |
 | --- | --- | --- | --- |

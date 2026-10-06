@@ -29,7 +29,13 @@ class LootDesignTests(unittest.TestCase):
         self.assertEqual(set(weights), {"prefix", "suffix", "both"})
         self.assertTrue(all(v >= 0 for v in weights.values()))
         self.assertGreater(sum(weights.values()), 0)
-        self.assertEqual(list(weights.values()), [1, 1, 1])
+        self.assertEqual(list(weights.values()), [1, 1, 2])
+        unique = loot["uniqueChance"]
+        ordinary = (1 - unique) * loot["dropChance"]
+        self.assertAlmostEqual(unique, 0.01)
+        self.assertAlmostEqual((1 - unique) * (1 - loot["dropChance"]), 0.33)
+        self.assertAlmostEqual(ordinary * (weights["prefix"] + weights["suffix"]) / sum(weights.values()), 0.33)
+        self.assertAlmostEqual(ordinary * weights["both"] / sum(weights.values()), 0.33)
         self.assertAlmostEqual(sum(self.design["tiers"]["weights"]), 100)
         self.assertEqual(len(self.design["tiers"]["weights"]), 6)
 
@@ -43,12 +49,14 @@ class LootDesignTests(unittest.TestCase):
             "targetMinimumPerBase": 3, "targetMaximumPerBase": 5,
         })
         templates = self.design["uniqueTemplates"]
-        self.assertEqual(len(templates), 3000)
+        self.assertEqual(len(templates), 3001)
         self.assertEqual(len({v["id"] for v in templates}), len(templates))
         self.assertEqual(len({v["name"] for v in templates}), len(templates))
         counts = collections.Counter(v["baseId"] for v in templates)
         self.assertEqual(len(counts), 750)
-        self.assertEqual(set(counts.values()), {4})
+        self.assertEqual(set(counts.values()), {4, 5})
+        self.assertEqual(counts['steel_cuirass'], 5)
+        self.assertEqual({base for base, count in counts.items() if count == 5}, {'steel_cuirass'})
         for base in ("iron_helmet", "iron longsword", "bm bear cuirass", "extravagant_amulet_02"):
             self.assertEqual(counts[base], 4)
         pool = (ROOT / "docs/reports/included-items-report.md").read_text()
@@ -62,9 +70,10 @@ class LootDesignTests(unittest.TestCase):
             self.assertIn("`" + template["id"] + "`", register)
             self.assertIn(template["name"], register)
             for entry in template["effects"]:
-                self.assertIn(format_effect(entry), register)
+                self.assertTrue(format_effect(entry) in register,
+                                template['id'] + ': missing documented effect ' + format_effect(entry))
         self.assertEqual(collections.Counter(t["source"] for t in templates), {
-            "Morrowind (Base Game)": 1364, "Tribunal": 104,
+            "Morrowind (Base Game)": 1405, "Tribunal": 104,
             "Bloodmoon": 264, "OAAB Data": 1228,
         })
 
@@ -79,6 +88,7 @@ class LootDesignTests(unittest.TestCase):
             "fortifyattack", "fortifymaximummagicka",
             "resistpoison", "waterwalking", "waterbreathing", "weaknesstoshock", "weaknesstopoison",
             "firedamage", "frostdamage", "shockdamage", "poison", "damagefatigue", "sound",
+            "paralyze", "restorehealth", "restoremagicka", "restorefatigue",
         }
         for template in self.design["uniqueTemplates"]:
             self.assertGreater(template["weight"], 0)
@@ -136,7 +146,7 @@ class LootDesignTests(unittest.TestCase):
 
     def test_design_markdown_table_columns(self):
         for name in ("loot-generation-design.md", "modifier-catalogue.md", "vanilla-enchantment-review.md", "unique-item-registry.md", "item-metadata-design.md", "effect-coverage-review.md", "gap-affix-implementation.md"):
-            rows = (ROOT / "reports" / name).read_text().splitlines()
+            rows = (ROOT / "docs/reports" / name).read_text(encoding='utf-8').splitlines()
             width = None
             for row in rows:
                 if row.startswith("|"):

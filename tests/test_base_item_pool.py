@@ -102,7 +102,7 @@ class PoolTests(unittest.TestCase):
         self.assertEqual([row["id"] for row in rows], ["iron_helmet"])
 
     def test_oaab_is_frozen_allowlist_not_all_plain_records(self):
-        manifest = json.loads((pathlib.Path(__file__).resolve().parents[1] / "tools" /
+        manifest = json.loads((pathlib.Path(__file__).resolve().parents[1] / "data" /
                                "oaab_item_allowlist.json").read_text())
         items = {ident: item(ident, category, {"armor": "helmet", "weapon": "blunt_one_hand",
                                              "clothing": "ring"}[category])

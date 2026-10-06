@@ -87,7 +87,7 @@ local function tierCandidates(base, info, side, tier, physical, config, profiles
         for _, effect in ipairs(m.effects or {}) do
             if not core.magic.effects.records[effect.id] then return end
         end
-        if info.category == 'weapon' and not weaponAffixes.resolve(m, info.slot, core.magic.effects.records) then return end
+        if info.category == 'weapon' and not weaponAffixes.resolve(m, info.slot, core.magic.effects.records, base.speed) then return end
         seen[m.id] = true
         m.tier = tier
         m.weight = (m.weight or 1) * bias(m.effect, m.skill, base, m.attribute)
