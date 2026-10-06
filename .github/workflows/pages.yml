@@ -1,5 +1,8 @@
-name: Deploy catalogue (manual)
+name: Publish catalogue
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 permissions:
   contents: read
@@ -15,7 +18,8 @@ jobs:
         with:
           python-version: '3.12'
       - uses: actions/configure-pages@v5
-      - run: python tools/build.py site
+      - name: Build static catalogue
+        run: python tools/build.py site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: build/site
