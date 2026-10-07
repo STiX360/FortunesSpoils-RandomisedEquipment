@@ -1,8 +1,9 @@
 # Publishing GitHub Releases And Nexus Updates
 
 First version: **0.1.0**, a functional early-beta **prerelease**, not a stable or
-balanced playthrough recommendation. Release/Nexus workflows are manual and run
-no test suites. Pages deploys on push to `main` or manual dispatch. Preparing
+balanced playthrough recommendation. Version-tag pushes publish GitHub prereleases;
+Nexus uploads remain manual. These workflows run no test suites. Pages deploys
+on push to `main` or manual dispatch. Preparing
 these files does not publish the mod or configure credentials.
 
 ## Local Packaging
@@ -46,14 +47,19 @@ git tag v0.1.0
 git push origin v0.1.0
 ```
 
-5. Open Actions > **Prepare draft release (manual)** > Run workflow. Choose the
-   updated `main` workflow, tag `v0.1.0`, profile `production`, and leave the
-   drop-chance override blank. The workflow packages the tag, not a moving branch.
-6. Open the GitHub draft. Confirm the ZIP, manifest/checksum and `INSTALL.md` are
-   attached. Review screenshot, text and links. Keep **prerelease** enabled for
-   this early beta, even with a normal 0.X.X version.
-7. Publish the reviewed draft. Download its production ZIP for the first Nexus
-   upload; do not rebuild a different ZIP for Nexus.
+5. A new version-tag push now runs **Publish version release**, packaging and
+   verifying production files before publishing the early-beta prerelease.
+   The tag must match `release/metadata.json`. Environment approval rules still
+   apply. Review release notes and assets before pushing a publication tag.
+6. For an already-existing tag such as `v0.1.0`, commit/push the updated workflow
+   to `main`, then use Actions > **Publish version release** > Run workflow.
+   Choose `main`, tag `v0.1.0`, production, blank override and enable **publish**.
+   Existing tags do not retroactively trigger a push event. Leaving publish off
+   creates a draft for manual review instead. Do not move or recreate the tag.
+   If a draft already exists, review/publish it instead of creating it again.
+7. Download the published production ZIP for the first Nexus upload; do not
+   rebuild a different ZIP for Nexus. The workflow never overwrites an existing
+   release; inspect a failed run before retrying.
 
 Official workflow actions and the Nexus uploader are pinned to fixed commits.
 Build/release workflows do not deploy Nexus.
@@ -79,7 +85,8 @@ the next approved version.
 
 1. Bump `release/metadata.json` to the next 0.X.X version and update
    `release/NOTES.md`, including version-specific links and screenshot URL.
-2. Commit, tag, build the draft release and review/publish it as above.
+2. Review the release material, commit and push a matching version tag. GitHub
+   packages and publishes the prerelease automatically as above.
 3. Run **Upload existing release to Nexus (manual)** with the published tag.
 4. It downloads the release's production ZIP, manifest and checksums, verifies
    version/profile and every runtime file, then uploads that ZIP unchanged as a

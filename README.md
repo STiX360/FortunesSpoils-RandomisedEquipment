@@ -102,10 +102,11 @@ change. See [installation](release/INSTALL.md) and [testing notes](docs/TESTING.
 
 ## Publishing
 
-Release packaging and Nexus uploads are manually dispatched. Pages deploys on
-push to `main` or manual dispatch. No scheduled publishing or automatic tests are
-enabled. GitHub releases remain drafts until reviewed; the initial 0.1.0 release
-is labelled a prerelease despite using a normal 0.X.X version. See the
+Pushing a matching version tag automatically packages and publishes an early-beta
+GitHub prerelease using production defaults. Manual dispatch defaults to a draft;
+its Publish option can backfill an existing tag. Nexus uploads remain manual.
+Pages deploys on push to `main` or manual dispatch. No scheduled publishing or
+automatic tests are enabled. Version 0.1.0 remains a prerelease. See the
 [step-by-step publishing guide](docs/PUBLISHING.md).
 
 ## Rights
