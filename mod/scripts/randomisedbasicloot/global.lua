@@ -36,7 +36,7 @@ for _, pack in ipairs({ 'base', 'tribunal', 'bloodmoon', 'oaab' }) do
     for id, entries in pairs(require('scripts.randomisedbasicloot.' .. pack .. '_uniques')) do uniques[id] = entries end
 end
 local state = { random = config.seed, enchantments = {}, helmets = {}, processed = {}, generated = {}, discoveries = {}, outcomes = {}, metadata = {},
-    inventoryAllowances = {}, baselineMode = 'new-game-required' }
+    inventoryAllowances = {}, policyRejectedAllowances = {}, inventoryPolicyVersion = 2, baselineMode = 'new-game-required' }
 local function log(message) if config.debug then print('Randomised Basic Loot: ' .. message) end end
 local function random()
     state.random = (state.random * 48271) % 2147483647
@@ -62,15 +62,19 @@ local function captureInventory(request)
     local actor = request.actor
     if not actor or not actor:isValid() or not types.NPC.objectIsInstance(actor)
         or types.Player.objectIsInstance(actor) or state.processed[actor.id]
-        or state.inventoryAllowances[actor.id] then return end
-    -- Never infer original inventory from a corpse or a legacy script's current inventory.
+        or types.Actor.isDead(actor) then return end
+    config = settings.snapshot()
+    local rejected = state.policyRejectedAllowances[actor.id]
+    if state.inventoryAllowances[actor.id] and (not rejected or config.requireNewGameInventory) then return end
+    -- Compatibility mode trusts first observation, not historical inventory provenance.
     local allowance = {}
     state.inventoryAllowances[actor.id] = allowance
-    if not request.fresh or state.baselineMode == 'new-game-required' or types.Actor.isDead(actor) then
+    if config.requireNewGameInventory and (not request.fresh or state.baselineMode == 'new-game-required') then
+        state.policyRejectedAllowances[actor.id] = true
         log('no trusted initial inventory for ' .. tostring(actor.id) .. '; generation allowance is zero')
         return
     end
-    config = settings.snapshot()
+    state.policyRejectedAllowances[actor.id] = nil
     local ok, err = pcall(function()
         local inventory = types.Actor.inventory(actor)
         inventory:resolve()
@@ -88,6 +92,9 @@ local function captureInventory(request)
     if not ok then
         state.inventoryAllowances[actor.id] = {}
         print('Randomised Basic Loot inventory snapshot error for ' .. tostring(actor.id) .. ': ' .. tostring(err))
+    else
+        log('captured ' .. (config.requireNewGameInventory and 'strict initial' or 'first-observed')
+            .. ' inventory for ' .. tostring(actor.id))
     end
 end
 local function source(baseId)
@@ -212,6 +219,11 @@ local function onDeath(actor, reason)
     config = settings.snapshot()
     if not config.enabled or not actor or not actor:isValid() or not types.NPC.objectIsInstance(actor)
         or types.Player.objectIsInstance(actor) or not types.Actor.isDead(actor) or state.processed[actor.id] then return end
+    if config.requireNewGameInventory and state.baselineMode == 'new-game-required' then
+        log('strict inventory tracking requires a new game; left corpse unchanged')
+        state.processed[actor.id] = true
+        return
+    end
     state.processed[actor.id] = true
     local allowance = state.inventoryAllowances[actor.id]
     if not allowance then
@@ -361,6 +373,16 @@ return {
                 for key, value in pairs(saved) do state[key] = value end
                 state.baselineMode = saved.baselineMode or 'migrating'
                 state.inventoryAllowances = saved.inventoryAllowances or {}
+                state.policyRejectedAllowances = saved.policyRejectedAllowances or {}
+                -- Old first-install blocks stored only empty allowances; mark those recoverable.
+                if not saved.inventoryPolicyVersion and state.baselineMode == 'new-game-required' then
+                    for id, allowance in pairs(state.inventoryAllowances) do
+                        if not next(allowance) and not state.processed[id] then
+                            state.policyRejectedAllowances[id] = true
+                        end
+                    end
+                end
+                state.inventoryPolicyVersion = 2
             end
         end,
     },

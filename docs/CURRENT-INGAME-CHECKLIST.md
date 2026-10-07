@@ -1,18 +1,21 @@
 # Current In-Game Validation
 
-Prepared 2026-10-07. Automated checks: 39 Python tests, Lua 5.1 compilation,
-the current smoke harness and loot-extension harness pass. These use mocked
-OpenMW APIs, not a running engine. The package remains release-unvalidated.
+Prepared 2026-10-07. Earlier automated checks covered Python, Lua 5.1 compilation,
+smoke and loot-extension harnesses with mocked APIs. Those results predate the
+latest existing-save policy changes; the latest regression cases have not been run.
+The player has since reported the revised build working on an existing save and
+provided a screenshot of generated corpse loot. Engine version and the remaining
+checklist results are not yet recorded; this is not full release validation.
 
 ## Setup
 
 Install the rebuilt testing ZIP into a disposable Mod Organizer profile, enable
 `Randomised Basic Loot.omwscripts` in OpenMW and restart the game. Do not replace
-the separate POTI playthrough. Start a new game with this build enabled so NPC
-inventory allowances can be captured before interaction. First-time installation
-into an existing save deliberately disables corpse rolls; upgrading an older
-mod save skips previously visited NPCs without a trusted snapshot. Already
-processed corpses never reroll. Saved settings override package defaults.
+the separate POTI playthrough. A disposable new game remains best for controlled
+testing. Existing saves are supported by default using first-observed living NPC
+caps; pre-snapshot traded/planted items may roll (accepted trade-off). Strict
+Inventory Tracking restores the earlier new-game requirement. Already processed
+corpses never reroll. Saved settings override package defaults.
 
 Under Options > Scripts > Randomised Basic Loot, set generation to 100%, unique
 chance to 0%, and logging on for ordinary-affix checks. Keep expanded affixes on.
@@ -51,9 +54,14 @@ For arrows, an initial 20 merged with 200 added arrows must yield 20 graded arro
 and 200 ordinary arrows, not 220 graded arrows. Worn originals take priority over
 unworn extras. Repeat without a reload to compare behavior.
 
-Also check an older mod save: already visited NPCs with no saved allowance must
-remain unchanged. A first-time installation on an existing save must produce no
-corpse replacements. Console samples remain available in either case.
+Check an existing save with Strict Inventory Tracking off: living NPCs lacking
+caps should snapshot and fresh kills should roll. Saved caps must not expand.
+Items present before the first snapshot may roll, including earlier trades.
+Turn strict mode on in a first-install existing save: fresh kills must stay
+unchanged. Turn it off again, reactivate another living NPC blocked only by
+policy, and check its fresh kill can roll. Previously processed corpses remain
+unchanged. Also check loaded legacy NPCs with no cap under both policy settings.
+Console samples remain available in either case.
 
 This is a quantity cap, not perfect provenance: replacing an original with an
 identical base can still use its original allowance. Legitimate later acquisitions

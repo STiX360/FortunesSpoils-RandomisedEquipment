@@ -21,6 +21,7 @@ local function contains(list, value)
     return false
 end
 local general = group('General', 'general')
+add(general, 'requireNewGameInventory', defaults.requireNewGameInventory)
 for _, key in ipairs({ 'enabled','debug','allowUniqueDuplicates','gapAffixes','advancedGapAffixes','expandedAffixes','appraisal','bargainAffixes','regionalFlavor' }) do add(general, key, defaults[key]) end
 add(general, 'dropChancePercent', defaults.dropChance * 100, 0, 100)
 add(general, 'uniqueChancePercent', defaults.uniqueChance * 100, 0, 100)
@@ -69,6 +70,7 @@ function M.debugEnabled() return read(general, 'debug') end
 function M.snapshot()
     local config = {}
     for key, value in pairs(defaults) do config[key] = value end
+    config.requireNewGameInventory = read(general, 'requireNewGameInventory')
     for _, key in ipairs({ 'enabled','debug','allowUniqueDuplicates','gapAffixes','advancedGapAffixes','expandedAffixes','appraisal','bargainAffixes','regionalFlavor','maxBaseValue','valueBonus','gapTier' }) do
         config[key] = read(general, key)
     end

@@ -1,5 +1,6 @@
 return {
     enabled = true,
+    requireNewGameInventory = false, -- Strict opt-in; otherwise snapshot living NPCs on first observation.
     debug = false, -- Testing packages explicitly enable routine logs.
     dropChance = 0.6666666666666666, -- Ordinary modification chance after the global unique check.
     maxBaseValue = 1000000,

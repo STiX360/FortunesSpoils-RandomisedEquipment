@@ -61,17 +61,17 @@ def package(profile, version, drop_chance):
         if count != 1:
             raise ValueError('Expected exactly one config default: ' + key)
     config.write_text(text, encoding='utf-8', newline='\n')
-    shutil.copyfile(ROOT / 'release/INSTALL.md', stage / 'README.md')
     files = {str(p.relative_to(stage)).replace('\\', '/'):
              hashlib.sha256(p.read_bytes()).hexdigest()
              for p in sorted(stage.rglob('*')) if p.is_file()}
     manifest = dict(version=version, profile=profile, commit=commit_id(),
                     defaults=overrides, validated=False, files=files)
-    (stage / 'BUILD-MANIFEST.json').write_text(json.dumps(manifest, indent=2) + '\n',
-                                              encoding='utf-8')
     dist = ROOT / 'dist'
     dist.mkdir(exist_ok=True)
     archive = dist / f'fortunes-spoils-{version}-{profile}.zip'
+    manifest_path = archive.with_suffix('.manifest.json')
+    manifest_path.write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
+    shutil.copyfile(ROOT / 'release/INSTALL.md', dist / 'INSTALL.md')
     with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as output:
         for path in sorted(stage.rglob('*')):
             if path.is_file():
@@ -80,7 +80,9 @@ def package(profile, version, drop_chance):
                 entry.external_attr = 0o100644 << 16
                 output.writestr(entry, path.read_bytes())
     digest = hashlib.sha256(archive.read_bytes()).hexdigest()
-    archive.with_suffix('.zip.sha256').write_text(f'{digest}  {archive.name}\n', encoding='utf-8')
+    manifest_digest = hashlib.sha256(manifest_path.read_bytes()).hexdigest()
+    archive.with_suffix('.zip.sha256').write_text(
+        f'{digest}  {archive.name}\n{manifest_digest}  {manifest_path.name}\n', encoding='utf-8')
     print(archive)
 
 

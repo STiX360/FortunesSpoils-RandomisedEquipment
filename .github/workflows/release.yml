@@ -3,15 +3,15 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: Existing version tag, e.g. v0.1.0-dev
+        description: Existing version tag, e.g. v0.1.0 (early-beta prerelease)
         type: string
         required: true
       profile:
         type: choice
         options: [testing, production]
-        default: testing
+        default: production
       drop_chance:
-        description: Required for production; 0 to 1
+        description: Optional ordinary drop-chance override (0 to 1); blank uses profile defaults
         type: string
         default: ''
 permissions:
@@ -26,11 +26,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           ref: ${{ inputs.tag }}
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: '3.12'
       - name: Package selected tag
@@ -43,9 +43,11 @@ jobs:
           args=(package --profile "$PROFILE" --version "${TAG#v}")
           if [ -n "$DROP_CHANCE" ]; then args+=(--drop-chance "$DROP_CHANCE"); fi
           python tools/build.py "${args[@]}"
+          python tools/verify_release.py "dist/fortunes-spoils-${TAG#v}-$PROFILE.zip" --version "${TAG#v}" --profile "$PROFILE"
       - name: Create draft prerelease
         env:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ inputs.tag }}
         run: |
-          gh release create "$TAG" dist/*.zip dist/*.sha256 --verify-tag --draft --prerelease --title "Fortune's Spoils $TAG" --notes "Development package. Not release validated. Review installation notes and build manifest before publishing."
+          VERSION="${TAG#v}"
+          gh release create "$TAG" "dist/fortunes-spoils-$VERSION-${{ inputs.profile }}.zip" "dist/fortunes-spoils-$VERSION-${{ inputs.profile }}.zip.sha256" "dist/fortunes-spoils-$VERSION-${{ inputs.profile }}.manifest.json" dist/INSTALL.md --verify-tag --draft --prerelease --title "Fortune's Spoils $TAG - Early Beta" --notes-file release/NOTES.md

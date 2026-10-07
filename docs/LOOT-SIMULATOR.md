@@ -42,12 +42,13 @@ Third-party attribution: `site/vendor/fengari-LICENSE.txt`.
 
 ## Base-item images
 
-The simulator embeds small inventory icons directly from UESP. Exact record IDs
+The simulator embeds small inventory icons directly from UESP and mesh thumbnails
+from the OAAB Library. Exact record IDs
 are matched against the vanilla/expansion base-item tables; names alone never
 select an image. `data/item-images.json` records the image URL, UESP file page
 and item source page. Each displayed image links to both source pages, including
 the file's attribution/rights information. These game images are not bundled or
-claimed as original artwork. OAAB items without a match show "No wiki image".
+claimed as original artwork. Items without a match show "No wiki image".
 Failed image requests show "Image unavailable" without affecting generation.
 Images require internet access; all loot logic still runs offline. Generated
 items retain their base item's image. The fixed-size image area prevents layout
@@ -57,3 +58,8 @@ Refresh links explicitly using `python tools/refresh_item_images.py` (network
 access required), then rebuild the site. Normal builds use the committed index
 and never contact UESP. Equipment-category navigation filters the base-item
 picker, without changing the current item or generation probabilities.
+Use `--oaab-only` to preserve existing UESP links while filling gaps from
+`https://www.oaab.dev/library/`. OAAB thumbnails match the published record ID
+and mesh path, and are included only if their file exists in the library's public
+repository index. The footer links to the OAAB Library for these images. This
+website-only imagery does not add OAAB assets or dependencies to the mod package.

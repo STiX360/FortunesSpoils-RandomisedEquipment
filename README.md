@@ -4,12 +4,43 @@ Randomised loot for OpenMW, featuring tiered prefixes and suffixes, modified
 equipment stats, and custom unique items. Configurable drop rates, optional
 content support, and an interactive modifier catalogue.
 
-**Development snapshot. Not validated for production saves.**
+**Early beta: functional, but not balanced for regular play.** Bugs, oversights
+and balance feedback are welcome. Use a separate profile and back up saves;
+release validation remains pending.
+
+## Play The Early Beta
+
+Version **0.1.0** is the first early-beta release candidate. Requires Morrowind
+and OpenMW 0.51+. Tribunal, Bloodmoon and OAAB Data are optional.
+
+[Release Downloads](https://github.com/STiX360/FortunesSpoils-RandomisedEquipment/releases)
+| [Installation](release/INSTALL.md)
+| [Modifier Catalogue](https://stix360.github.io/FortunesSpoils-RandomisedEquipment/)
+| [Loot Simulator](https://stix360.github.io/FortunesSpoils-RandomisedEquipment/simulator.html)
+| [Report A Problem](https://github.com/STiX360/FortunesSpoils-RandomisedEquipment/issues)
+
+Install the **production ZIP**, not GitHub's automatically generated source-code
+archive. The ZIP contains only the installable scripts, localisation and OpenMW
+content manifest. The installation guide is a separate release download.
+
+Existing saves work by default. NPC inventories are capped on first observation;
+items sold or planted before that snapshot may roll. This is an accepted
+compatibility trade-off. Strict Inventory Tracking can restore the earlier
+new-game requirement. Back up saves before installing or updating.
+
+![Generated equipment on a corpse, with a dual-affix Common Shirt tooltip](docs/images/loot-example.png)
+
+*Player-provided in-game example: Flameward Common Shirt of Unarmored Defense,
+Common Pants of Storm Shelter, and Featherforged Steel Right Gauntlet. Screenshot
+from a modded game; other visible content and appearance are not supplied by this mod.*
+
+The website's Loot Simulator is a player-reference tool, **not an in-game feature**.
 
 The current ordinary-affix [utility progression](docs/AFFIX-PROGRESSION.md)
 includes timed-to-constant Water Breathing/Walking, Slowfall and Levitate tiers.
-Other utility effects retain CE with magnitude/range scaling. Unique templates
-and previously generated items are unchanged. No tests were run for this update.
+Other utility effects retain CE with magnitude/range scaling. Previously generated
+items are not retroactively rebalanced. Automated checks do not establish in-game
+release readiness; see the [release checklist](release/READINESS.md).
 
 ## Repository Boundaries
 
@@ -28,7 +59,7 @@ remain publishable so a clean GitHub checkout can build the website and mod.
 | `tools/` | Export, build, and optional game-data inspection tools | No |
 | `docs/` | Installation, research, design, historical reports | No |
 | `tests/` | Manually invoked tests; some retain prototype assumptions | No |
-| `release/` | Version, packaging profiles, packaged installation notes | Selected notes |
+| `release/` | Version, packaging profiles, installation and release notes | No; guide is a companion download |
 | `build/`, `dist/` | Generated output; ignored by Git | Not source |
 
 ## Build
@@ -42,17 +73,20 @@ python tools/build.py package --profile testing
 ```
 
 Open `build/site/index.html` directly in a browser. Website output is static and
-can be deployed to GitHub Pages. ZIPs and SHA-256 sidecars appear in `dist/`.
+can be deployed to GitHub Pages. Runtime-only ZIPs, companion manifests,
+SHA-256 sidecars and `INSTALL.md` appear in `dist/`.
 
 The Loot Simulator is at `build/site/simulator.html`, linked from the catalogue.
 It runs the bundled Lua loot rules offline with selectable bases, NPC levels and
 mapped locations. See [Simulator Details](docs/LOOT-SIMULATOR.md).
+The simulator is a website-only player reference, not an in-game mod feature.
 
 Production defaults use 33% single affix, 33% dual affix, 33% unchanged and 1%
 global unique chance (eligible non-projectiles with feasible outcomes):
 
 ```powershell
 python tools/build.py package --profile production
+python tools/verify_release.py dist/fortunes-spoils-0.1.0-production.zip --version 0.1.0 --profile production
 ```
 
 Saved settings override package defaults. Production logging defaults off; this
@@ -68,9 +102,11 @@ change. See [installation](release/INSTALL.md) and [testing notes](docs/TESTING.
 
 ## Publishing
 
-GitHub workflows are manual only: build artifacts, deploy Pages, prepare a draft
-release, or upload an existing release asset to Nexus. No scheduled publishing
-or tests are enabled. See [publishing setup](docs/PUBLISHING.md).
+Release packaging and Nexus uploads are manually dispatched. Pages deploys on
+push to `main` or manual dispatch. No scheduled publishing or automatic tests are
+enabled. GitHub releases remain drafts until reviewed; the initial 0.1.0 release
+is labelled a prerelease despite using a normal 0.X.X version. See the
+[step-by-step publishing guide](docs/PUBLISHING.md).
 
 ## Rights
 

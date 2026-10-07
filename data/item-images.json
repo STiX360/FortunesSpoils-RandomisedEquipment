@@ -1,4 +1,2460 @@
 {
+  "ab_a_backbasket": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_Backbasket",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/backbasket_gnd.webp"
+  },
+  "ab_a_bonemhelmopen": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BonemHelmOpen",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bonemold_helm_o_g.webp"
+  },
+  "ab_a_bonemlightboots": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BonemLightBoots",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/lightbonem_btg.webp"
+  },
+  "ab_a_bonemlightbracerl": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BonemLightBracerL",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/lightbonem_wr.webp"
+  },
+  "ab_a_bonemlightbracerr": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BonemLightBracerR",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/lightbonem_wr.webp"
+  },
+  "ab_a_bonemlightcuirass": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BonemLightCuirass",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/lightbonem_cug.webp"
+  },
+  "ab_a_bonemlightgreaves": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BonemLightGreaves",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/lightbonem_grg.webp"
+  },
+  "ab_a_bonemlighthelm": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BonemLightHelm",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/lightbonem_hr.webp"
+  },
+  "ab_a_bonemlightpaull": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BonemLightPaulL",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/lightbonem_plg.webp"
+  },
+  "ab_a_bonemlightpaulr": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BonemLightPaulR",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/lightbonem_plg.webp"
+  },
+  "ab_a_bugblueboots": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugBlueBoots",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_bl_boot_gnd.webp"
+  },
+  "ab_a_bugbluecuirass": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugBlueCuirass",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_bl_cuir_gnd.webp"
+  },
+  "ab_a_bugbluegntleft": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugBlueGntLeft",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_bl_gaun_gnd.webp"
+  },
+  "ab_a_bugbluegntright": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugBlueGntRight",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_bl_gaun_gnd.webp"
+  },
+  "ab_a_bugbluegreaves": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugBlueGreaves",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_bl_grea_gnd.webp"
+  },
+  "ab_a_bugbluehelm": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugBlueHelm",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_bl_helm_01.webp"
+  },
+  "ab_a_bugbluepldleft": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugBluePldLeft",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_bl_paul_gnd.webp"
+  },
+  "ab_a_bugbluepldright": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugBluePldRight",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_bl_paul_gnd.webp"
+  },
+  "ab_a_bugblueshield": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugBlueShield",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/k_bugshield_01.webp"
+  },
+  "ab_a_buggreenboots": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugGreenBoots",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_gr_boot_gnd.webp"
+  },
+  "ab_a_buggreencuirass": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugGreenCuirass",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_gr_cuir_gnd.webp"
+  },
+  "ab_a_buggreengntleft": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugGreenGntLeft",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_gr_gaun_gnd.webp"
+  },
+  "ab_a_buggreengntright": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugGreenGntRight",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_gr_gaun_gnd.webp"
+  },
+  "ab_a_buggreengreaves": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugGreenGreaves",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_gr_grea_gnd.webp"
+  },
+  "ab_a_buggreenhelm": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugGreenHelm",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_gr_helm_01.webp"
+  },
+  "ab_a_buggreenpldleft": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugGreenPldLeft",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_gr_paul_gnd.webp"
+  },
+  "ab_a_buggreenpldright": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugGreenPldRight",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/bug_gr_paul_gnd.webp"
+  },
+  "ab_a_buggreenshield": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_BugGreenShield",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/k_bugshield_02.webp"
+  },
+  "ab_a_cephhelmopen": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_CephHelmOpen",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_ceph_helm_open_gnd.webp"
+  },
+  "ab_a_cephpauldronleft": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_CephPauldronLeft",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_ceph_pld_gnd_l.webp"
+  },
+  "ab_a_cephpauldronright": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_CephPauldronRight",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_ceph_pld_gnd.webp"
+  },
+  "ab_a_chitinhelmopen": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ChitinHelmOpen",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/chitin_helm_o_g.webp"
+  },
+  "ab_a_chitinhlahelm01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ChitinHlaHelm01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/chitinhlahelm01_g.webp"
+  },
+  "ab_a_chitinredhelm01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ChitinRedHelm01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/chitinredhelm01_g.webp"
+  },
+  "ab_a_chitinscouthelm": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ChitinScoutHelm",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/chitinhelmscout_g.webp"
+  },
+  "ab_a_chitintelhelm01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ChitinTelHelm01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/chitintelhelm01_g.webp"
+  },
+  "ab_a_clothhelm1": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ClothHelm1",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_cloth_helm_gnd.webp"
+  },
+  "ab_a_clothhelm2": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ClothHelm2",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_cloth_helm2_gnd.webp"
+  },
+  "ab_a_clothhelm3": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ClothHelm3",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_cloth_helm3_gnd.webp"
+  },
+  "ab_a_daeazurahelm": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DaeAzuraHelm",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/daehelmazura.webp"
+  },
+  "ab_a_daedagonhelm": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DaeDagonHelm",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/daehelmdagon.webp"
+  },
+  "ab_a_daemolaghelm": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DaeMolagHelm",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/daehelmmolag.webp"
+  },
+  "ab_a_daesheoghelm": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DaeSheogHelm",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/daehelmsheog.webp"
+  },
+  "ab_a_dreughboots": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DreughBoots",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/dreugh_boots_gnd.webp"
+  },
+  "ab_a_dreughbracerl": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DreughBracerL",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/dreugh_bracer.webp"
+  },
+  "ab_a_dreughbracerr": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DreughBracerR",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/dreugh_bracer.webp"
+  },
+  "ab_a_dreughgreaves": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DreughGreaves",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/dreugh_grv_gnd.webp"
+  },
+  "ab_a_dreughhelmclose": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DreughHelmClose",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/dreughhelmclose.webp"
+  },
+  "ab_a_dreughpldleft": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DreughPldLeft",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/dreugh_pau_cl.webp"
+  },
+  "ab_a_dreughpldright": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DreughPldRight",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/dreugh_pau_cl.webp"
+  },
+  "ab_a_dustboots": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DustBoots",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_dust_boots_gnd.webp"
+  },
+  "ab_a_dustbracerleft": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DustBracerLeft",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_dust_brcr_gnd.webp"
+  },
+  "ab_a_dustbracerright": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DustBracerRight",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_dust_brcr_gnd.webp"
+  },
+  "ab_a_dustchest": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DustChest",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_dust_chest_gnd.webp"
+  },
+  "ab_a_dustgreaves": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DustGreaves",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_dust_grvs_gnd.webp"
+  },
+  "ab_a_dusthelm": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DustHelm",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_dust_helm_gnd.webp"
+  },
+  "ab_a_dustpldrleft": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DustPldrLeft",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_dust_pldr_gnd.webp"
+  },
+  "ab_a_dustpldrright": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_DustPldrRight",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_dust_pldr_gnd.webp"
+  },
+  "ab_a_ebonyhelmopen": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_EbonyHelmOpen",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/ebonyhelmopen.webp"
+  },
+  "ab_a_glasshelmclose": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_GlassHelmClose",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/glasshelmclosegnd.webp"
+  },
+  "ab_a_impbmboots": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ImpBmBoots",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/mv_bm_boots_gnd_01.webp"
+  },
+  "ab_a_impbmcuirass": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ImpBmCuirass",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/mv_bm_cuirass_gnd_01.webp"
+  },
+  "ab_a_impbmgreaves": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ImpBmGreaves",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/mv_bm_greaves_gnd_01.webp"
+  },
+  "ab_a_impbmhelm": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ImpBmHelm",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/mv_bm_helm_gnd_01.webp"
+  },
+  "ab_a_impbmpldleft": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ImpBmPldLeft",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/mv_bm_paul_gnd_01.webp"
+  },
+  "ab_a_impbmpldright": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_ImpBmPldRight",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/mv_bm_paul_gnd_01.webp"
+  },
+  "ab_a_irondeboots": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_IronDeBoots",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/de_iron_boot_gnd.webp"
+  },
+  "ab_a_irondecuirass": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_IronDeCuirass",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/de_iron_cuir_gnd.webp"
+  },
+  "ab_a_irondehelm": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_IronDeHelm",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/de_iron_helm.webp"
+  },
+  "ab_a_irondehelmtong": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_IronDeHelmTong",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/irondehelmthug_g.webp"
+  },
+  "ab_a_irondepldleft": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_IronDePldLeft",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/de_iron_paul_gnd.webp"
+  },
+  "ab_a_irondepldright": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_IronDePldRight",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/de_iron_paul_gnd.webp"
+  },
+  "ab_a_leatherhat": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_LeatherHat",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/leather_hat_gnd.webp"
+  },
+  "ab_a_moragtonghelm01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_MoragTongHelm01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/moragtonghelm01_g.webp"
+  },
+  "ab_a_moragtonghelm02": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_MoragTongHelm02",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/moragtonghelm02_g.webp"
+  },
+  "ab_a_moragtonghelm03": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_MoragTongHelm03",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/moragtonghelm03_g.webp"
+  },
+  "ab_a_moragtonghelm04": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_MoragTongHelm04",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/moragtonghelm04_g.webp"
+  },
+  "ab_a_netchboilpldleft": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_NetchBoilPldLeft",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/netchboil_pauld_gnd.webp"
+  },
+  "ab_a_netchboilpldright": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_NetchBoilPldRight",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/netchboil_pauld_gnd.webp"
+  },
+  "ab_a_netchimancap": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_NetchimanCap",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/netchimancap_g.webp"
+  },
+  "ab_a_orchelmopen": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_OrcHelmOpen",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/orchelmopengnd.webp"
+  },
+  "ab_a_steelboots": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_SteelBoots",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_steel_boots_gnd.webp"
+  },
+  "ab_a_steelcuirass": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_SteelCuirass",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_steel_chest_gnd.webp"
+  },
+  "ab_a_steelgntlleft": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_SteelGntlLeft",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_steel_gntl_gnd.webp"
+  },
+  "ab_a_steelgntlright": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_SteelGntlRight",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_steel_gntl_gnd.webp"
+  },
+  "ab_a_steelgreaves": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_SteelGreaves",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_steel_grvs_gnd.webp"
+  },
+  "ab_a_steelhelm": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_SteelHelm",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_steel_helm_gnd.webp"
+  },
+  "ab_a_steelhelmopen": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_SteelHelmOpen",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/steelhelmopen.webp"
+  },
+  "ab_a_steelpldrleft": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_SteelPldrLeft",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_steel_pldr_gnd.webp"
+  },
+  "ab_a_steelpldrright": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_SteelPldrRight",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/a_steel_pldr_gnd.webp"
+  },
+  "ab_a_wickerhelm": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_WickerHelm",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/helm_wicker_01_gnd.webp"
+  },
+  "ab_a_wickerhelm02": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_a_WickerHelm02",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/strawhat_gnd.webp"
+  },
+  "ab_c_commonamulet01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonAmulet01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/amulet_com_01.webp"
+  },
+  "ab_c_commonamulet02": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonAmulet02",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/sfishamulet.webp"
+  },
+  "ab_c_commonbelt01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonBelt01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/belt_com_01.webp"
+  },
+  "ab_c_commonbelt02": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonBelt02",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/belt_com_02.webp"
+  },
+  "ab_c_commonhood01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_01_hood_g.webp"
+  },
+  "ab_c_commonhood02": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood02",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_02_hood_g.webp"
+  },
+  "ab_c_commonhood02h": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood02h",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_02h_hood_g.webp"
+  },
+  "ab_c_commonhood02hh": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood02hh",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_02hh_hood_g.webp"
+  },
+  "ab_c_commonhood02r": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood02r",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_02r_hood_g.webp"
+  },
+  "ab_c_commonhood02rr": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood02rr",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_02rr_hood_g.webp"
+  },
+  "ab_c_commonhood02t": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood02t",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_02t_hood_g.webp"
+  },
+  "ab_c_commonhood02tt": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood02tt",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_02tt_hood_g.webp"
+  },
+  "ab_c_commonhood03": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood03",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_03_hood_g.webp"
+  },
+  "ab_c_commonhood03a": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood03a",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_03a_hood_g.webp"
+  },
+  "ab_c_commonhood03b": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood03b",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_03b_hood_g.webp"
+  },
+  "ab_c_commonhood04": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood04",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_04_hood_g.webp"
+  },
+  "ab_c_commonhood05": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood05",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_05_hood_g.webp"
+  },
+  "ab_c_commonhood05a": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood05a",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_05a_hood_g.webp"
+  },
+  "ab_c_commonhood05b": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood05b",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_05b_hood_g.webp"
+  },
+  "ab_c_commonhood05c": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHood05c",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_05c_hood_g.webp"
+  },
+  "ab_c_commonhoodblack": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonHoodBlack",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_black_hd_g.webp"
+  },
+  "ab_c_commonring01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonRing01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/ring_com_01.webp"
+  },
+  "ab_c_commonring02": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonRing02",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/ring_com_02.webp"
+  },
+  "ab_c_commonrobeblack": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonRobeBlack",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_com_black_g.webp"
+  },
+  "ab_c_commonshirt02b": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonShirt02b",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/c_shirt_com02_gnd.webp"
+  },
+  "ab_c_commonshirt05l": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_CommonShirt05L",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/c_shirt_coml05_gnd.webp"
+  },
+  "ab_c_dwemeramuletclock": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_DwemerAmuletClock",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/amulet_dwe_clock.webp"
+  },
+  "ab_c_dwrvhat": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_DwrvHat",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/a/dwemer_hat_gnd.webp"
+  },
+  "ab_c_expensiveamulet01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExpensiveAmulet01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/amulet_exp_01.webp"
+  },
+  "ab_c_expensivebelt01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExpensiveBelt01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/belt_exp_01.webp"
+  },
+  "ab_c_expensivehood01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExpensiveHood01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_exp_01_hood_g.webp"
+  },
+  "ab_c_expensivehood02": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExpensiveHood02",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_exp_02_hood_g.webp"
+  },
+  "ab_c_expensivehood02a": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExpensiveHood02a",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_exp_02a_hood_g.webp"
+  },
+  "ab_c_expensivehood03": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExpensiveHood03",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_exp_03_hood_g.webp"
+  },
+  "ab_c_expensivering01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExpensiveRing01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/ring_exp_01.webp"
+  },
+  "ab_c_expensivering02": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExpensiveRing02",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/ring_exp_02.webp"
+  },
+  "ab_c_expensivering03": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExpensiveRing03",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/ring_exp_03.webp"
+  },
+  "ab_c_exquisiteamulet01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExquisiteAmulet01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/amulet_exq_01.webp"
+  },
+  "ab_c_exquisitehood01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExquisiteHood01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_exq_01_hood_g.webp"
+  },
+  "ab_c_exquisitering01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExquisiteRing01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/ring_exq_01.webp"
+  },
+  "ab_c_extravagantamulet01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExtravagantAmulet01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/amulet_extr_01.webp"
+  },
+  "ab_c_extravaganthood01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExtravagantHood01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_ext_01_hood_g.webp"
+  },
+  "ab_c_extravaganthood01a": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExtravagantHood01a",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_ext_01a_hood_g.webp"
+  },
+  "ab_c_extravaganthood01b": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExtravagantHood01b",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_ext_01b_hood_g.webp"
+  },
+  "ab_c_extravaganthood01c": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExtravagantHood01c",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_ext_01c_hood_g.webp"
+  },
+  "ab_c_extravaganthood01h": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExtravagantHood01h",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_ext_01h_hood_g.webp"
+  },
+  "ab_c_extravaganthood01r": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExtravagantHood01r",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_ext_01r_hood_g.webp"
+  },
+  "ab_c_extravaganthood01t": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExtravagantHood01t",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_ext_01t_hood_g.webp"
+  },
+  "ab_c_extravaganthood02": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExtravagantHood02",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/robe_ext_02_hood_g.webp"
+  },
+  "ab_c_extravagantring01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExtravagantRing01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/ring_extr_01.webp"
+  },
+  "ab_c_extravagantring02": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_c_ExtravagantRing02",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/c/ring_extr_02.webp"
+  },
+  "ab_w_adamrapier": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_AdamRapier",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_rapier_adam.webp"
+  },
+  "ab_w_ashlbonearrow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_AshlBoneArrow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_arrow_bone.webp"
+  },
+  "ab_w_ashlebonyarrow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_AshlEbonyArrow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_arrow_rawebony.webp"
+  },
+  "ab_w_ashlglassarrow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_AshlGlassArrow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_arrow_rawglass.webp"
+  },
+  "ab_w_ashlglassclub": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_AshlGlassClub",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ashglass_club.webp"
+  },
+  "ab_w_ashlglassdagger": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_AshlGlassDagger",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ashglass_dagger.webp"
+  },
+  "ab_w_ashlglasslongsword": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_AshlGlassLongsword",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ashglass_lsword.webp"
+  },
+  "ab_w_ashlglassshortsword": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_AshlGlassShortsword",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ashglass_ssword.webp"
+  },
+  "ab_w_ashlglassspear": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_AshlGlassSpear",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ashglass_spear.webp"
+  },
+  "ab_w_ashlglassstaff": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_AshlGlassStaff",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ashglass_staff.webp"
+  },
+  "ab_w_ashlglasswaraxe": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_AshlGlassWarAxe",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ashglass_waxe.webp"
+  },
+  "ab_w_bonearrow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_BoneArrow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_arrow_bone.webp"
+  },
+  "ab_w_bonebolt": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_BoneBolt",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_bolt_bone.webp"
+  },
+  "ab_w_bonesaw": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_BoneSaw",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_bonesaw_01.webp"
+  },
+  "ab_w_bonescepter": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_BoneScepter",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/bone_scepter.webp"
+  },
+  "ab_w_bottlebroken": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_BottleBroken",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_bottle_broken.webp"
+  },
+  "ab_w_chitindart": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ChitinDart",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/chitin_dart.webp"
+  },
+  "ab_w_chitingreatmace": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ChitinGreatmace",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/chitin_greatmace.webp"
+  },
+  "ab_w_chitinhalberd": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ChitinHalberd",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/chitin_halberd.webp"
+  },
+  "ab_w_chitinlongbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ChitinLongbow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/chitin_longbow.webp"
+  },
+  "ab_w_chitinlongspear": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ChitinLongspear",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/chitin_longspear.webp"
+  },
+  "ab_w_chitinlongsword": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ChitinLongsword",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/chitin_longsword.webp"
+  },
+  "ab_w_chitinmace": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ChitinMace",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/chitin_mace.webp"
+  },
+  "ab_w_chitinsickle": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ChitinSickle",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/chitin_sickle.webp"
+  },
+  "ab_w_cookknifebone": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_CookKnifeBone",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/cook_knife_bone.webp"
+  },
+  "ab_w_cookknifebread": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_CookKnifeBread",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/cook_knife_bread.webp"
+  },
+  "ab_w_cookknifechef": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_CookKnifeChef",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/cook_knife_chef.webp"
+  },
+  "ab_w_cookknifecleave": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_CookKnifeCleave",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/cook_knife_cleave.webp"
+  },
+  "ab_w_cookknifedinner": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_CookKnifeDinner",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/cook_knife_dinner.webp"
+  },
+  "ab_w_daedrichalberd": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DaedricHalberd",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_daedric_halberd.webp"
+  },
+  "ab_w_daedricknife": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DaedricKnife",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_knife_daedric.webp"
+  },
+  "ab_w_daedricrapier": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DaedricRapier",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_rapier_daedric.webp"
+  },
+  "ab_w_daedricscepter": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DaedricScepter",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dae_scepter.webp"
+  },
+  "ab_w_daedricshortbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DaedricShortbow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/daedric_shortbow.webp"
+  },
+  "ab_w_daedricstar": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DaedricStar",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/daedric_star.webp"
+  },
+  "ab_w_daelongpear": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DaeLongpear",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_longspear_daedric.webp"
+  },
+  "ab_w_dreugharrow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DreughArrow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dreugh_arrow.webp"
+  },
+  "ab_w_dreughbattleaxe": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DreughBattleAxe",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dreugh_battleaxe.webp"
+  },
+  "ab_w_dreughclaymore": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DreughClaymore",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dreugh_claymore.webp"
+  },
+  "ab_w_dreughdagger": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DreughDagger",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dreugh_dagger.webp"
+  },
+  "ab_w_dreughgreatmace": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DreughGreatmace",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dreugh_greatmace.webp"
+  },
+  "ab_w_dreughhalberd": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DreughHalberd",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dreugh_halberd.webp"
+  },
+  "ab_w_dreughlongsword": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DreughLongsword",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dreugh_longsword.webp"
+  },
+  "ab_w_dreughmace": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DreughMace",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dreugh_mace.webp"
+  },
+  "ab_w_dreughshortbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DreughShortbow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dreugh_shortbow.webp"
+  },
+  "ab_w_dreughshortsword": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DreughShortsword",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dreugh_shortsword.webp"
+  },
+  "ab_w_dreughspear": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DreughSpear",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dreugh_spear.webp"
+  },
+  "ab_w_dreughwaraxe": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DreughWarAxe",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dreugh_waraxe.webp"
+  },
+  "ab_w_dwrvarbalest": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DwrvArbalest",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_dwrv_arbalest.webp"
+  },
+  "ab_w_dwrvbolt": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DwrvBolt",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dwemer_bolt.webp"
+  },
+  "ab_w_dwrvdagger": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DwrvDagger",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dwemer_dagger.webp"
+  },
+  "ab_w_dwrvknife": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DwrvKnife",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dwe_knife.webp"
+  },
+  "ab_w_dwrvlongspear": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DwrvLongspear",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_dwemer_longspear.webp"
+  },
+  "ab_w_dwrvlongsword": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DwrvLongsword",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dwemer_longsword.webp"
+  },
+  "ab_w_dwrvscepter": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DwrvScepter",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dwrv_scepter.webp"
+  },
+  "ab_w_dwrvspectrehammer": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DwrvSpectreHammer",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dwrvspectrehammer.webp"
+  },
+  "ab_w_dwrvspectresword": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DwrvSpectreSword",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dwrvspectresword.webp"
+  },
+  "ab_w_dwrvstar": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DwrvStar",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dwe_star.webp"
+  },
+  "ab_w_dwrvtoolcrowbar": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_DwrvToolCrowbar",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/dwrvcrowbar.webp"
+  },
+  "ab_w_ebonybolt": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EbonyBolt",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_bolt_ebony.webp"
+  },
+  "ab_w_ebonybow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EbonyBow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_ebony_longbow.webp"
+  },
+  "ab_w_ebonyclaymore": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EbonyClaymore",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_ebony_claymore.webp"
+  },
+  "ab_w_ebonydagger": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EbonyDagger",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ebony_dagger.webp"
+  },
+  "ab_w_ebonydaikatana": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EbonyDaiKatana",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ebony_daikatana.webp"
+  },
+  "ab_w_ebonyglaive": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EbonyGlaive",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ebony_glaive.webp"
+  },
+  "ab_w_ebonyhalberd": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EbonyHalberd",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/rem_ebony_halberd.webp"
+  },
+  "ab_w_ebonykatana": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EbonyKatana",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ebony_katana.webp"
+  },
+  "ab_w_ebonyknife": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EbonyKnife",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ebony_knife.webp"
+  },
+  "ab_w_ebonyscepter": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EbonyScepter",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ebony_scepter.webp"
+  },
+  "ab_w_ebonytanto": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EbonyTanto",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ebony_tanto.webp"
+  },
+  "ab_w_ebonywakizashi": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EbonyWakizashi",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ebony_wakizashi.webp"
+  },
+  "ab_w_ebonywarhammer": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EbonyWarhammer",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ebony_warhammer.webp"
+  },
+  "ab_w_eggminerhook": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_EggminerHook",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/miner_hook.webp"
+  },
+  "ab_w_flintarrow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_FlintArrow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/flint_arrow.webp"
+  },
+  "ab_w_flintaxe": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_FlintAxe",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/flint_axe.webp"
+  },
+  "ab_w_flintknife": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_FlintKnife",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/flint_knife.webp"
+  },
+  "ab_w_flintpickaxe": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_FlintPickaxe",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/flint_pick.webp"
+  },
+  "ab_w_flintspear": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_FlintSpear",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/flint_spear.webp"
+  },
+  "ab_w_glassbattleaxe": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GlassBattleAxe",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/glass_battleaxe.webp"
+  },
+  "ab_w_glassdart": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GlassDart",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_dart_glass.webp"
+  },
+  "ab_w_glassdkatana": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GlassDkatana",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_glass_dkatana.webp"
+  },
+  "ab_w_glasskatana": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GlassKatana",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_glass_katana.webp"
+  },
+  "ab_w_glassmace": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GlassMace",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/glass_mace.webp"
+  },
+  "ab_w_glassrapier": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GlassRapier",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_rapier_glass.webp"
+  },
+  "ab_w_glasssaber": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GlassSaber",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/glass_saber.webp"
+  },
+  "ab_w_glassscepter": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GlassScepter",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/glass_scepter.webp"
+  },
+  "ab_w_glassshortbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GlassShortbow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/glass_shortbow.webp"
+  },
+  "ab_w_glassspear": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GlassSpear",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/rem_glass_spear.webp"
+  },
+  "ab_w_glasstanto": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GlassTanto",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/glass_tanto.webp"
+  },
+  "ab_w_glasswakizashi": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GlassWakizashi",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/glass_wakizashi.webp"
+  },
+  "ab_w_glasswarhammer": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GlassWarhammer",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/glasswarhammer.webp"
+  },
+  "ab_w_goblinarrow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GoblinArrow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_goblin_arrow.webp"
+  },
+  "ab_w_goldstclaymore": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_GoldStClaymore",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/goldst_claymore.webp"
+  },
+  "ab_w_huntsarrow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_HuntsArrow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_huntsman_arrow.webp"
+  },
+  "ab_w_huntsbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_HuntsBow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_huntsman_longbow.webp"
+  },
+  "ab_w_imparrow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpArrow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/imperial_arrow.webp"
+  },
+  "ab_w_impbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpBow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/rem_imp_bow.webp"
+  },
+  "ab_w_impclub": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpClub",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/imperial_club.webp"
+  },
+  "ab_w_impdaikatana": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpDaiKatana",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/rem_imp_daikatana.webp"
+  },
+  "ab_w_impdart": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpDart",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/imperial_dart.webp"
+  },
+  "ab_w_impetool": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpEtool",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_legion_etool.webp"
+  },
+  "ab_w_impkatana": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpKatana",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/rem_imp_katana.webp"
+  },
+  "ab_w_implongsword": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpLongsword",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/imperial_longsword.webp"
+  },
+  "ab_w_impmace": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpMace",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/imperial_mace.webp"
+  },
+  "ab_w_impspear": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpSpear",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/rem_imp_spear.webp"
+  },
+  "ab_w_impstaff": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpStaff",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/imperial_staff.webp"
+  },
+  "ab_w_imptanto": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpTanto",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/imp_tanto.webp"
+  },
+  "ab_w_impwakizashi": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpWakizashi",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/imp_wakizashi.webp"
+  },
+  "ab_w_impwaraxe": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ImpWarAxe",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/imperial_waraxe.webp"
+  },
+  "ab_w_ironlongbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_IronLongbow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/iron_longbow.webp"
+  },
+  "ab_w_ironrapier": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_IronRapier",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_rapier_iron.webp"
+  },
+  "ab_w_machete": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_Machete",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_machete_01.webp"
+  },
+  "ab_w_markingknife": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_MarkingKnife",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_markingknife_01.webp"
+  },
+  "ab_w_nordiclongaxe": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_NordicLongAxe",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/nordic_longaxe.webp"
+  },
+  "ab_w_nordicmace": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_NordicMace",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_nord_mace.webp"
+  },
+  "ab_w_nordicsilverbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_NordicSilverBow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_nord_longbow.webp"
+  },
+  "ab_w_nordicsilverspear": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_NordicSilverSpear",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_nord_spear.webp"
+  },
+  "ab_w_orcisharrow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_OrcishArrow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_orcish_arrow.webp"
+  },
+  "ab_w_orcishmace": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_OrcishMace",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_orcish_mace.webp"
+  },
+  "ab_w_recrossbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ReCrossbow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/w/w_crossbow.webp"
+  },
+  "ab_w_resinstaff": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ResinStaff",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/resin_staff.webp"
+  },
+  "ab_w_silverdaikatana": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SilverDaiKatana",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/silver_daikatana.webp"
+  },
+  "ab_w_silverhalberd": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SilverHalberd",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/rem_silver_halberd.webp"
+  },
+  "ab_w_silverkatana": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SilverKatana",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/silver_katana.webp"
+  },
+  "ab_w_silverknife": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SilverKnife",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_knife_silver.webp"
+  },
+  "ab_w_silverlongbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SilverLongbow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/silver_longbow.webp"
+  },
+  "ab_w_silverrapier": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SilverRapier",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_rapier_silver.webp"
+  },
+  "ab_w_silverscepter": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SilverScepter",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/silver_scepter.webp"
+  },
+  "ab_w_silvershortbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SilverShortbow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/silver_shortbow.webp"
+  },
+  "ab_w_silvertanto": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SilverTanto",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/silver_tanto.webp"
+  },
+  "ab_w_silverwakizashi": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SilverWakizashi",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/silver_wakizashi.webp"
+  },
+  "ab_w_silverwarhammer": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SilverWarhammer",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/silver_warhammer.webp"
+  },
+  "ab_w_sixthknife": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SixthKnife",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_sixth_knife.webp"
+  },
+  "ab_w_sixthspear": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SixthSpear",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/6th_spear.webp"
+  },
+  "ab_w_stalhrimarrow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_StalhrimArrow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_ice_arrow.webp"
+  },
+  "ab_w_stalhrimbattleaxe": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_StalhrimBattleaxe",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_ice_battleaxe.webp"
+  },
+  "ab_w_stalhrimbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_StalhrimBow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_ice_longbow.webp"
+  },
+  "ab_w_stalhrimshortsword": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_StalhrimShortsword",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_ice_shortsword.webp"
+  },
+  "ab_w_stalhrimspear": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_StalhrimSpear",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_ice_spear.webp"
+  },
+  "ab_w_steelrapier": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SteelRapier",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_rapier_steel.webp"
+  },
+  "ab_w_steelshortsaber": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_SteelShortSaber",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_noble_guard_sword.webp"
+  },
+  "ab_w_toolclimbingpick": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolClimbingPick",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/climbing_pick.webp"
+  },
+  "ab_w_toolebonypick": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolEbonyPick",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/ebony_pickaxe.webp"
+  },
+  "ab_w_toolfireplacebrush": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolFireplaceBrush",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/fireplace_brush.webp"
+  },
+  "ab_w_toolfireplacepoker": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolFireplacePoker",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/fireplace_poker.webp"
+  },
+  "ab_w_toolfireplaceshovel": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolFireplaceShovel",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/fireplace_shovel.webp"
+  },
+  "ab_w_toolfishingnet": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolFishingNet",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/fishing_net.webp"
+  },
+  "ab_w_toolhammer": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolHammer",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/hammer.webp"
+  },
+  "ab_w_toolhandscythe00": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolHandscythe00",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/hand_scythe00.webp"
+  },
+  "ab_w_toolhandscythe01": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolHandscythe01",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/hand_scythe01.webp"
+  },
+  "ab_w_toolhoe": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolHoe",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/tool_hoe.webp"
+  },
+  "ab_w_toolpitchfork": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolPitchfork",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/momo_pitchfork.webp"
+  },
+  "ab_w_toolrake": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolRake",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/tool_rake.webp"
+  },
+  "ab_w_toolscythe": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolScythe",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/scythe.webp"
+  },
+  "ab_w_toolshovel": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolShovel",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/tool_shovel.webp"
+  },
+  "ab_w_toolsmithhammer": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolSmithHammer",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/smith_hammer.webp"
+  },
+  "ab_w_toolwoodaxe": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_ToolWoodAxe",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/woodaxe.webp"
+  },
+  "ab_w_wood sword": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_Wood Sword",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/woodsword.webp"
+  },
+  "ab_w_woodarrow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_WoodArrow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_arrow01.webp"
+  },
+  "ab_w_woodbolt": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_WoodBolt",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_bolt01.webp"
+  },
+  "ab_w_woodbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_WoodBow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/wood_bow.webp"
+  },
+  "ab_w_woodclub": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_WoodClub",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/woodclub.webp"
+  },
+  "ab_w_woodcrossbow": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_WoodCrossbow",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/w/w_crossbow.webp"
+  },
+  "ab_w_woodstake": {
+    "filePage": "https://www.oaab.dev/library/",
+    "recordId": "AB_w_WoodStake",
+    "rendering": "smooth",
+    "sourceLabel": "OAAB Library",
+    "sourcePage": "https://www.oaab.dev/library/",
+    "url": "https://www.oaab.dev/assets/images/library/thumbnails/meshes/oaab/w/w_stake_wood.webp"
+  },
   "bm bear boots": {
     "filePage": "https://en.uesp.net/wiki/File:BM-icon-armor-Bear_Boots.png",
     "sourcePage": "https://en.uesp.net/wiki/Bloodmoon:Base_Armor",

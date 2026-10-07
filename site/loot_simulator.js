@@ -33,10 +33,12 @@ function showBaseImage(){
   fallback.hidden=false;fallback.textContent=base.image?'Loading image...':'No wiki image';
   el('imageCredit').replaceChildren();
   if(!base.image)return;
-  const link=node('a','Image: UESP');link.href=base.image.filePage;link.target='_blank';link.rel='noopener noreferrer';
+  const link=node('a','Image: '+(base.image.sourceLabel||'UESP'));link.href=base.image.filePage;link.target='_blank';link.rel='noopener noreferrer';
   const source=node('a','Item source');source.href=base.image.sourcePage;source.target='_blank';source.rel='noopener noreferrer';
-  el('imageCredit').append(link,source);
-  image.alt=base.name+' inventory icon';
+  el('imageCredit').append(link);
+  if(base.image.sourcePage!==base.image.filePage)el('imageCredit').append(source);
+  image.classList.toggle('smooth',base.image.rendering==='smooth');
+  image.alt=base.name+' base item image';
   image.onload=()=>{image.hidden=false;fallback.hidden=true;};
   image.onerror=()=>{image.hidden=true;fallback.hidden=false;fallback.textContent='Image unavailable';};
   image.src=base.image.url;

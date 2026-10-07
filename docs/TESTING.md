@@ -2,10 +2,10 @@
 
 Development snapshot. Prior harness results do not validate this reorganised
 package; no tests have been run during repository preparation.
-Start a new game with this build enabled: corpse rolls require a trusted initial
-NPC inventory allowance. An existing save receiving the mod for the first time
-has no corpse rolls; previously visited NPCs in an upgraded mod save without a
-snapshot also remain unchanged. See [Inventory Allowances](INVENTORY-ALLOWANCES.md)
+Existing saves are supported by default through first-observed living NPC
+inventory caps. Items traded/planted before that snapshot may roll: an accepted
+compatibility trade-off. Strict Inventory Tracking optionally restores the
+new-game-on-first-install restriction. See [Inventory Allowances](INVENTORY-ALLOWANCES.md)
 and [Current In-Game Validation](CURRENT-INGAME-CHECKLIST.md).
 
 Use a separate Mod Organizer profile and a disposable save. Do not install it
@@ -31,8 +31,10 @@ cannot be selected. This package does not edit the installed masters or profiles
 - Exact static pools for Morrowind, Tribunal, Bloodmoon, and OAAB Data.
 - Independent chance and modifier/unique roll for every eligible non-projectile item copy on a corpse.
 - Projectile stacks roll once and replace the initially allowed quantity with one of three fixed quality grades; later added excess stays ordinary. No projectile unique drops.
-- Prefix, suffix, or both, configurable with equal `1/1/1` weights by default.
-- Independent six-tier distributions, tier-specific names, and upper-tier gates.
+- Prefix, suffix, or both, with `1/1/2` layout weights by default; combined with
+  production drop defaults this gives 33% single, 33% dual, 33% unchanged and 1% unique.
+- Independent tier distributions and tier-specific names. All eligible bases can
+  reach T6; NPC-level scaling reaches equal tier weights at level 25 by default.
 - Physical damage, armor, condition, weight, speed, reach, capacity; optional value.
 - The magic catalogue plus slot-aware gap families, including charged melee effects.
 - All 3,000 fixed unique registry drafts; four per approved exact base ID.

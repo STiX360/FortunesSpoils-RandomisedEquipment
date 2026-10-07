@@ -372,6 +372,7 @@ deferred.dead = true
 reloaded.eventHandlers.RandomisedBasicLoot_Death(deferred)
 assert(deferredItem.count == 39, 'Reload must retain the original quantity cap')
 
+config.requireNewGameInventory = true
 local legacy = dofile('mod/scripts/randomisedbasicloot/global.lua')
 legacy.engineHandlers.onLoad({ processed = {} })
 local oldActor, oldItem = corpse('legacy-inventory', 50)
@@ -391,6 +392,54 @@ oldActor.dead = true
 installed.eventHandlers.RandomisedBasicLoot_Death(oldActor)
 assert(oldItem.count == 50 and #objects == before)
 print('PASS: merchant/plant quantity caps, merged ammo excess retained, worn priority, snapshot immutability, reload caps, legacy and missing snapshots fail closed')
+
+config.requireNewGameInventory = false
+local compatible = dofile('mod/scripts/randomisedbasicloot/global.lua')
+activeMod = compatible
+local existing, existingItem = corpse('compatible-first-install', 2)
+existingItem.count = 7
+compatible.eventHandlers.RandomisedBasicLoot_Death(existing)
+assert(existingItem.count == 5, 'First-observed cap permits old saves but never expands afterward')
+
+local loadedPolicy = dofile('mod/scripts/randomisedbasicloot/global.lua')
+loadedPolicy.engineHandlers.onLoad({ processed = {}, inventoryAllowances = {}, baselineMode = 'migrating' })
+existing.id, existing.dead, existingItem.count = 'loaded-legacy-compatible', false, 3
+loadedPolicy.eventHandlers.RandomisedBasicLoot_InitialInventory({ actor = existing, fresh = false })
+existing.dead = true
+loadedPolicy.eventHandlers.RandomisedBasicLoot_Death(existing)
+assert(existingItem.count == 0, 'Compatibility mode snapshots living loaded NPCs without a cap')
+
+local recovered = dofile('mod/scripts/randomisedbasicloot/global.lua')
+recovered.engineHandlers.onLoad({ processed = {}, baselineMode = 'new-game-required',
+    inventoryAllowances = { ['previous-policy-block'] = {} } })
+existing.id, existing.dead, existingItem.count = 'previous-policy-block', false, 1
+recovered.eventHandlers.RandomisedBasicLoot_InitialInventory({ actor = existing, fresh = false })
+assert(recovered.engineHandlers.onSave().inventoryAllowances[existing.id][sword.id] == 1,
+    'Earlier first-install policy blocks are recoverable while alive')
+config.requireNewGameInventory = true
+existing.dead = true
+recovered.eventHandlers.RandomisedBasicLoot_Death(existing)
+assert(existingItem.count == 1, 'Enabling strict mode blocks existing-save rolls even after compatibility capture')
+
+local togglePolicy = dofile('mod/scripts/randomisedbasicloot/global.lua')
+existing.id, existing.dead = 'toggle-policy-block', false
+togglePolicy.eventHandlers.RandomisedBasicLoot_InitialInventory({ actor = existing, fresh = false })
+assert(togglePolicy.engineHandlers.onSave().policyRejectedAllowances[existing.id])
+config.requireNewGameInventory = false
+togglePolicy.eventHandlers.RandomisedBasicLoot_InitialInventory({ actor = existing, fresh = false })
+existing.dead = true
+togglePolicy.eventHandlers.RandomisedBasicLoot_Death(existing)
+assert(existingItem.count == 0, 'Disabling strict mode recovers policy-only blocks')
+
+local emptyPolicy = dofile('mod/scripts/randomisedbasicloot/global.lua')
+emptyPolicy.engineHandlers.onLoad({ processed = {}, inventoryPolicyVersion = 2,
+    baselineMode = 'new-game-required', inventoryAllowances = { ['trusted-empty'] = {} } })
+existing.id, existing.dead, existingItem.count = 'trusted-empty', false, 4
+emptyPolicy.eventHandlers.RandomisedBasicLoot_InitialInventory({ actor = existing, fresh = false })
+existing.dead = true
+emptyPolicy.eventHandlers.RandomisedBasicLoot_Death(existing)
+assert(existingItem.count == 4, 'A genuine empty snapshot must never grow')
+print('PASS: existing-save support, loaded snapshots, policy migration, strict toggle and genuine empty caps')
 
 -- Global unique chance must work even when ordinary generation is disabled.
 config.dropChance, config.uniqueChance, config.allowUniqueDuplicates = 0, 1, true

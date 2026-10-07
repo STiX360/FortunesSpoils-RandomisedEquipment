@@ -1,8 +1,9 @@
-"""Refresh exact-record UESP image links; never download or bundle game images."""
+"""Refresh exact-record UESP/OAAB image links; never bundle game images."""
+import argparse
 import json
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlencode, urljoin
+from urllib.parse import quote, urlencode, urljoin
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -48,10 +49,44 @@ class Rows(HTMLParser):
             self.link = None
 
 
+def read_json(url):
+    request = Request(url, headers={'User-Agent': 'FortunesSpoilsImageIndex/1.0'})
+    with urlopen(request, timeout=60) as response:
+        return json.load(response)
+
+
+def add_oaab_images(images, records):
+    library = 'https://www.oaab.dev/library/'
+    rows = read_json('https://www.oaab.dev/assets/data/library/OAAB_Data_filtered.json')
+    tree = read_json('https://api.github.com/repos/OAAB-Modding/OAAB-Modding.github.io/git/trees/main?recursive=1')
+    if tree.get('truncated'):
+        raise ValueError('OAAB file index is truncated; cannot verify thumbnail paths')
+    paths = {entry['path'] for entry in tree['tree'] if entry['type'] == 'blob'}
+    count = 0
+    for row in rows:
+        ident = str(row.get('id', '')).lower()
+        if ident not in records or ident in images:
+            continue
+        mesh = str(row.get('mesh', '')).replace('\\', '/').lower().removeprefix('meshes/')
+        if not mesh.endswith('.nif'):
+            continue
+        path = 'assets/images/library/thumbnails/meshes/' + mesh[:-4] + '.webp'
+        if path not in paths:
+            continue
+        url = 'https://www.oaab.dev/' + quote(path, safe='/')
+        images[ident] = dict(url=url, filePage=library, sourcePage=library,
+                             sourceLabel='OAAB Library', rendering='smooth', recordId=row['id'])
+        count += 1
+    print(f'OAAB Library: {count} new exact-record matches with verified thumbnail paths')
+
+
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--oaab-only', action='store_true', help='Keep existing UESP links and fill OAAB gaps')
+    args = parser.parse_args()
     records = json.loads((ROOT / 'data/simulator-snapshot.json').read_text(encoding='utf-8'))['records']
-    images = {}
-    for page in PAGES:
+    images = json.loads((ROOT / 'data/item-images.json').read_text(encoding='utf-8')) if args.oaab_only else {}
+    for page in ([] if args.oaab_only else PAGES):
         url = 'https://en.uesp.net/w/api.php?' + urlencode(dict(action='parse', page=page, prop='text', format='json'))
         request = Request(url, headers={'User-Agent': 'FortunesSpoilsImageIndex/1.0'})
         with urlopen(request, timeout=45) as response:
@@ -70,6 +105,7 @@ def main():
                         images[ident] = {**image, 'sourcePage': 'https://en.uesp.net/wiki/' + page.replace(' ', '_')}
                         count += 1
         print(f'{page}: {count} matching records')
+    add_oaab_images(images, records)
     (ROOT / 'data/item-images.json').write_text(json.dumps(images, indent=2, sort_keys=True) + '\n', encoding='utf-8')
     print(f'Indexed {len(images)} exact-record image links (no images downloaded)')
 

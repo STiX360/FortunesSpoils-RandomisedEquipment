@@ -72,7 +72,7 @@ return {
             sent = data and data.sent or false
             pendingEquipment = data and data.pendingEquipment or nil
             equipmentWait = 0
-            -- Global saved allowances are authoritative; never recapture loaded inventories.
+            -- Global saved allowances are authoritative; policy decides whether a missing baseline is allowed.
             freshInventory = false
             requestSnapshot()
         end,

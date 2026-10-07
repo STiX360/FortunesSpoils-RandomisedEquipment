@@ -15,8 +15,15 @@ jobs:
   upload:
     if: vars.NEXUS_PUBLISH_ENABLED == 'true'
     runs-on: ubuntu-latest
-    environment: nexus-production
+    environment: nexus
     steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ inputs.tag }}
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
       - name: Download exact release archive and checksum
         env:
           GH_TOKEN: ${{ github.token }}
@@ -27,19 +34,20 @@ jobs:
           [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+(-[A-Za-z0-9.-]+)?$ ]]
           ASSET="fortunes-spoils-$VERSION-production.zip"
           test "$(gh release view "$TAG" --json isDraft --jq .isDraft)" = false
-          gh release download "$TAG" --pattern "$ASSET" --pattern "$ASSET.sha256"
+          gh release download "$TAG" --pattern "$ASSET" --pattern "$ASSET.sha256" --pattern "fortunes-spoils-$VERSION-production.manifest.json"
           sha256sum -c "$ASSET.sha256"
           echo "VERSION=$VERSION" >> "$GITHUB_ENV"
           echo "ASSET=$ASSET" >> "$GITHUB_ENV"
       - name: Confirm archive identity
         run: |
-          python - <<'PY'
-          import json, os, zipfile
-          with zipfile.ZipFile(os.environ['ASSET']) as archive:
-              manifest = json.loads(archive.read('BUILD-MANIFEST.json'))
-          if manifest['version'] != os.environ['VERSION'] or manifest['profile'] != 'production':
-              raise SystemExit('Release version/profile mismatch')
-          PY
+          python tools/verify_release.py "$ASSET" --version "$VERSION" --profile production
+      - name: Confirm Nexus connection is configured
+        env:
+          FILE_ID: ${{ vars.NEXUSMODS_FILE_ID }}
+          API_KEY: ${{ secrets.NEXUSMODS_API_KEY }}
+        run: |
+          test -n "$FILE_ID" || { echo 'Configure NEXUSMODS_FILE_ID after the first manual Nexus upload.'; exit 1; }
+          test -n "$API_KEY" || { echo 'Configure NEXUSMODS_API_KEY in the nexus environment.'; exit 1; }
       - name: Upload unchanged archive
         id: nexus
         # v1.0.0-beta.10: pin, not a floating main branch.
